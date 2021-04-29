@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoCard /> should renders correct <VideoCard /> 1`] = `
+<figure
+  className="relative md:rounded md:overflow-hidden"
+  role="none"
+  style={
+    Object {
+      "height": "420px",
+    }
+  }
+>
+  <VideoPlayer
+    autoplay={false}
+    className="object-cover absolute inset-0 w-full h-full"
+    controls={false}
+    loop={true}
+    muted={true}
+    playerRef={
+      Object {
+        "current": null,
+      }
+    }
+    playsInline={true}
+    poster="image.jpg"
+    url="video.mp4"
+  />
+  <div
+    className="absolute inset-0 w-full h-full"
+    style={
+      Object {
+        "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.15) 50%)",
+      }
+    }
+  />
+</figure>
+`;

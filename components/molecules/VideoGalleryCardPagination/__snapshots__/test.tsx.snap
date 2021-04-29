@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoGalleryCardPagination /> should renders correct <VideoGalleryCardPagination /> 1`] = `
+<div
+  className="flex justify-center items-center gap-x-2"
+>
+  <VideoGalleryCardPaginationItem
+    changeVideo={[MockFunction]}
+    index={0}
+    isActive={false}
+    key="0"
+  />
+  <VideoGalleryCardPaginationItem
+    changeVideo={[MockFunction]}
+    index={1}
+    isActive={true}
+    key="1"
+  />
+</div>
+`;
+
+exports[`<VideoGalleryCardPagination /> should renders correct <VideoGalleryCardPagination /> 2`] = `
+<div
+  className="flex justify-center items-center gap-x-2 test-class-name"
+>
+  <VideoGalleryCardPaginationItem
+    changeVideo={[MockFunction]}
+    index={0}
+    isActive={false}
+    key="0"
+  />
+  <VideoGalleryCardPaginationItem
+    changeVideo={[MockFunction]}
+    index={1}
+    isActive={true}
+    key="1"
+  />
+</div>
+`;

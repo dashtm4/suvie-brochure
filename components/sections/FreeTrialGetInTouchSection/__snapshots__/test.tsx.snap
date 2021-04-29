@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FreeTrialGetInTouchSection /> should renders correct <FreeTrialGetInTouchSection /> 1`] = `
+<section
+  className="pt-8 pb-10 text-center md:pt-32 md:pb-17"
+>
+  <SectionTitle
+    className="mb-4"
+    fontSizeClassName="text-3.5xl md:text-4xl"
+  >
+    Get in touch with us
+  </SectionTitle>
+  <div
+    className="mb-4 md:text-secondary md:text-lg"
+  >
+    At Suvie, our team is always here to answer your questions
+  </div>
+  <ButtonLink
+    className="max-w-full w-50"
+    href="https://support.suvie.com/hc/en-us/requests/new"
+    isExternal={true}
+    target="_blank"
+  >
+    Get in Touch
+  </ButtonLink>
+</section>
+`;

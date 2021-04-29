@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PressList /> should renders correct <PressList /> 1`] = `
+<Row
+  className="items-center md:max-w-4xl md:mx-auto"
+>
+  <Col
+    className="w-1/3 md:w-1/6"
+  >
+    <Image
+      alt="The Spoon"
+      height="49"
+      src="/images/the-spoon-logo.png"
+      width="114"
+    />
+  </Col>
+  <Col
+    className="w-1/3 md:w-1/6"
+  >
+    <Image
+      alt="The Spoon"
+      height="66"
+      src="/images/cnet-logo.png"
+      width="92"
+    />
+  </Col>
+  <Col
+    className="w-1/3 md:w-1/6"
+  >
+    <Image
+      alt="CBS"
+      height="65"
+      src="/images/cbs-logo.png"
+      width="135"
+    />
+  </Col>
+  <Col
+    className="w-1/3 md:w-1/6"
+  >
+    <Image
+      alt="The Boston Globe"
+      height="82"
+      src="/images/the-boston-globe-logo.png"
+      width="90"
+    />
+  </Col>
+  <Col
+    className="w-1/3 md:w-1/6"
+  >
+    <Image
+      alt="Digital Trends"
+      height="106"
+      src="/images/digital-trends-logo.png"
+      width="108"
+    />
+  </Col>
+  <Col
+    className="w-1/3 md:w-1/6"
+  >
+    <Image
+      alt="ABC"
+      height="126"
+      src="/images/abc-logo.png"
+      width="168"
+    />
+  </Col>
+</Row>
+`;

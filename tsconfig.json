@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "paths": {
+      "@components/*": ["./components/*"],
+      "@components/atoms": ["./components/atoms/index.ts"],
+      "@components/molecules": ["./components/molecules/index.ts"],
+      "@components/organisms": ["./components/organisms/index.ts"],
+      "@components/templates": ["./components/templates/index.ts"],
+      "@components/containers": ["./components/containers/index.ts"],
+      "@components/sections": ["./components/sections/index.ts"],
+      "@hooks": ["./hooks/index.ts"],
+      "@queries": ["./queries/index.ts"],
+      "@types": ["./types/index.ts"],
+      "@utils": ["./utils/index.ts"],
+      "@temp/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

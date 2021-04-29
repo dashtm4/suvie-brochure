@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewsTotal /> should renders correct <ReviewsTotal /> 1`] = `
+<div
+  className="inline-flex items-center "
+>
+  <div
+    className="inline-flex mr-2 gap-x-1"
+  >
+    <Star
+      key="0"
+    />
+    <Star
+      key="1"
+    />
+    <Star
+      key="2"
+    />
+    <Star
+      key="3"
+    />
+    <Star
+      key="4"
+    />
+  </div>
+  <span
+    aria-label="presentation"
+    className="text-secondary"
+  >
+    Test description
+  </span>
+</div>
+`;
+
+exports[`<ReviewsTotal /> should renders correct <ReviewsTotal /> with starNumbers prop 1`] = `
+<div
+  className="inline-flex items-center "
+>
+  <div
+    className="inline-flex mr-2 gap-x-1"
+  >
+    <Star
+      key="0"
+    />
+    <Star
+      key="1"
+    />
+    <Star
+      key="2"
+    />
+    <Star
+      key="3"
+    />
+    <Star
+      key="4"
+    />
+    <Star
+      key="5"
+    />
+    <Star
+      key="6"
+    />
+    <Star
+      key="7"
+    />
+    <Star
+      key="8"
+    />
+    <Star
+      key="9"
+    />
+  </div>
+  <span
+    aria-label="presentation"
+    className="text-secondary"
+  >
+    Test description
+  </span>
+</div>
+`;

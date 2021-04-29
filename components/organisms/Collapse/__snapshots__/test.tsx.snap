@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Collapse /> should renders correct <Collapse /> 1`] = `
+<div
+  className="py-7 md:py-8 border-b-2 border-secondary border-opacity-25 first:border-t-2"
+>
+  <h3
+    className="font-serif text-base font-normal text-black md:text-2xl"
+  >
+    <button
+      className="relative flex items-center justify-between w-full leading-snug text-left"
+      onClick={[Function]}
+      type="button"
+    >
+      Test title
+      <div
+        className="flex-shrink-0 ml-2 opacity-25"
+        role="presentation"
+      >
+        <Image
+          alt=""
+          height="20"
+          src="/images/plus-icon.svg"
+          width="20"
+        />
+      </div>
+    </button>
+  </h3>
+  <ReactMarkdown
+    className="mt-3 article text-quinary hidden"
+    plugins={
+      Array [
+        [Function],
+      ]
+    }
+    transformLinkUri={[Function]}
+  >
+    Test children
+  </ReactMarkdown>
+</div>
+`;

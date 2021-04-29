@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Meal Planning",
+    "description": "Suvie let's you cook more food at home by making it fast and easy to cook balanced meals with our ingredients or yours.",
+    "image": "/images/meal-planning-icon.svg"
+  },
+  {
+    "title": "Lower Calorie Cooking",
+    "description": "By using water-based methods, you’ll phase out  high calorie oils.",
+    "image": "/images/chef-icon.svg"
+  },
+  {
+    "title": "Certified Balanced",
+    "description": "Special meals that are certified by our nutritional experts.",
+    "image": "/images/favorite-meal-on-tray-icon.svg"
+  },
+  {
+    "title": "Diet-based Recipes",
+    "description": "Our team of chefs creates new healthy recipes for you every month.",
+    "image": "/images/healthy-food-in-bag-icon.svg"
+  }
+]

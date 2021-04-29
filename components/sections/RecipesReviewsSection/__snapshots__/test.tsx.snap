@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecipesReviewsSection /> should renders correct <RecipesReviewsSection /> 1`] = `
+<section
+  className="relative pt-20 pb-10"
+>
+  <Container>
+    <SectionTitle
+      className="mb-8"
+    >
+      Reviews
+    </SectionTitle>
+    <YotpoReviews />
+  </Container>
+  <Wave
+    colorName="white"
+    position="bottom"
+  />
+</section>
+`;

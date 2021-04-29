@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KitchenRobotThirdSection /> should renders correct <KitchenRobotThirdSection /> 1`] = `
+<section
+  className="relative pb-7 md:pb-29 bg-brown kitchen-robot-third-section"
+>
+  <Wave
+    colorName="brown"
+  />
+  <div
+    className="text-center mt-16 md:mt-20 pb-6 md:pb-7 overview"
+  >
+    <Layout>
+      <div
+        className="inline-block relative"
+        role="presentation"
+      >
+        <Image
+          alt="kitchen-robot-image"
+          height={203}
+          src="/images/kitchen-robot/kitchen-robot.png"
+          width={255}
+        />
+      </div>
+    </Layout>
+  </div>
+  <div
+    className="mb-2 text-center"
+    role="presentation"
+  >
+    <Image
+      alt="overview-tag"
+      height={75}
+      src="/images/kitchen-robot/kitchen-robot--icon.svg"
+      width={75}
+    />
+  </div>
+  <Layout>
+    <Overview
+      className="mb-10 md:mb-22"
+      content={
+        Object {
+          "content": Array [
+            "Featuring two independent cooking zones that talk to each other to cook entire meals to perfection.",
+          ],
+          "subtitle": Array [
+            "Redesigned to be smaller, faster,",
+            "and better. Now with roasting",
+            "and baking.",
+          ],
+          "title": Object {
+            "bold": "Kitchen Robot",
+            "pre": "Suvie",
+          },
+        }
+      }
+      theme="dark"
+    />
+  </Layout>
+  <div
+    className="relative mb-3 h-80 md:h-160 md:mb-18"
+  >
+    <div
+      className="absolute inset-0"
+    >
+      <Video
+        autoPlay={true}
+        className="h-full"
+        src={
+          Object {
+            "imageSrc": "/images/kitchen-robot/kitchen-robot--intro.jpg",
+            "videoSrc": "https://embed-ssl.wistia.com/deliveries/52579e447ea98e90658dbf4d19b2aa5231c464e7.m3u8",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative h-full intro"
+    >
+      <Layout>
+        <Introduction
+          className="pt-0 md:pt-38"
+          content={
+            Object {
+              "content": "Simply tell Suvie when you want dinner, and Suvie’s Intelligent Auto Cook Timing will make sure all the parts of your meal are ready at precisely the same time.",
+              "title": "Everything ready at the same time.",
+            }
+          }
+          theme="dark"
+        >
+          <div
+            className="hidden md:block"
+            role="presentation"
+          >
+            <Image
+              alt=""
+              height={150}
+              src="/images/kitchen-robot/auto-cook--seal.svg"
+              width={150}
+            />
+          </div>
+        </Introduction>
+      </Layout>
+    </div>
+  </div>
+  <Layout>
+    <div
+      className="mb-8 text-center md:hidden"
+    >
+      <Typography
+        className="mb-3"
+        theme="dark"
+        variant="title"
+      >
+        Everything ready at the same time.
+      </Typography>
+      <Typography
+        theme="dark"
+      >
+        Simply tell Suvie when you want dinner, and Suvie’s Intelligent Auto Cook Timing will make sure all the parts of your meal are ready at precisely the same time.
+      </Typography>
+    </div>
+  </Layout>
+  <div
+    className="mb-20 md:mb-0"
+  >
+    <ResponsiveSegment
+      segment={
+        Array [
+          <VerticalView
+            className="pr-0 md:pr-12 md:w-1/2 md:mb-28"
+            content={
+              Object {
+                "content": "Suvie is the only counter-top appliance that both refrigerates and automatically switches to cooking so you can schedule your meal when you want it. Using a mini-compressor and our patented water-jacketed cooling, Suvie safely cools and holds your food.",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/refrigerate-to-cook--icon.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "",
+                  "videoSrc": "https://embed-ssl.wistia.com/deliveries/bf4ef1745690302a760a62e1704d1a3846594f69.m3u8",
+                },
+                "title": "Cool-to-cook",
+              }
+            }
+            theme="dark"
+          />,
+          <VerticalView
+            className="pl-0 md:pl-12 md:w-1/2 md:mb-28"
+            content={
+              Object {
+                "content": "Using the same patented water-jacketed technology to cool your food, Suvie can gently thaw and then cook your food from frozen in as little as 25 minutes. You can always load frozen food into Suvie and schedule it to finish cooker later in the day, Suvie will automatically defrost any frozen food you add.",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/rapid-defrost-to-cook--icon.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "",
+                  "videoSrc": "https://embed-ssl.wistia.com/deliveries/00768e76a2e9de8a62ce71201070b3e4da8913af.m3u8",
+                },
+                "tag": "Plan ahead",
+                "title": "Rapid Defrost to Cook",
+              }
+            }
+            theme="dark"
+          />,
+          <HorizontalView
+            className="md:mb-39"
+            content={
+              Object {
+                "content": "With Suvie Smart Meals and recipes, simply scan the label on the package or the recipe card, and Suvie will know exactly what times and temperatures to use for your meal.",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/scan-to-cook--icon.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "",
+                  "videoSrc": "https://embed-ssl.wistia.com/deliveries/3947c6edd7f6a190da0e8930b623d83b004475e2.m3u8",
+                },
+                "title": "Scan to Cook",
+              }
+            }
+            theme="dark"
+          />,
+        ]
+      }
+      theme="dark"
+    />
+  </div>
+  <Layout>
+    <Typography
+      className="mb-8 text-center md:mb-14"
+      theme="dark"
+      variant="title"
+    >
+      No preheat needed.
+    </Typography>
+  </Layout>
+  <div
+    className="mb-20 md:mb-0"
+  >
+    <ResponsiveSegment
+      segment={
+        Array [
+          <VerticalView
+            className="pr-0 md:pr-3 md:w-1/3"
+            content={
+              Object {
+                "content": "Our unique dual-heating elements produce delicate cakes, crunchy breads, and other favorite baked goods. Bake mode also uses our exceptionally fast quartz elements to eliminate preheating time.",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/bake--icon.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "",
+                  "videoSrc": "https://embed-ssl.wistia.com/deliveries/e8c99ffe7196423fe471aac12b2138d3a060f539.m3u8",
+                },
+                "title": "Bake",
+              }
+            }
+            direction="reverse"
+            theme="dark"
+          />,
+          <VerticalView
+            className="px-0 md:px-3 md:w-1/3"
+            content={
+              Object {
+                "content": "High temperature roasting is ideal for crispy vegetables and beautifully browned chicken, fish, or pork tenderloin. The powerful quartz heating elements quickly cook your food with a wonderful roast flavor.",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/roast-to-perfection--icon.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "",
+                  "videoSrc": "https://embed-ssl.wistia.com/deliveries/97116eeb8b7ea1f33f35ec480031efbd73416923.m3u8",
+                },
+                "title": "Roast to Perfection",
+              }
+            }
+            direction="reverse"
+            theme="dark"
+          />,
+          <VerticalView
+            className="pl-0 md:pl-3 md:w-1/3"
+            content={
+              Object {
+                "content": "Two state-of-the-art quartz broilers heat up in seconds to precisely brown your proteins and vegetables. It's easy to caramelize sweet glazes on pork or add an extra crispness to brussel sprouts.",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/broiler-finish--icon.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "",
+                  "videoSrc": "https://embed-ssl.wistia.com/deliveries/f28b7062f1487c575f1ed4c98909535d73652fdf.m3u8",
+                },
+                "title": "Broiler Finish",
+              }
+            }
+            direction="reverse"
+            theme="dark"
+          />,
+        ]
+      }
+      theme="dark"
+    />
+  </div>
+  <Wave
+    className="z-10"
+    colorHex="#1a100f"
+    position="bottom"
+  />
+</section>
+`;

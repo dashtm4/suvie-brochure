@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Facebook",
+    "url": "https://www.facebook.com/SuvieFood/",
+    "icon": "/images/facebook-icon.svg"
+  },
+  {
+    "title": "Twitter",
+    "url": "https://twitter.com/suviefood",
+    "icon": "/images/twitter-icon.svg"
+  },
+  {
+    "title": "Instagram",
+    "url": "https://www.instagram.com/suviefood/",
+    "icon": "/images/instagram-icon.svg"
+  },
+  {
+    "title": "Pinterest",
+    "url": "https://www.pinterest.com/suviefood/",
+    "icon": "/images/pinterest-icon.svg"
+  }
+]

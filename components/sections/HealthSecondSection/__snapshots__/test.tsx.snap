@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HealthSecondSection /> should renders correct <HealthSecondSection /> 1`] = `
+<section
+  className="md:pb-20 md:pt-19"
+>
+  <Layout>
+    <SectionTitle
+      className="mb-15 md:mb-23 md:max-w-xl md:mx-auto"
+    >
+      Suvie makes it easier to live a healthy lifestyle
+    </SectionTitle>
+    <VideoTabs
+      activeIndex={0}
+      direction="reverse"
+      itemPosters={
+        Array [
+          "",
+          "",
+        ]
+      }
+      itemVideos={
+        Array [
+          "https://embed-ssl.wistia.com/deliveries/af165e5543b26fdbae2629e3fdd196aa85740170.m3u8",
+          "https://embed-ssl.wistia.com/deliveries/519d59eebff533c1771f44a13503a646b933a781.m3u8",
+        ]
+      }
+      setActiveIndex={[Function]}
+      tabData={
+        Object {
+          "items": Array [
+            Object {
+              "description": "Use Suvie's Cool-to-Cook tech to plan dinner ahead, making it easier to ditch last-minute takeout.",
+              "imageSrc": "",
+              "title": "Schedule Ahead",
+              "videoSrc": "https://embed-ssl.wistia.com/deliveries/af165e5543b26fdbae2629e3fdd196aa85740170.m3u8",
+            },
+            Object {
+              "description": "In a hurry? Don't settle for takeout. With Rapid Cook mode, you can go from fully-frozen ingredients to fully-cooked dinner in 25 minutes.",
+              "imageSrc": "",
+              "title": "Rapid Cook",
+              "videoSrc": "https://embed-ssl.wistia.com/deliveries/519d59eebff533c1771f44a13503a646b933a781.m3u8",
+            },
+          ],
+          "title": "Ditch Takeout",
+        }
+      }
+    />
+    <VideoTabs
+      activeIndex={0}
+      itemPosters={
+        Array [
+          "",
+          undefined,
+          undefined,
+        ]
+      }
+      itemVideos={
+        Array [
+          "https://embed-ssl.wistia.com/deliveries/15393c1764420a1fa5d6cfe84d3f6923fed5a928.m3u8",
+          "https://embed-ssl.wistia.com/deliveries/e89243c20c80d8d60d68ee9e4bb548aa7963b04a.m3u8",
+          "https://embed-ssl.wistia.com/deliveries/92ceccf3703c976d1cec7442e7795082b0e7eddf.m3u8",
+        ]
+      }
+      setActiveIndex={[Function]}
+      tabData={
+        Object {
+          "items": Array [
+            Object {
+              "description": "Replace high-calorie oils with this water-based cooking method that locks in flavor.",
+              "imageSrc": "",
+              "title": "Sous Vide",
+              "videoSrc": "https://embed-ssl.wistia.com/deliveries/15393c1764420a1fa5d6cfe84d3f6923fed5a928.m3u8",
+            },
+            Object {
+              "description": "Load your frozen meal and Suvie will rapidly defrost using water circulation with heaters slowly increasing the temperature of the cavity to thaw your proteins and steam your veggies and starches.",
+              "title": "Steaming",
+              "videoSrc": "https://embed-ssl.wistia.com/deliveries/e89243c20c80d8d60d68ee9e4bb548aa7963b04a.m3u8",
+            },
+            Object {
+              "description": "Smart Meals make it easy to know how many calories you're eating while still feeling full.",
+              "title": "Portion Control",
+              "videoSrc": "https://embed-ssl.wistia.com/deliveries/92ceccf3703c976d1cec7442e7795082b0e7eddf.m3u8",
+            },
+          ],
+          "title": "Lower Calorie Cooking",
+        }
+      }
+    />
+    <VideoTabs
+      activeIndex={0}
+      direction="reverse"
+      itemDescriptions={
+        Array [
+          "Associate Director of the Mass General Weight Center, faculty at Harvard Medical School",
+          "Registered Dietitian Nutritionist (RDN) with an MS in nutrition science and education and an MBA.",
+        ]
+      }
+      itemPosters={
+        Array [
+          "/images/health-page/angela-fitch.jpg",
+          "/images/health-page/susan-richards.jpg",
+        ]
+      }
+      itemTitles={
+        Array [
+          "Angela Fitch, MD",
+          "Susan Richards, MS, LDN, RDN",
+        ]
+      }
+      itemVideos={
+        Array [
+          "",
+          "",
+        ]
+      }
+      setActiveIndex={[Function]}
+      tabData={
+        Object {
+          "image": Object {
+            "height": 125,
+            "src": "/images/health-page/certified-balanced-meals-seal.svg",
+            "width": 125,
+          },
+          "items": Array [
+            Object {
+              "description": "Along with expert Dr. Angela Fitch of the Mass General Weight Center and Harvard Medical School, we developed certified balanced meals that are based on the nutritional guidelines from the United States Department of Agriculture (USDA) Dietary Guidelines and Healthy Plate Program.",
+              "imageSrc": "/images/health-page/angela-fitch.jpg",
+              "mediaDescription": "Associate Director of the Mass General Weight Center, faculty at Harvard Medical School",
+              "mediaTitle": "Angela Fitch, MD",
+              "title": "Angela Fitch, MD",
+              "videoSrc": "",
+            },
+            Object {
+              "description": "Susan Richards is a Registered Dietitian Nutritionist (RDN), with an MS in nutrition science and education and an MBA. She has an expertise in nutrition counseling with a focus on weight management, diabetes management, and cardiovascular disease prevention.",
+              "imageSrc": "/images/health-page/susan-richards.jpg",
+              "mediaDescription": "Registered Dietitian Nutritionist (RDN) with an MS in nutrition science and education and an MBA.",
+              "mediaTitle": "Susan Richards, MS, LDN, RDN",
+              "title": "Susan Richards, MS, LDN, RDN",
+              "videoSrc": "",
+            },
+          ],
+          "title": "Certified Balanced Meals",
+        }
+      }
+    />
+  </Layout>
+</section>
+`;

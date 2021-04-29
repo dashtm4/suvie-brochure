@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeaturesModal /> should renders correct <FeaturesModal /> 1`] = `
+<Modal
+  animation="none"
+  closeButtonColorHex="#6a6a6a"
+  toggleModal={[MockFunction]}
+>
+  <div
+    className="px-6 py-13 pb-22 text-quinary md:pb-9"
+  >
+    <h2
+      className="mb-5 font-serif font-normal text-secondary"
+      style={
+        Object {
+          "fontSize": "2rem",
+        }
+      }
+    >
+      Test title
+    </h2>
+    <p
+      className="mb-6"
+    >
+      Test subtitle
+    </p>
+    <Row />
+    <div
+      className="fixed right-3 bottom-0 left-3 py-4 px-6 bg-white shadow-2xl md:static md:shadow-none md:p-0"
+    >
+      <Button
+        className="max-w-full w-68 mx-auto md:mx-0"
+        onClick={[MockFunction]}
+      >
+        Continue Shopping
+      </Button>
+    </div>
+  </div>
+</Modal>
+`;

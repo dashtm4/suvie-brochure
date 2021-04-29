@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormError /> should has correct props 1`] = `
+<FormikConnect(ErrorMessageImpl)
+  className="form__error-message"
+  component="div"
+  name="test"
+/>
+`;

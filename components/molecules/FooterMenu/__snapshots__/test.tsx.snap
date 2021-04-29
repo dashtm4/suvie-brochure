@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterMenu /> should renders correct html 1`] = `
+<ul
+  className="text-white md:text-base md:font-serif md:font-normal"
+>
+  <li
+    className="mb-1"
+    key="About"
+  >
+    <Link
+      href="/about"
+    >
+      <a
+        className="hover:text-primary-default"
+      >
+        About
+      </a>
+    </Link>
+  </li>
+  <li
+    className="mb-1"
+    key="Example"
+  >
+    <a
+      aria-label="Example"
+      className="hover:text-primary-default"
+      href="https://example.com"
+    >
+      Example
+    </a>
+  </li>
+</ul>
+`;

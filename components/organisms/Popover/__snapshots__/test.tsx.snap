@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Popover /> should has correct className from className prop 1`] = `
+<div
+  className="absolute  py-4 px-3 text-xs font-normal bg-white rounded text-secondary test-class-name"
+  style={
+    Object {
+      "boxShadow": "0 4px 15px rgba(0, 0, 0, 0.15)",
+    }
+  }
+>
+  Test children
+</div>
+`;
+
+exports[`<Popover /> should renders correct <Popover /> 1`] = `
+<div
+  className="absolute  py-4 px-3 text-xs font-normal bg-white rounded text-secondary bottom-8 right-0"
+  style={
+    Object {
+      "boxShadow": "0 4px 15px rgba(0, 0, 0, 0.15)",
+    }
+  }
+>
+  Test children
+</div>
+`;

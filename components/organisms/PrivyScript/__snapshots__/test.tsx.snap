@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrivyScript /> should renders correct <PrivyScript /> 1`] = `
+<Fragment>
+  <script
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "var _d_site = _d_site || '61530AE1C7663076284C9C9F';",
+      }
+    }
+  />
+  <script
+    src="https://widget.privy.com/assets/widget.js"
+  />
+</Fragment>
+`;

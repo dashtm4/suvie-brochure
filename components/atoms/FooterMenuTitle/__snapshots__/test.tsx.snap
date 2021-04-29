@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterMenuTitle /> should renders children 1`] = `
+<h2
+  className="font-bold text-white mb-2 md:font-serif md:font-normal"
+>
+  test
+</h2>
+`;

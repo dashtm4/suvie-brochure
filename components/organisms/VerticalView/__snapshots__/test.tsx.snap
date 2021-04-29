@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VerticalView /> should renders correct <VerticalView /> 1`] = `
+<div
+  className=""
+>
+  <div
+    className="h-full flex flex-col text-center md:text-left justify-between"
+  >
+    <div
+      className="mt-5 md:mt-0 mb-9 md:mb-5 order-2 md:order-none"
+    >
+      <Typography
+        className="mb-2 md:mb-4"
+        theme="light"
+        variant="subtitle2"
+      >
+        TestTitle
+      </Typography>
+      <Typography
+        theme="light"
+      >
+        TestContent
+      </Typography>
+    </div>
+  </div>
+</div>
+`;

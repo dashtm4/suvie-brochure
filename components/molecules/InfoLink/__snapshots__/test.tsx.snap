@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InfoLink /> should InfoIcon has correct className from prop 1`] = `
+<Link
+  href="/test/"
+>
+  <a>
+    <InfoIcon
+      className="test-classname"
+      colorHex="#000"
+      height={10}
+      width={10}
+    />
+  </a>
+</Link>
+`;
+
+exports[`<InfoLink /> should InfoIcon has correct colorHex from prop 1`] = `
+<Link
+  href="/test/"
+>
+  <a>
+    <InfoIcon
+      className=""
+      colorHex="#fff"
+      height={10}
+      width={10}
+    />
+  </a>
+</Link>
+`;
+
+exports[`<InfoLink /> should InfoIcon has correct height from prop 1`] = `
+<Link
+  href="/test/"
+>
+  <a>
+    <InfoIcon
+      className=""
+      colorHex="#000"
+      height={15}
+      width={10}
+    />
+  </a>
+</Link>
+`;
+
+exports[`<InfoLink /> should InfoIcon has correct width from prop 1`] = `
+<Link
+  href="/test/"
+>
+  <a>
+    <InfoIcon
+      className=""
+      colorHex="#000"
+      height={10}
+      width={15}
+    />
+  </a>
+</Link>
+`;
+
+exports[`<InfoLink /> should renders correct <InfoLink /> 1`] = `
+<Link
+  href="/test/"
+>
+  <a>
+    <InfoIcon
+      className=""
+      colorHex="#000"
+      height={10}
+      width={10}
+    />
+  </a>
+</Link>
+`;

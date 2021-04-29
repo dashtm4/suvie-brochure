@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageTitle /> should has correct className from fontSizeClassName prop 1`] = `
+<h1
+  className="font-serif font-normal tracking-tighter test-font-size-class-name text-white"
+>
+  Test children
+</h1>
+`;
+
+exports[`<PageTitle /> should has correct className from prop 1`] = `
+<h1
+  className="font-serif font-normal tracking-tighter text-4xl md:text-7xl test-class-name text-white"
+>
+  Test children
+</h1>
+`;
+
+exports[`<PageTitle /> should has correct className with dark theme 1`] = `
+<h1
+  className="font-serif font-normal tracking-tighter text-4xl md:text-7xl text-secondary"
+>
+  Test children
+</h1>
+`;
+
+exports[`<PageTitle /> should has correct className with light theme 1`] = `
+<h1
+  className="font-serif font-normal tracking-tighter text-4xl md:text-7xl text-white"
+>
+  Test children
+</h1>
+`;
+
+exports[`<PageTitle /> should has correct default font size class names 1`] = `
+<h1
+  className="font-serif font-normal tracking-tighter text-4xl md:text-7xl text-white"
+>
+  Test children
+</h1>
+`;
+
+exports[`<PageTitle /> should renders correct <PageTitle /> 1`] = `
+<h1
+  className="font-serif font-normal tracking-tighter text-4xl md:text-7xl text-white"
+>
+  Test children
+</h1>
+`;

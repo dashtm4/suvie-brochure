@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimpleHero /> should renders correct <SimpleHero /> 1`] = `
+<div
+  className="bg-no-repeat bg-cover bg-center flex flex-col items-center justify-center text-center"
+  style={
+    Object {
+      "backgroundImage": "url(image.jpg)",
+      "height": 500,
+    }
+  }
+>
+  Test children
+</div>
+`;

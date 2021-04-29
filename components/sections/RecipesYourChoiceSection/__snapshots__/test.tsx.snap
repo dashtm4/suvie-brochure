@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecipesYourChoiceSection /> should renders correct <RecipesYourChoiceSection /> 1`] = `
+<section
+  className="pt-16 pb-9 md:pt-24 md:pb-20"
+>
+  <Container>
+    <SectionTitle
+      className="max-w-xl mx-auto mb-12 md:mb-24"
+    >
+      Shop for your own groceries, get our pre-packaged Smart Meals delivered to your door, or try a combination of both.
+    </SectionTitle>
+    <Row
+      className="items-center justify-between"
+    >
+      <div
+        className="w-full mb-4 md:mb-0 md:w-1/2 md:order-1"
+      >
+        <SectionTitle
+          className="mb-4 md:hidden"
+        >
+          The choice is yours
+        </SectionTitle>
+        <VideoGalleryCard
+          activeVideoIndex={0}
+          setActiveVideoIndex={[Function]}
+          videos={
+            Array [
+              "https://embed-ssl.wistia.com/deliveries/6f5758ad2a8bb6b12c4c9ad476cedc40e923f817.m3u8",
+              "https://embed-ssl.wistia.com/deliveries/5dc7c5a673060cd21db8f5b6c7938476c9cd82a3.m3u8",
+            ]
+          }
+        />
+      </div>
+      <div
+        className="w-full text-center md:w-5/12 md:px-3 md:order-0 md:text-left"
+      >
+        <SectionTitle
+          alignMd="left"
+          className="hidden md:block md:mb-6"
+        >
+          The choice is yours
+        </SectionTitle>
+        <HorizontalTabs
+          onSelect={[Function]}
+          selectedIndex={0}
+        >
+          <HorizontalTabsList
+            theme="light"
+          >
+            <HorizontalTabsListItem
+              key="Your Own Food"
+              theme="light"
+            >
+              Your Own Food
+            </HorizontalTabsListItem>
+            <HorizontalTabsListItem
+              key="Smart Meals"
+              theme="light"
+            >
+              Smart Meals
+            </HorizontalTabsListItem>
+          </HorizontalTabsList>
+          <HorizontalTabsPanel
+            key="Your Own Food"
+          >
+            <div
+              className="mb-4 text-quinary md:mb-6"
+            >
+              Enjoy the flexibility of cooking with your own ingredients. Suvie makes it easy to cook your favorite meals.
+            </div>
+            <ul
+              className="px-3 text-quinary md:px-0"
+            >
+              <li
+                key="✓ Choose your own ingredients"
+              >
+                ✓ Choose your own ingredients
+              </li>
+              <li
+                key="✓ Minimal prep required"
+              >
+                ✓ Minimal prep required
+              </li>
+              <li
+                key="✓ Spend less time cooking"
+              >
+                ✓ Spend less time cooking
+              </li>
+              <li
+                key="✓ Dishwasher safe pans mean easy cleanup"
+              >
+                ✓ Dishwasher safe pans mean easy cleanup
+              </li>
+            </ul>
+          </HorizontalTabsPanel>
+          <HorizontalTabsPanel
+            key="Smart Meals"
+          >
+            <div
+              className="mb-4 text-quinary md:mb-6"
+            >
+              Looking for even more convenience? Try Suvie Smart Meals to get fully prepped, pre-packaged ingredients delivered right to your door. Choose from 60+ meals with new options being added every month.
+            </div>
+            <ul
+              className="px-3 text-quinary md:px-0"
+            >
+              <li
+                key="✓ Pre-prepped and portioned ingredients"
+              >
+                ✓ Pre-prepped and portioned ingredients
+              </li>
+              <li
+                key="✓ Meal options for everyone"
+              >
+                ✓ Meal options for everyone
+              </li>
+              <li
+                key="✓ Convenient safe delivery"
+              >
+                ✓ Convenient safe delivery
+              </li>
+              <li
+                key="✓ No cooking required"
+              >
+                ✓ No cooking required
+              </li>
+            </ul>
+          </HorizontalTabsPanel>
+        </HorizontalTabs>
+      </div>
+    </Row>
+  </Container>
+</section>
+`;

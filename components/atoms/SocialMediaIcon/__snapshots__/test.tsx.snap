@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialMediaIcon /> should render correct a tag 1`] = `
+<a
+  aria-label="Facebook - opens in new window"
+  href="https://www.facebook.com/SuvieFood/"
+  rel="noreferrer"
+  target="_blank"
+>
+  <Image
+    alt="Facebook"
+    height={30}
+    src="/images/facebook-icon.svg"
+    width={30}
+  />
+</a>
+`;
+
+exports[`<SocialMediaIcon /> should render correct html with correct rel attribute 1`] = `
+<a
+  aria-label="Facebook - opens in new window"
+  href="https://www.facebook.com/SuvieFood/"
+  rel="help"
+  target="_blank"
+>
+  <Image
+    alt="Facebook"
+    height={30}
+    src="/images/facebook-icon.svg"
+    width={30}
+  />
+</a>
+`;
+
+exports[`<SocialMediaIcon /> should render correct html with correct target attribute 1`] = `
+<a
+  aria-label="Facebook"
+  href="https://www.facebook.com/SuvieFood/"
+  rel="noreferrer"
+  target="_parent"
+>
+  <Image
+    alt="Facebook"
+    height={30}
+    src="/images/facebook-icon.svg"
+    width={30}
+  />
+</a>
+`;

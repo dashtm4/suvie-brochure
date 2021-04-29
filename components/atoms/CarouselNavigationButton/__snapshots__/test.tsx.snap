@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CarouselNavigationButton /> should renders correct <CarouselNavigationButton /> 1`] = `
+<button
+  aria-label="Go right"
+  className=""
+  onClick={[MockFunction]}
+>
+  <Image
+    alt=""
+    className=""
+    height={30}
+    src="/images/arrow-right-primary-icon.svg"
+    width={15}
+  />
+</button>
+`;
+
+exports[`<CarouselNavigationButton /> should renders correct <CarouselNavigationButton /> with correct className prop 1`] = `
+<button
+  aria-label="Go right"
+  className="mb-2"
+  onClick={[MockFunction]}
+>
+  <Image
+    alt=""
+    className=""
+    height={30}
+    src="/images/arrow-right-primary-icon.svg"
+    width={15}
+  />
+</button>
+`;
+
+exports[`<CarouselNavigationButton /> should simulates click events 1`] = `
+<button
+  aria-label="Go right"
+  className=""
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Image
+    alt=""
+    className=""
+    height={30}
+    src="/images/arrow-right-primary-icon.svg"
+    width={15}
+  />
+</button>
+`;

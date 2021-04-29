@@ -1,0 +1,639 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AboutUsSection /> should renders correct <AboutUsSection /> 1`] = `
+<section
+  className="relative"
+>
+  <Layout
+    className="text-center pt-14 md:pt-25 mb-31 md:mb-21"
+  >
+    <div
+      className="max-w-lg mx-auto"
+    >
+      <h1
+        className="mb-4 font-serif text-4xl font-normal md:text-3xl md:mb-5 text-secondary"
+      >
+        About Us
+      </h1>
+      <h2
+        className="mb-4 font-serif text-2xl font-normal md:text-4xl md:mb-5 text-secondary"
+      >
+        Committed to making cooking simple and enjoyable.
+      </h2>
+      <div
+        className="text-base font-light mb-7 md:mb-16 text-quinary"
+      >
+        Suvie™ was founded in 2015 by Robin Liss and Kevin Incorvia. With headquarters in Cambridge, MA, the Suvie team includes experts in gourmet cooking, kitchen appliances, product design, safety and engineering — all on leading edge of innovation.
+      </div>
+    </div>
+    <div
+      className="grid grid-cols-1 gap-0 md:gap-x-16 md:gap-y-9 md:grid-cols-3"
+    >
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/robin-liss.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Robin Liss
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Co-Founder, CEO
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/kevin-incorvia.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Kevin Incorvia
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Co-Founder, CTO
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/katerina-cronstedt.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Katerina Cronstedt
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          VP of Operations
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/fernando-nunez.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Fernando Nunez
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Lead Appliance Engineer
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/sean-costello.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Sean Costello
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          VP of Customer Experience
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/dan-sndeker.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Dan Snedeker
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Culinary Development Manager
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/caroline-pierce.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Caroline Pierce
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Recipe Developer
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/rachel-lamantia.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Rachel Lamantia
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Video Production Manager
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/melanie-arnold.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Melanie Arnold
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          VP of Finance
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/kurt-nuguid.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Kurt Nuguid
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Operations Manager
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/darlene-matthews.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Darlene Matthews
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Finance Manager
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/paul-lawson.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Paul Lawson
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Appliance Engineer
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/gibbs-eddy.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Gibbs Eddy
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Customer Experience Lead
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/celine-berger.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Celine Berger
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Test Cook
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/danni-shan.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Danni Shan
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Product Design Engineer
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/anita-chuang.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Anita Chuang
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Product Management
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/jason-wong.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Jason Wong
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Product Engineer
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/will-li.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Will Li
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Manufacturing & Operations
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/jack-lv.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Jack Lv.
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Engineering
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/igor-noskov.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Igor Noskov
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Software Engineer
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/katerina-kupriyanova.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Katerina Kupriyanova
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Supply Chain Director
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/oksana-sharapova.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Oksana Sharapova
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Logistics
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/olga-ignateva.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Olga Ignateva
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Financial Controller & Data Analyst
+        </div>
+      </div>
+      <div
+        className="mb-8 md:mb-0"
+      >
+        <div
+          className="mb-4"
+        >
+          <Image
+            className="rounded-md"
+            height={300}
+            layout="responsive"
+            src="/images/about-us/max-levine.jpg"
+            width={300}
+          />
+        </div>
+        <div
+          className="text-lg font-bold text-black"
+        >
+          Max Levine
+        </div>
+        <div
+          className="text-lg font-normal text-black"
+        >
+          Food Development
+        </div>
+      </div>
+    </div>
+  </Layout>
+  <Wave
+    colorName="white"
+    position="bottom"
+  />
+</section>
+`;

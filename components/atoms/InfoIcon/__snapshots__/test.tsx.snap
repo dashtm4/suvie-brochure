@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InfoIcon /> should has correct className from className prop 1`] = `
+<svg
+  className="test-classname"
+  height={10}
+  style={
+    Object {
+      "fill": "#000",
+    }
+  }
+  viewBox="0 0 245.334 245.334"
+  width={10}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M122.667 0C55.028 0 0 55.028 0 122.667s55.027 122.667 122.666 122.667 122.667-55.028 122.667-122.667S190.305 0 122.667 0zm0 215.334C71.57 215.334 30 173.764 30 122.667S71.57 30 122.667 30s92.667 41.57 92.667 92.667-41.571 92.667-92.667 92.667z"
+  />
+  <path
+    d="M107.667 109.167h30v79h-30zM107.667 57.167h30v29h-30z"
+  />
+</svg>
+`;
+
+exports[`<InfoIcon /> should has correct fill style from colorHex prop 1`] = `
+<svg
+  className=""
+  height={10}
+  style={
+    Object {
+      "fill": "#fff",
+    }
+  }
+  viewBox="0 0 245.334 245.334"
+  width={10}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M122.667 0C55.028 0 0 55.028 0 122.667s55.027 122.667 122.666 122.667 122.667-55.028 122.667-122.667S190.305 0 122.667 0zm0 215.334C71.57 215.334 30 173.764 30 122.667S71.57 30 122.667 30s92.667 41.57 92.667 92.667-41.571 92.667-92.667 92.667z"
+  />
+  <path
+    d="M107.667 109.167h30v79h-30zM107.667 57.167h30v29h-30z"
+  />
+</svg>
+`;
+
+exports[`<InfoIcon /> should has correct height from height prop 1`] = `
+<svg
+  className=""
+  height={15}
+  style={
+    Object {
+      "fill": "#000",
+    }
+  }
+  viewBox="0 0 245.334 245.334"
+  width={10}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M122.667 0C55.028 0 0 55.028 0 122.667s55.027 122.667 122.666 122.667 122.667-55.028 122.667-122.667S190.305 0 122.667 0zm0 215.334C71.57 215.334 30 173.764 30 122.667S71.57 30 122.667 30s92.667 41.57 92.667 92.667-41.571 92.667-92.667 92.667z"
+  />
+  <path
+    d="M107.667 109.167h30v79h-30zM107.667 57.167h30v29h-30z"
+  />
+</svg>
+`;
+
+exports[`<InfoIcon /> should has correct style from style prop 1`] = `
+<svg
+  className=""
+  height={10}
+  style={
+    Object {
+      "fill": "#000",
+      "marginBottom": "10px",
+    }
+  }
+  viewBox="0 0 245.334 245.334"
+  width={10}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M122.667 0C55.028 0 0 55.028 0 122.667s55.027 122.667 122.666 122.667 122.667-55.028 122.667-122.667S190.305 0 122.667 0zm0 215.334C71.57 215.334 30 173.764 30 122.667S71.57 30 122.667 30s92.667 41.57 92.667 92.667-41.571 92.667-92.667 92.667z"
+  />
+  <path
+    d="M107.667 109.167h30v79h-30zM107.667 57.167h30v29h-30z"
+  />
+</svg>
+`;
+
+exports[`<InfoIcon /> should has correct width from width prop 1`] = `
+<svg
+  className=""
+  height={10}
+  style={
+    Object {
+      "fill": "#000",
+    }
+  }
+  viewBox="0 0 245.334 245.334"
+  width={15}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M122.667 0C55.028 0 0 55.028 0 122.667s55.027 122.667 122.666 122.667 122.667-55.028 122.667-122.667S190.305 0 122.667 0zm0 215.334C71.57 215.334 30 173.764 30 122.667S71.57 30 122.667 30s92.667 41.57 92.667 92.667-41.571 92.667-92.667 92.667z"
+  />
+  <path
+    d="M107.667 109.167h30v79h-30zM107.667 57.167h30v29h-30z"
+  />
+</svg>
+`;
+
+exports[`<InfoIcon /> should renders correct <InfoIcon /> 1`] = `
+<svg
+  className=""
+  height={10}
+  style={
+    Object {
+      "fill": "#000",
+    }
+  }
+  viewBox="0 0 245.334 245.334"
+  width={10}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M122.667 0C55.028 0 0 55.028 0 122.667s55.027 122.667 122.666 122.667 122.667-55.028 122.667-122.667S190.305 0 122.667 0zm0 215.334C71.57 215.334 30 173.764 30 122.667S71.57 30 122.667 30s92.667 41.57 92.667 92.667-41.571 92.667-92.667 92.667z"
+  />
+  <path
+    d="M107.667 109.167h30v79h-30zM107.667 57.167h30v29h-30z"
+  />
+</svg>
+`;

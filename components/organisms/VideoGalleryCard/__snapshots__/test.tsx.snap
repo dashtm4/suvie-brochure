@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoGalleryCard /> should has correct activeIndex from activeVideoIndex prop 1`] = `
+<div
+  className="relative"
+>
+  <VideoCard
+    autoPlay={true}
+    videoSrc="video-2.mp4"
+  />
+  <VideoGalleryCardPagination
+    activeIndex={1}
+    changeVideo={[Function]}
+    className="absolute bottom-4 left-1/2 z-10 transform -translate-x-1/2"
+    length={3}
+  />
+</div>
+`;
+
+exports[`<VideoGalleryCard /> should has correct descriptions from descriptions prop 1`] = `
+<div
+  className="relative"
+>
+  <VideoCard
+    autoPlay={true}
+    videoSrc="video-1.mp4"
+  />
+  <div
+    className="absolute bottom-0 px-6 pb-6 text-white max-w-md"
+  >
+    <h3
+      className="mb-1 font-serif text-2xl font-medium"
+    />
+    <div>
+      Test description 1
+    </div>
+  </div>
+  <VideoGalleryCardPagination
+    activeIndex={0}
+    changeVideo={[Function]}
+    className="absolute bottom-4 left-1/2 z-10 transform -translate-x-1/2"
+    length={3}
+  />
+</div>
+`;
+
+exports[`<VideoGalleryCard /> should has correct titles from titles prop 1`] = `
+<div
+  className="relative"
+>
+  <VideoCard
+    autoPlay={true}
+    videoSrc="video-1.mp4"
+  />
+  <div
+    className="absolute bottom-0 px-6 pb-6 text-white max-w-md"
+  >
+    <h3
+      className="mb-1 font-serif text-2xl font-medium"
+    >
+      Test title 1
+    </h3>
+    <div />
+  </div>
+  <VideoGalleryCardPagination
+    activeIndex={0}
+    changeVideo={[Function]}
+    className="absolute bottom-4 left-1/2 z-10 transform -translate-x-1/2"
+    length={3}
+  />
+</div>
+`;
+
+exports[`<VideoGalleryCard /> should not render pagination when showPagination prop is false 1`] = `
+<div
+  className="relative"
+>
+  <VideoCard
+    autoPlay={true}
+    videoSrc="video-1.mp4"
+  />
+</div>
+`;
+
+exports[`<VideoGalleryCard /> should renders correct <VideoGalleryCard /> 1`] = `
+<div
+  className="relative"
+>
+  <VideoCard
+    autoPlay={true}
+    videoSrc="video-1.mp4"
+  />
+  <VideoGalleryCardPagination
+    activeIndex={0}
+    changeVideo={[Function]}
+    className="absolute bottom-4 left-1/2 z-10 transform -translate-x-1/2"
+    length={3}
+  />
+</div>
+`;

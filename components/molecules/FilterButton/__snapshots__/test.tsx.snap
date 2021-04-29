@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterButton /> should has correct className with isCurrent true prop 1`] = `
+<button
+  className="group inline-flex gap-1 py-2 px-4 font-bold tracking-widest leading-none text-center uppercase whitespace-nowrap rounded-lg border text-secondary border-secondary hover:text-white hover:bg-secondary text-xs text-white bg-secondary"
+  onClick={[Function]}
+>
+  Test name
+  <InfoIcon
+    className="fill-white"
+  />
+</button>
+`;
+
+exports[`<FilterButton /> should renders correct <FilterButton /> 1`] = `
+<button
+  className="group inline-flex gap-1 py-2 px-4 font-bold tracking-widest leading-none text-center uppercase whitespace-nowrap rounded-lg border text-secondary border-secondary hover:text-white hover:bg-secondary text-xs"
+  onClick={[Function]}
+>
+  Test name
+  <InfoIcon
+    className="fill-secondary group-hover:fill-white"
+  />
+</button>
+`;

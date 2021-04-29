@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialMediaList /> should has correct child 1`] = `
+<ul
+  className="flex w-full"
+>
+  <li
+    className="mr-2"
+    key="Facebook"
+    role="presentation"
+  >
+    <SocialMediaIcon
+      key="Facebook"
+      socialMedia={
+        Object {
+          "icon": "/images/facebook-icon.svg",
+          "title": "Facebook",
+          "url": "https://www.facebook.com/SuvieFood/",
+        }
+      }
+    />
+  </li>
+  <li
+    className="mr-2"
+    key="Twitter"
+    role="presentation"
+  >
+    <SocialMediaIcon
+      key="Twitter"
+      socialMedia={
+        Object {
+          "icon": "/images/twitter-icon.svg",
+          "title": "Twitter",
+          "url": "https://twitter.com/suviefood",
+        }
+      }
+    />
+  </li>
+</ul>
+`;

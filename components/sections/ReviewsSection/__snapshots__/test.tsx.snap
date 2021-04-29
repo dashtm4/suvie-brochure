@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewsSection /> should renders correct <ReviewsSection /> 1`] = `
+<section
+  className="relative bg-white text-center py-16 md:pt-20"
+>
+  <Wave
+    colorName="white"
+  />
+  <Container>
+    <SectionTitle
+      className="mb-6 md:mb-11"
+    >
+      Join thousands of members who are cooking easier.
+    </SectionTitle>
+  </Container>
+  <ForwardRef(LoadableComponent)
+    className="mb-6 md:mb-7"
+    reviews={
+      Array [
+        Object {
+          "body": "Test review",
+          "id": "1",
+          "image": Object {
+            "url": "/image.jpg",
+          },
+          "name": "John Doe",
+        },
+        Object {
+          "body": "Test review 2",
+          "id": "2",
+          "image": Object {
+            "url": "/image.jpg",
+          },
+          "name": "Jain Doe",
+        },
+      ]
+    }
+  />
+  <ButtonLink
+    className="w-46 max-w-full"
+    href="/reviews/"
+  >
+    Explore reviews
+  </ButtonLink>
+  <Wave
+    colorName="white"
+    position="bottom"
+  />
+</section>
+`;

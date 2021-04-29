@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartingAtWithAffirm /> should has correct className from className prop 1`] = `
+<div
+  className="test-class-name"
+>
+  * Starting at 0% APR with Affirm. 
+  <PrequalifyNowLink />
+</div>
+`;
+
+exports[`<StartingAtWithAffirm /> should renders correct <StartingAtWithAffirm /> 1`] = `
+<div
+  className=""
+>
+  * Starting at 0% APR with Affirm. 
+  <PrequalifyNowLink />
+</div>
+`;

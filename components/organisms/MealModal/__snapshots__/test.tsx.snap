@@ -1,0 +1,447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MealModal /> should has CTA button with correct text when showCTAButton prop is true 1`] = `
+<Modal
+  toggleModal={[MockFunction]}
+>
+  <div
+    className="md:flex"
+    style={
+      Object {
+        "minHeight": "37rem",
+      }
+    }
+  >
+    <div
+      className="relative bg-secondary md:w-1/2 md:order-1"
+      style={
+        Object {
+          "height": "0px",
+        }
+      }
+    >
+      <Badge
+        className="absolute z-10 transform -translate-x-1/2 top-5 left-1/2 whitespace-nowrap md:hidden"
+        style={
+          Object {
+            "backgroundColor": "#d0A86e",
+            "border": "none",
+          }
+        }
+        theme="dark"
+      >
+        your ingredients
+      </Badge>
+      <MealModalPropertiesList
+        className="hidden md:block md:text-white md:py-4 md:pb-7 md:px-4 bg-secondary"
+        forwardRef={
+          Object {
+            "current": null,
+          }
+        }
+      >
+        <MealModalPropertiesListItem
+          name="Calories"
+          value={500}
+        />
+        <MealModalPropertiesListItem
+          name="Prep Time"
+          value="10 minutes"
+        />
+        <MealModalPropertiesListItem
+          name="Meal Type"
+          value="your ingredients"
+        />
+      </MealModalPropertiesList>
+    </div>
+    <div
+      className="px-3 pt-4 pb-6 text-center md:text-left md:w-1/2 md:pt-25 md:pb-12 md:pl-8 md:pr-12 md:order-0"
+    >
+      <Badge
+        className="hidden md:inline-block md:mb-4"
+        style={
+          Object {
+            "backgroundColor": "#d0A86e",
+            "border": "none",
+          }
+        }
+        theme="dark"
+      >
+        your ingredients
+      </Badge>
+      <h3
+        className="mb-4 font-serif text-secondary"
+        style={
+          Object {
+            "fontSize": "2rem",
+          }
+        }
+      >
+        BBQ Salmon
+      </h3>
+      <div
+        className="mb-6 text-quinary"
+      >
+        Test description.
+      </div>
+      <MealModalPropertiesList
+        className="mb-9 text-secondary md:hidden"
+      >
+        <MealModalPropertiesListItem
+          name="Calories"
+          value={500}
+        />
+        <MealModalPropertiesListItem
+          name="Prep Time"
+          value="10 minutes"
+        />
+        <MealModalPropertiesListItem
+          name="Meal Type"
+          value="your ingredients"
+        />
+      </MealModalPropertiesList>
+      <ButtonLink
+        className="max-w-full mx-auto w-50 md:mx-0"
+        href="/recipes/"
+      >
+        View Recipe
+      </ButtonLink>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`<MealModal /> should has CTA button with correct text when showCTAButton prop is true 2`] = `
+<Modal
+  toggleModal={[MockFunction]}
+>
+  <div
+    className="md:flex"
+    style={
+      Object {
+        "minHeight": "37rem",
+      }
+    }
+  >
+    <div
+      className="relative bg-secondary md:w-1/2 md:order-1"
+      style={
+        Object {
+          "height": "0px",
+        }
+      }
+    >
+      <Badge
+        className="absolute z-10 transform -translate-x-1/2 top-5 left-1/2 whitespace-nowrap md:hidden"
+        style={
+          Object {
+            "backgroundColor": "#424242",
+            "border": "none",
+          }
+        }
+        theme="dark"
+      >
+        smart meals
+      </Badge>
+      <MealModalPropertiesList
+        className="hidden md:block md:text-white md:py-4 md:pb-7 md:px-4 bg-secondary"
+        forwardRef={
+          Object {
+            "current": null,
+          }
+        }
+      >
+        <MealModalPropertiesListItem
+          name="Calories"
+          value={500}
+        />
+        <MealModalPropertiesListItem
+          name="Prep Time"
+          value="10 minutes"
+        />
+        <MealModalPropertiesListItem
+          name="Meal Type"
+          value="smart meals"
+        />
+      </MealModalPropertiesList>
+    </div>
+    <div
+      className="px-3 pt-4 pb-6 text-center md:text-left md:w-1/2 md:pt-25 md:pb-12 md:pl-8 md:pr-12 md:order-0"
+    >
+      <Badge
+        className="hidden md:inline-block md:mb-4"
+        style={
+          Object {
+            "backgroundColor": "#424242",
+            "border": "none",
+          }
+        }
+        theme="dark"
+      >
+        smart meals
+      </Badge>
+      <h3
+        className="mb-4 font-serif text-secondary"
+        style={
+          Object {
+            "fontSize": "2rem",
+          }
+        }
+      >
+        BBQ Salmon
+      </h3>
+      <div
+        className="mb-6 text-quinary"
+      >
+        Test description.
+      </div>
+      <MealModalPropertiesList
+        className="mb-9 text-secondary md:hidden"
+      >
+        <MealModalPropertiesListItem
+          name="Calories"
+          value={500}
+        />
+        <MealModalPropertiesListItem
+          name="Prep Time"
+          value="10 minutes"
+        />
+        <MealModalPropertiesListItem
+          name="Meal Type"
+          value="smart meals"
+        />
+      </MealModalPropertiesList>
+      <ButtonLink
+        className="max-w-full mx-auto w-50 md:mx-0"
+        href="/smart-meals/"
+      >
+        Explore Smart Meals
+      </ButtonLink>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`<MealModal /> should has close button when showCTAButton prop is false 1`] = `
+<Modal
+  toggleModal={[MockFunction]}
+>
+  <div
+    className="md:flex"
+    style={
+      Object {
+        "minHeight": "37rem",
+      }
+    }
+  >
+    <div
+      className="relative bg-secondary md:w-1/2 md:order-1"
+      style={
+        Object {
+          "height": "0px",
+        }
+      }
+    >
+      <Badge
+        className="absolute z-10 transform -translate-x-1/2 top-5 left-1/2 whitespace-nowrap md:hidden"
+        style={
+          Object {
+            "backgroundColor": "#d0A86e",
+            "border": "none",
+          }
+        }
+        theme="dark"
+      >
+        your ingredients
+      </Badge>
+      <MealModalPropertiesList
+        className="hidden md:block md:text-white md:py-4 md:pb-7 md:px-4 bg-secondary"
+        forwardRef={
+          Object {
+            "current": null,
+          }
+        }
+      >
+        <MealModalPropertiesListItem
+          name="Calories"
+          value={500}
+        />
+        <MealModalPropertiesListItem
+          name="Prep Time"
+          value="10 minutes"
+        />
+        <MealModalPropertiesListItem
+          name="Meal Type"
+          value="your ingredients"
+        />
+      </MealModalPropertiesList>
+    </div>
+    <div
+      className="px-3 pt-4 pb-6 text-center md:text-left md:w-1/2 md:pt-25 md:pb-12 md:pl-8 md:pr-12 md:order-0"
+    >
+      <Badge
+        className="hidden md:inline-block md:mb-4"
+        style={
+          Object {
+            "backgroundColor": "#d0A86e",
+            "border": "none",
+          }
+        }
+        theme="dark"
+      >
+        your ingredients
+      </Badge>
+      <h3
+        className="mb-4 font-serif text-secondary"
+        style={
+          Object {
+            "fontSize": "2rem",
+          }
+        }
+      >
+        BBQ Salmon
+      </h3>
+      <div
+        className="mb-6 text-quinary"
+      >
+        Test description.
+      </div>
+      <MealModalPropertiesList
+        className="mb-9 text-secondary md:hidden"
+      >
+        <MealModalPropertiesListItem
+          name="Calories"
+          value={500}
+        />
+        <MealModalPropertiesListItem
+          name="Prep Time"
+          value="10 minutes"
+        />
+        <MealModalPropertiesListItem
+          name="Meal Type"
+          value="your ingredients"
+        />
+      </MealModalPropertiesList>
+      <Button
+        className="max-w-full mx-auto w-50 md:mx-0"
+        onClick={[MockFunction]}
+        theme="outline"
+      >
+        Close Window
+      </Button>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`<MealModal /> should renders correct <MealModal /> 1`] = `
+<Modal
+  toggleModal={[MockFunction]}
+>
+  <div
+    className="md:flex"
+    style={
+      Object {
+        "minHeight": "37rem",
+      }
+    }
+  >
+    <div
+      className="relative bg-secondary md:w-1/2 md:order-1"
+      style={
+        Object {
+          "height": "0px",
+        }
+      }
+    >
+      <Badge
+        className="absolute z-10 transform -translate-x-1/2 top-5 left-1/2 whitespace-nowrap md:hidden"
+        style={
+          Object {
+            "backgroundColor": "#d0A86e",
+            "border": "none",
+          }
+        }
+        theme="dark"
+      >
+        your ingredients
+      </Badge>
+      <MealModalPropertiesList
+        className="hidden md:block md:text-white md:py-4 md:pb-7 md:px-4 bg-secondary"
+        forwardRef={
+          Object {
+            "current": null,
+          }
+        }
+      >
+        <MealModalPropertiesListItem
+          name="Calories"
+          value={500}
+        />
+        <MealModalPropertiesListItem
+          name="Prep Time"
+          value="10 minutes"
+        />
+        <MealModalPropertiesListItem
+          name="Meal Type"
+          value="your ingredients"
+        />
+      </MealModalPropertiesList>
+    </div>
+    <div
+      className="px-3 pt-4 pb-6 text-center md:text-left md:w-1/2 md:pt-25 md:pb-12 md:pl-8 md:pr-12 md:order-0"
+    >
+      <Badge
+        className="hidden md:inline-block md:mb-4"
+        style={
+          Object {
+            "backgroundColor": "#d0A86e",
+            "border": "none",
+          }
+        }
+        theme="dark"
+      >
+        your ingredients
+      </Badge>
+      <h3
+        className="mb-4 font-serif text-secondary"
+        style={
+          Object {
+            "fontSize": "2rem",
+          }
+        }
+      >
+        BBQ Salmon
+      </h3>
+      <div
+        className="mb-6 text-quinary"
+      >
+        Test description.
+      </div>
+      <MealModalPropertiesList
+        className="mb-9 text-secondary md:hidden"
+      >
+        <MealModalPropertiesListItem
+          name="Calories"
+          value={500}
+        />
+        <MealModalPropertiesListItem
+          name="Prep Time"
+          value="10 minutes"
+        />
+        <MealModalPropertiesListItem
+          name="Meal Type"
+          value="your ingredients"
+        />
+      </MealModalPropertiesList>
+      <Button
+        className="max-w-full mx-auto w-50 md:mx-0"
+        onClick={[MockFunction]}
+        theme="outline"
+      >
+        Close Window
+      </Button>
+    </div>
+  </div>
+</Modal>
+`;

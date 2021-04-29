@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MealSecondaryCard /> should renders correct <MealSecondaryCard /> with all meal fields 1`] = `
+<div
+  className="bg-white shadow-md rounded-lg w-62 max-w-full undefined"
+>
+  <figure
+    className="relative rounded-lg w-62 h-48 overflow-hidden"
+    role="none"
+  >
+    <Image
+      alt="BBQ Salmon"
+      layout="fill"
+      objectFit="cover"
+      src="bbq-salmon.jpg"
+    />
+    <div
+      className="bg-secondary opacity-75 absolute bottom-0 left-0 font-bold text-sm uppercase text-white tracking-widest py-2 px-4"
+    >
+      500
+       calories
+    </div>
+  </figure>
+  <div
+    className="text-black pt-3 pb-4 px-3"
+  >
+    <h3
+      className="font-serif font-normal text-2xl mb-1"
+    >
+      BBQ Salmon
+    </h3>
+    <div
+      className="mb-2"
+    >
+      with Southwest Brown Rice & Brussels Sprouts
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MealSecondaryCard /> should renders correct <MealSecondaryCard /> with certified balanced note (certified balanced category is lower case) 1`] = `
+<div
+  className="bg-white shadow-md rounded-lg w-62 max-w-full undefined"
+>
+  <figure
+    className="relative rounded-lg w-62 h-48 overflow-hidden"
+    role="none"
+  >
+    <Image
+      alt="BBQ Salmon"
+      layout="fill"
+      objectFit="cover"
+      src="bbq-salmon.jpg"
+    />
+    <div
+      className="bg-secondary opacity-75 absolute bottom-0 left-0 font-bold text-sm uppercase text-white tracking-widest py-2 px-4"
+    >
+       calories
+    </div>
+  </figure>
+  <div
+    className="text-black pt-3 pb-4 px-3"
+  >
+    <h3
+      className="font-serif font-normal text-2xl mb-1"
+    >
+      BBQ Salmon
+    </h3>
+    <div
+      className="mb-2"
+    >
+      with Southwest Brown Rice & Brussels Sprouts
+    </div>
+    <div
+      className="text-sm text-gray-600 flex items-center gap-x-1"
+    >
+      <Image
+        height="20"
+        src="/images/certified-balanced-icon.svg"
+        width="20"
+      />
+      Certified Balanced
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MealSecondaryCard /> should renders correct <MealSecondaryCard /> with certified balanced note 1`] = `
+<div
+  className="bg-white shadow-md rounded-lg w-62 max-w-full undefined"
+>
+  <figure
+    className="relative rounded-lg w-62 h-48 overflow-hidden"
+    role="none"
+  >
+    <Image
+      alt="BBQ Salmon"
+      layout="fill"
+      objectFit="cover"
+      src="bbq-salmon.jpg"
+    />
+    <div
+      className="bg-secondary opacity-75 absolute bottom-0 left-0 font-bold text-sm uppercase text-white tracking-widest py-2 px-4"
+    >
+       calories
+    </div>
+  </figure>
+  <div
+    className="text-black pt-3 pb-4 px-3"
+  >
+    <h3
+      className="font-serif font-normal text-2xl mb-1"
+    >
+      BBQ Salmon
+    </h3>
+    <div
+      className="mb-2"
+    >
+      with Southwest Brown Rice & Brussels Sprouts
+    </div>
+    <div
+      className="text-sm text-gray-600 flex items-center gap-x-1"
+    >
+      <Image
+        height="20"
+        src="/images/certified-balanced-icon.svg"
+        width="20"
+      />
+      Certified Balanced
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MealSecondaryCard /> should renders correct <MealSecondaryCard /> with correct className prop 1`] = `
+<div
+  className="bg-white shadow-md rounded-lg w-62 max-w-full mb-2"
+>
+  <figure
+    className="relative rounded-lg w-62 h-48 overflow-hidden"
+    role="none"
+  >
+    <Image
+      alt="BBQ Salmon"
+      layout="fill"
+      objectFit="cover"
+      src="bbq-salmon.jpg"
+    />
+    <div
+      className="bg-secondary opacity-75 absolute bottom-0 left-0 font-bold text-sm uppercase text-white tracking-widest py-2 px-4"
+    >
+       calories
+    </div>
+  </figure>
+  <div
+    className="text-black pt-3 pb-4 px-3"
+  >
+    <h3
+      className="font-serif font-normal text-2xl mb-1"
+    >
+      BBQ Salmon
+    </h3>
+    <div
+      className="mb-2"
+    >
+      with Southwest Brown Rice & Brussels Sprouts
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MealSecondaryCard /> should renders correct <MealSecondaryCard /> with minimum required meal fields 1`] = `
+<div
+  className="bg-white shadow-md rounded-lg w-62 max-w-full undefined"
+>
+  <figure
+    className="relative rounded-lg w-62 h-48 overflow-hidden"
+    role="none"
+  >
+    <Image
+      alt="BBQ Salmon"
+      layout="fill"
+      objectFit="cover"
+      src="bbq-salmon.jpg"
+    />
+    <div
+      className="bg-secondary opacity-75 absolute bottom-0 left-0 font-bold text-sm uppercase text-white tracking-widest py-2 px-4"
+    >
+       calories
+    </div>
+  </figure>
+  <div
+    className="text-black pt-3 pb-4 px-3"
+  >
+    <h3
+      className="font-serif font-normal text-2xl mb-1"
+    >
+      BBQ Salmon
+    </h3>
+    <div
+      className="mb-2"
+    >
+      with Southwest Brown Rice & Brussels Sprouts
+    </div>
+  </div>
+</div>
+`;

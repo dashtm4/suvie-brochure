@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonLink /> should has correct className from className prop 1`] = `
+<Link
+  href="http://test.com"
+>
+  <a
+    className="btn test-class-name btn_primary"
+  >
+    Test children
+  </a>
+</Link>
+`;
+
+exports[`<ButtonLink /> should has correct className with primary theme 1`] = `
+<Link
+  href="http://test.com"
+>
+  <a
+    className="btn btn_primary"
+  >
+    Test children
+  </a>
+</Link>
+`;
+
+exports[`<ButtonLink /> should has external link with correct className from className prop 1`] = `
+<a
+  aria-label=""
+  className="btn test-class-name btn_primary"
+  href="http://test.com"
+  target="_self"
+>
+  Test children
+</a>
+`;
+
+exports[`<ButtonLink /> should has external link with correct className with outline-rounded theme 1`] = `
+<a
+  aria-label=""
+  className="btn btn_outline-rounded"
+  href="http://test.com"
+  target="_self"
+>
+  Test children
+</a>
+`;
+
+exports[`<ButtonLink /> should has external link with correct className with primary theme 1`] = `
+<a
+  aria-label=""
+  className="btn btn_primary"
+  href="http://test.com"
+  target="_self"
+>
+  Test children
+</a>
+`;
+
+exports[`<ButtonLink /> should render external link 1`] = `
+<a
+  aria-label=""
+  className="btn btn_primary"
+  href="http://test.com"
+  target="_self"
+>
+  Test children
+</a>
+`;
+
+exports[`<ButtonLink /> should renders correct <ButtonLink /> 1`] = `
+<Link
+  href="http://test.com"
+>
+  <a
+    className="btn btn_primary"
+  >
+    Test children
+  </a>
+</Link>
+`;

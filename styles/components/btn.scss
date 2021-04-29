@@ -1,0 +1,39 @@
+@layer components {
+  .btn {
+    @apply inline-block p-3 font-sans text-sm font-bold tracking-widest text-center text-black text-white uppercase bg-gray-300 rounded-sm border;
+
+    &:hover {
+      @apply bg-gray-400;
+    }
+
+    &_primary {
+      @apply border-primary-default bg-primary-default;
+
+      &:hover {
+        @apply border-primary-dark bg-primary-dark;
+      }
+    }
+
+    &_outline {
+      @apply bg-transparent text-secondary;
+
+      &:hover {
+        @apply text-white border-primary-default bg-primary-default;
+      }
+    }
+
+    &_outline-rounded {
+      border-radius: 6.25rem;
+
+      @apply py-3 px-6 text-white bg-transparent border-2;
+
+      &:hover {
+        @apply bg-white text-secondary border-secondary;
+      }
+    }
+
+    &:disabled {
+      @apply opacity-50 cursor-not-allowed;
+    }
+  }
+}

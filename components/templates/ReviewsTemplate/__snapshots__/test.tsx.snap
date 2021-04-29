@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewsTemplate /> should renders correct <ReviewsTemplate /> 1`] = `
+<main>
+  <DefaultHero
+    imageSrc="/images/reviews-page/reviews-hero-background.jpg"
+    strapline="The Suvie Kitchen Robot"
+    subtitle="See what Suvie members are saying"
+    title="Reviews"
+  />
+  <ReviewsReviewsSection />
+</main>
+`;

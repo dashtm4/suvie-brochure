@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCard /> should display best value badge 1`] = `
+<Fragment>
+  <div
+    className="bg-white rounded-xl relative w-80 max-w-full pt-6 pb-4 px-4 cursor-pointer transition-shadow mx-auto hover:shadow-lg border-2 border-primary-default"
+    onClick={[Function]}
+  >
+    <ProductCardBadge>
+      Most popular
+    </ProductCardBadge>
+    <ProductCardTitle>
+      Test title
+    </ProductCardTitle>
+    <ProductCardImage
+      alt="Test title"
+      imageSrc="image.jpg"
+    />
+    <ProductCardProperties
+      className="mb-3"
+      properties={
+        Array [
+          Object {
+            "item": "Test include",
+          },
+        ]
+      }
+      title="Includes"
+    />
+    <ProductCardProperties
+      className="mb-3"
+      properties={
+        Array [
+          Object {
+            "item": "Test accessory",
+          },
+        ]
+      }
+      title="Accessories"
+    />
+    <ul
+      className="mb-2 text-secondary"
+    >
+      <li
+        className="relative flex justify-between gap-2 py-2 border-b border-denary"
+      >
+        <button
+          className="font-light underline"
+          onClick={[Function]}
+        >
+          Smart Meals
+        </button>
+        <span
+          className="inline-flex gap-x-1"
+        >
+          Optional
+        </span>
+      </li>
+      <li
+        className="flex justify-between gap-2 py-2 border-b border-denary"
+        key="Test name"
+      >
+        <span>
+          Test name
+        </span>
+        <span>
+          Test value
+        </span>
+      </li>
+    </ul>
+    <div
+      className="mb-3 text-center text-secondary"
+    >
+      <div
+        className="flex items-baseline justify-center font-serif text-2xl font-normal gap-x-2"
+      >
+        <span
+          role="none"
+        >
+          $
+          1000
+        </span>
+      </div>
+      <div
+        className="font-serif text-2xl font-normal"
+      >
+        $
+        50
+        /month*
+      </div>
+    </div>
+    <ButtonLink
+      btnRef={
+        Object {
+          "current": null,
+        }
+      }
+      className="block max-w-full mx-auto mb-3 w-50"
+      href="example.com"
+      isExternal={true}
+    >
+      Buy now
+    </ButtonLink>
+    <div
+      className="max-w-full mx-auto text-center w-60 text-septenary"
+    >
+      * 
+       Starting at 0% APR with Affirm.
+       
+      <PrequalifyNowLink
+        forwardRed={
+          Object {
+            "current": null,
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`<ProductCard /> should renders correct <ProductCard /> 1`] = `
+<Fragment>
+  <div
+    className="bg-white rounded-xl relative w-80 max-w-full pt-6 pb-4 px-4 cursor-pointer transition-shadow mx-auto hover:shadow-lg"
+    onClick={[Function]}
+  >
+    <ProductCardTitle>
+      Test title
+    </ProductCardTitle>
+    <ProductCardImage
+      alt="Test title"
+      imageSrc="image.jpg"
+    />
+    <ProductCardProperties
+      className="mb-3"
+      properties={
+        Array [
+          Object {
+            "item": "Test include",
+          },
+        ]
+      }
+      title="Includes"
+    />
+    <ProductCardProperties
+      className="mb-3"
+      properties={
+        Array [
+          Object {
+            "item": "Test accessory",
+          },
+        ]
+      }
+      title="Accessories"
+    />
+    <ul
+      className="mb-2 text-secondary"
+    >
+      <li
+        className="relative flex justify-between gap-2 py-2 border-b border-denary"
+      >
+        <button
+          className="font-light underline"
+          onClick={[Function]}
+        >
+          Smart Meals
+        </button>
+        <span
+          className="inline-flex gap-x-1"
+        >
+          Optional
+        </span>
+      </li>
+      <li
+        className="flex justify-between gap-2 py-2 border-b border-denary"
+        key="Test name"
+      >
+        <span>
+          Test name
+        </span>
+        <span>
+          Test value
+        </span>
+      </li>
+    </ul>
+    <div
+      className="mb-3 text-center text-secondary"
+    >
+      <div
+        className="flex items-baseline justify-center font-serif text-2xl font-normal gap-x-2"
+      >
+        <span
+          role="none"
+        >
+          $
+          1000
+        </span>
+      </div>
+      <div
+        className="font-serif text-2xl font-normal"
+      >
+        $
+        50
+        /month*
+      </div>
+    </div>
+    <ButtonLink
+      btnRef={
+        Object {
+          "current": null,
+        }
+      }
+      className="block max-w-full mx-auto mb-3 w-50"
+      href="example.com"
+      isExternal={true}
+    >
+      Buy now
+    </ButtonLink>
+    <div
+      className="max-w-full mx-auto text-center w-60 text-septenary"
+    >
+      * 
+       Starting at 0% APR with Affirm.
+       
+      <PrequalifyNowLink
+        forwardRed={
+          Object {
+            "current": null,
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HealthTemplate /> should renders correct <HealthTemplate /> 1`] = `
+<main>
+  <FeaturesBanner
+    features={
+      Array [
+        Object {
+          "image": Object {
+            "height": 40,
+            "url": "/images/affirm-logo.svg",
+            "width": 40,
+          },
+          "title": "Pay as low as $33/ month",
+        },
+        Object {
+          "image": Object {
+            "height": 40,
+            "url": "/images/100-day-home-trial-risk-free.svg",
+            "width": 40,
+          },
+          "link": "/free-trial/",
+          "title": "100-day home trial, risk-free",
+        },
+        Object {
+          "image": Object {
+            "height": 30,
+            "url": "/images/logo-seal-black.svg",
+            "width": 30,
+          },
+          "title": "1 Year Warranty",
+        },
+      ]
+    }
+  />
+  <DefaultHero
+    imageSrc="/images/health-page/hero-background.jpg"
+    title="Health"
+  />
+  <HealthSecondSection />
+  <HealthThirdSection />
+  <FinalCallToActionSection
+    imageSrc="/images/health-page/final-call-to-action-section-background.jpg"
+    offsetX="left"
+    offsetXInMobile="center"
+  />
+</main>
+`;

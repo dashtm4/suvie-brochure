@@ -1,0 +1,39 @@
+@layer components {
+  .form {
+    &__legend {
+      @apply font-serif font-medium text-3xl mb-4;
+    }
+
+    &__group {
+      @apply mb-4;
+    }
+
+    &__control {
+      @apply font-light text-sm truncate border border-gray-300 rounded-sm bg-white block w-full p-3;
+
+      &::placeholder {
+        @apply text-gray-700;
+      }
+
+      &[readonly] {
+        @apply cursor-default;
+      }
+    }
+
+    select.form__control {
+      @apply appearance-none bg-no-repeat py-3 pl-3 pr-5;
+
+      background-image: url(../../public/images/down-arrow-icon.svg);
+      background-position: calc(100% - 5px);
+      background-size: 1rem;
+
+      &:disabled {
+        @apply cursor-not-allowed;
+      }
+    }
+
+    &__error-message {
+      @apply text-sm text-danger mt-1;
+    }
+  }
+}

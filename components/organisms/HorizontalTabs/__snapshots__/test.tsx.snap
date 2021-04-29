@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HorizontalTabs /> should renders correct <HorizontalTabs /> 1`] = `
+<ForwardRef(LoadableComponent)
+  className=""
+  onSelect={[Function]}
+  selectedIndex={0}
+  selectedTabClassName="text-opacity-100 border-b-4 border-primary-default"
+  selectedTabPanelClassName="px-3 md:px-0"
+>
+  Test children
+</ForwardRef(LoadableComponent)>
+`;

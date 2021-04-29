@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoModal /> should has correct video attributes from props 1`] = `
+<Modal
+  toggleModal={[MockFunction]}
+>
+  <div
+    className="md:flex"
+    style={
+      Object {
+        "minHeight": "none",
+      }
+    }
+  >
+    <div
+      className="md:w-1/2 md:order-1"
+    >
+      <figure
+        className="relative w-full overflow-hidden h-60 bg-secondary md:h-full"
+        role="none"
+      >
+        <VideoPlayer
+          autoplay={false}
+          className="absolute inset-0 object-cover w-full h-full"
+          controls={true}
+          loop={false}
+          muted={false}
+          playsInline={true}
+          poster="image.jpg"
+          style={
+            Object {
+              "height": "calc(100% + 2px)",
+            }
+          }
+          url="video.mp4"
+        />
+      </figure>
+    </div>
+    <div
+      className="px-3 py-8 md:w-1/2 md:py-12 md:pl-8 md:pr-12 md:order-0 md:flex md:flex-col md:justify-center"
+    >
+      test
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`<VideoModal /> should has wide screen aspect ratio when isWidescreenAspectRatio prop is true 1`] = `
+<Modal
+  toggleModal={[MockFunction]}
+>
+  <div
+    className="md:flex aspect-w-16 aspect-h-9"
+    style={
+      Object {
+        "minHeight": "none",
+      }
+    }
+  >
+    <div
+      className="md:w-1/2 md:order-1"
+    >
+      <figure
+        className="relative w-full overflow-hidden h-60 bg-secondary md:h-full"
+        role="none"
+      >
+        <VideoPlayer
+          autoplay={true}
+          className="absolute inset-0 object-cover w-full h-full"
+          controls={false}
+          loop={true}
+          muted={true}
+          playsInline={true}
+          style={
+            Object {
+              "height": "calc(100% + 2px)",
+            }
+          }
+        />
+      </figure>
+    </div>
+    <div
+      className="px-3 py-8 md:w-1/2 md:py-12 md:pl-8 md:pr-12 md:order-0 md:flex md:flex-col md:justify-center"
+    >
+      test
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`<VideoModal /> should not has wide screen aspect ratio when isWidescreenAspectRatio prop is false 1`] = `
+<Modal
+  toggleModal={[MockFunction]}
+>
+  <div
+    className="md:flex"
+    style={
+      Object {
+        "minHeight": "none",
+      }
+    }
+  >
+    <div
+      className="md:w-1/2 md:order-1"
+    >
+      <figure
+        className="relative w-full overflow-hidden h-60 bg-secondary md:h-full"
+        role="none"
+      >
+        <VideoPlayer
+          autoplay={true}
+          className="absolute inset-0 object-cover w-full h-full"
+          controls={false}
+          loop={true}
+          muted={true}
+          playsInline={true}
+          style={
+            Object {
+              "height": "calc(100% + 2px)",
+            }
+          }
+        />
+      </figure>
+    </div>
+    <div
+      className="px-3 py-8 md:w-1/2 md:py-12 md:pl-8 md:pr-12 md:order-0 md:flex md:flex-col md:justify-center"
+    >
+      test
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`<VideoModal /> should renders correct <VideoModal /> 1`] = `
+<Modal
+  toggleModal={[MockFunction]}
+>
+  <div
+    className="md:flex"
+    style={
+      Object {
+        "minHeight": "none",
+      }
+    }
+  >
+    <div
+      className="md:w-1/2 md:order-1"
+    >
+      <figure
+        className="relative w-full overflow-hidden h-60 bg-secondary md:h-full"
+        role="none"
+      >
+        <VideoPlayer
+          autoplay={true}
+          className="absolute inset-0 object-cover w-full h-full"
+          controls={false}
+          loop={true}
+          muted={true}
+          playsInline={true}
+          style={
+            Object {
+              "height": "calc(100% + 2px)",
+            }
+          }
+        />
+      </figure>
+    </div>
+    <div
+      className="px-3 py-8 md:w-1/2 md:py-12 md:pl-8 md:pr-12 md:order-0 md:flex md:flex-col md:justify-center"
+    >
+      test
+    </div>
+  </div>
+</Modal>
+`;

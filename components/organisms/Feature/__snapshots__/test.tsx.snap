@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Feature /> should has className from className prop 1`] = `
+<div
+  className="text-center test-classname"
+>
+  <figure
+    className="flex-shrink-0 mx-auto"
+    role="none"
+  >
+    <Image
+      alt=""
+      height="64"
+      src="image.jpg"
+      width="64"
+    />
+  </figure>
+  <div>
+    <h3
+      className="font-serif font-normal text-lg mb-1 text-secondary"
+    >
+      Test title
+    </h3>
+    <div
+      className="text-septenary"
+    >
+      Test description
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Feature /> should renders correct <Feature /> 1`] = `
+<div
+  className="text-center"
+>
+  <figure
+    className="flex-shrink-0 mx-auto"
+    role="none"
+  >
+    <Image
+      alt=""
+      height="64"
+      src="image.jpg"
+      width="64"
+    />
+  </figure>
+  <div>
+    <h3
+      className="font-serif font-normal text-lg mb-1 text-secondary"
+    >
+      Test title
+    </h3>
+    <div
+      className="text-septenary"
+    >
+      Test description
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Feature /> should renders correct <Feature /> with dark theme 1`] = `
+<div
+  className="text-center"
+>
+  <figure
+    className="flex-shrink-0 mx-auto"
+    role="none"
+  >
+    <Image
+      alt=""
+      height="64"
+      src="image.jpg"
+      width="64"
+    />
+  </figure>
+  <div>
+    <h3
+      className="font-serif font-normal text-lg mb-1 text-white"
+    >
+      Test title
+    </h3>
+    <div
+      className="text-white"
+    >
+      Test description
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Feature /> should renders correct <Feature /> with light theme 1`] = `
+<div
+  className="text-center"
+>
+  <figure
+    className="flex-shrink-0 mx-auto"
+    role="none"
+  >
+    <Image
+      alt=""
+      height="64"
+      src="image.jpg"
+      width="64"
+    />
+  </figure>
+  <div>
+    <h3
+      className="font-serif font-normal text-lg mb-1 text-secondary"
+    >
+      Test title
+    </h3>
+    <div
+      className="text-septenary"
+    >
+      Test description
+    </div>
+  </div>
+</div>
+`;

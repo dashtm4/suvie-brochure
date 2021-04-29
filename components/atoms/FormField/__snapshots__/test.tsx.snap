@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormField /> should has correct className prop 1`] = `
+<Field
+  className="form__control test"
+  name="test"
+  placeholder="Test"
+  title="Test"
+  type="text"
+/>
+`;
+
+exports[`<FormField /> should has correct component prop 1`] = `
+<Field
+  className="form__control "
+  component="select"
+  name="test"
+  placeholder="Test"
+  title="Test"
+  type="text"
+/>
+`;
+
+exports[`<FormField /> should has correct disabled prop 1`] = `
+<Field
+  className="form__control "
+  disabled={true}
+  name="test"
+  placeholder="Test"
+  title="Test"
+  type="text"
+/>
+`;
+
+exports[`<FormField /> should has correct props 1`] = `
+<Field
+  className="form__control "
+  name="test"
+  placeholder="Test"
+  title="Test"
+  type="text"
+/>
+`;
+
+exports[`<FormField /> should has correct readOnly prop 1`] = `
+<Field
+  className="form__control "
+  name="test"
+  placeholder="Test"
+  readOnly={true}
+  title="Test"
+  type="text"
+/>
+`;
+
+exports[`<FormField /> should has correct title prop 1`] = `
+<Field
+  className="form__control "
+  name="test"
+  placeholder="Example title"
+  title="Example title"
+  type="text"
+/>
+`;
+
+exports[`<FormField /> should has correct type prop 1`] = `
+<Field
+  className="form__control "
+  name="test"
+  placeholder="Test"
+  title="Test"
+  type="email"
+/>
+`;

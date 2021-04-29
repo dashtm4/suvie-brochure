@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignupForm /> should renders correct <SignupForm /> 1`] = `
+<Formik
+  initialValues={
+    Object {
+      "email": "",
+    }
+  }
+  onSubmit={[Function]}
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_excludedEdges": Array [],
+      "_nodes": Array [
+        "email",
+      ],
+      "_sortErrors": [Function],
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {},
+      "fields": Object {
+        "email": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_mutate": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "email": false,
+            "max": true,
+            "required": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "label": "Email",
+            "meta": undefined,
+            "nullable": true,
+            "presence": "required",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "label": undefined,
+        "meta": undefined,
+        "nullable": false,
+        "presence": "optional",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    }
+  }
+>
+  <Component />
+</Formik>
+`;

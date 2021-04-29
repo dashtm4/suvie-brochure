@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Wave /> should has correct class name from className prop 1`] = `
+<svg
+  className="absolute left-0 w-full bottom-full fill-secondary test-class-name"
+  preserveAspectRatio="xMidYMin slice"
+  style={
+    Object {
+      "fill": "",
+    }
+  }
+  version="1.0"
+  viewBox="0 0 1200 44"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+  />
+</svg>
+`;
+
+exports[`<Wave /> should has correct class name with black colorName prop 1`] = `
+<svg
+  className="absolute left-0 w-full bottom-full fill-black"
+  preserveAspectRatio="xMidYMin slice"
+  style={
+    Object {
+      "fill": "",
+    }
+  }
+  version="1.0"
+  viewBox="0 0 1200 44"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+  />
+</svg>
+`;
+
+exports[`<Wave /> should has correct class name with bottom position prop 1`] = `
+<svg
+  className="absolute left-0 w-full top-full fill-secondary"
+  preserveAspectRatio="xMidYMin slice"
+  style={
+    Object {
+      "fill": "",
+    }
+  }
+  version="1.0"
+  viewBox="0 0 1200 44"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M754.091 44C892.5 44 1165.03 30.367 1200 23.55V0H0v44c58.75 0 169.7-25.533 329.641-25.533C489.583 18.467 618.75 44 754.091 44z"
+  />
+</svg>
+`;
+
+exports[`<Wave /> should has correct class name with bottom-revert position prop 1`] = `
+<svg
+  className="absolute left-0 w-full top-full transform -translate-y-full fill-secondary"
+  preserveAspectRatio="xMidYMin slice"
+  style={
+    Object {
+      "fill": "",
+    }
+  }
+  version="1.0"
+  viewBox="0 0 1200 44"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+  />
+</svg>
+`;
+
+exports[`<Wave /> should has correct class name with brown colorName prop 1`] = `
+<svg
+  className="absolute left-0 w-full bottom-full fill-brown"
+  preserveAspectRatio="xMidYMin slice"
+  style={
+    Object {
+      "fill": "",
+    }
+  }
+  version="1.0"
+  viewBox="0 0 1200 44"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+  />
+</svg>
+`;
+
+exports[`<Wave /> should has correct class name with primary colorName prop 1`] = `
+<svg
+  className="absolute left-0 w-full bottom-full fill-primary"
+  preserveAspectRatio="xMidYMin slice"
+  style={
+    Object {
+      "fill": "",
+    }
+  }
+  version="1.0"
+  viewBox="0 0 1200 44"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+  />
+</svg>
+`;
+
+exports[`<Wave /> should has correct class name with white colorName prop 1`] = `
+<svg
+  className="absolute left-0 w-full bottom-full fill-white"
+  preserveAspectRatio="xMidYMin slice"
+  style={
+    Object {
+      "fill": "",
+    }
+  }
+  version="1.0"
+  viewBox="0 0 1200 44"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+  />
+</svg>
+`;
+
+exports[`<Wave /> should has correct class name with yellow colorName prop 1`] = `
+<svg
+  className="absolute left-0 w-full bottom-full fill-yellow"
+  preserveAspectRatio="xMidYMin slice"
+  style={
+    Object {
+      "fill": "",
+    }
+  }
+  version="1.0"
+  viewBox="0 0 1200 44"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+  />
+</svg>
+`;
+
+exports[`<Wave /> should has correct style attribute from props 1`] = `
+<svg
+  className="absolute left-0 w-full bottom-full fill-secondary"
+  preserveAspectRatio="xMidYMin slice"
+  style={
+    Object {
+      "fill": "#000",
+      "zIndex": 1,
+    }
+  }
+  version="1.0"
+  viewBox="0 0 1200 44"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+  />
+</svg>
+`;
+
+exports[`<Wave /> should has fill style prop from colorHex prop 1`] = `
+<svg
+  className="absolute left-0 w-full bottom-full fill-secondary"
+  preserveAspectRatio="xMidYMin slice"
+  style={
+    Object {
+      "fill": "#000",
+    }
+  }
+  version="1.0"
+  viewBox="0 0 1200 44"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+  />
+</svg>
+`;
+
+exports[`<Wave /> should renders correct <Wave /> 1`] = `
+<svg
+  className="absolute left-0 w-full bottom-full fill-secondary"
+  preserveAspectRatio="xMidYMin slice"
+  style={
+    Object {
+      "fill": "",
+    }
+  }
+  version="1.0"
+  viewBox="0 0 1200 44"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+  />
+</svg>
+`;

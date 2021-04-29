@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FiltersGroup /> should has correct className from className prop 1`] = `
+<div
+  className="md:flex md:gap-4 md:justify-center test-classname"
+>
+  Test children
+</div>
+`;
+
+exports[`<FiltersGroup /> should renders correct <FiltersGroup /> 1`] = `
+<div
+  className="md:flex md:gap-4 md:justify-center"
+>
+  Test children
+</div>
+`;

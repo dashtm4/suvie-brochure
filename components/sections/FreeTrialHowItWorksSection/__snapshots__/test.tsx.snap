@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FreeTrialHowItWorksSection /> should renders correct <FreeTrialHowItWorksSection /> 1`] = `
+<section
+  className="relative pt-8 pb-8 md:bg-thirdly"
+>
+  <Wave
+    className="hidden md:block"
+    colorHex="#f8faff"
+  />
+  <Container
+    style={
+      Object {
+        "maxWidth": "63.75rem",
+      }
+    }
+  >
+    <Row
+      className="items-center"
+    >
+      <div
+        className="mb-6 w-full -px-3 md:px-3 md:w-7/12 md:order-1 md:mb-0"
+      >
+        <figure
+          className="overflow-hidden relative mr-0 ml-auto max-w-full md:shadow-xl md:rounded-lg md:h-70 h-84 w-107"
+          role="none"
+        >
+          <Image
+            alt=""
+            layout="fill"
+            objectFit="cover"
+            src="/images/free-trial-page/free-trial.jpg"
+          />
+        </figure>
+      </div>
+      <Col
+        className="w-full md:w-5/12 md:order-0"
+      >
+        <SectionTitle
+          alignMd="left"
+          className="mb-4 md:mb-5 md:max-w-xs"
+          fontSizeClassName="text-3.5xl md:text-4xl"
+        >
+          How do Suvie returns work?
+        </SectionTitle>
+        <ul
+          className="text-secondary text-center md:text-left"
+        >
+          <li
+            className="mb-4"
+            key="✓  In order to return your Suvie appliance, authorization should be requested from our customer service team within 100 days of receiving your appliance."
+          >
+            ✓  In order to return your Suvie appliance, authorization should be requested from our customer service team within 100 days of receiving your appliance.
+          </li>
+          <li
+            className="mb-4"
+            key="✓  You will receive a return shipping label with your return authorization to send the appliance back to us."
+          >
+            ✓  You will receive a return shipping label with your return authorization to send the appliance back to us.
+          </li>
+          <li
+            className="mb-4"
+            key="✓  The appliance must be in good physical condition and include all the accessories and packaging it originally came with, the product UPC barcode, and the return authorization number."
+          >
+            ✓  The appliance must be in good physical condition and include all the accessories and packaging it originally came with, the product UPC barcode, and the return authorization number.
+          </li>
+        </ul>
+      </Col>
+    </Row>
+  </Container>
+  <Wave
+    className="hidden md:block"
+    colorHex="#f8faff"
+    position="bottom"
+  />
+</section>
+`;

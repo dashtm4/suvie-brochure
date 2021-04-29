@@ -1,0 +1,2637 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UrgencyBar /> should renders correct <UrgencyBar /> 1`] = `
+<MockedProvider
+  addTypename={false}
+  mocks={
+    Array [
+      Object {
+        "request": Object {
+          "query": Object {
+            "definitions": Array [
+              Object {
+                "directives": Array [],
+                "kind": "OperationDefinition",
+                "name": undefined,
+                "operation": "query",
+                "selectionSet": Object {
+                  "kind": "SelectionSet",
+                  "selections": Array [
+                    Object {
+                      "alias": undefined,
+                      "arguments": Array [],
+                      "directives": Array [],
+                      "kind": "Field",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "urgencyBar",
+                      },
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "info",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "title",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "subtitle",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "description",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                              ],
+                            },
+                          },
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "percentage",
+                            },
+                            "selectionSet": undefined,
+                          },
+                        ],
+                      },
+                    },
+                  ],
+                },
+                "variableDefinitions": Array [],
+              },
+            ],
+            "kind": "Document",
+            "loc": Object {
+              "end": 127,
+              "start": 0,
+            },
+          },
+        },
+        "result": Object {
+          "data": Object {
+            "urgencyBar": Object {
+              "info": Object {
+                "description": "Test description",
+                "subtitle": "Test subtitle",
+                "title": "Test title",
+              },
+              "percentage": 65,
+            },
+          },
+        },
+      },
+    ]
+  }
+>
+  <ApolloProvider
+    client={
+      ApolloClient {
+        "cache": InMemoryCache {
+          "addTypename": false,
+          "config": Object {
+            "addTypename": false,
+            "dataIdFromObject": [Function],
+            "resultCaching": true,
+            "typePolicies": Object {},
+          },
+          "data": Root {
+            "canRead": [Function],
+            "data": Object {
+              "ROOT_QUERY": Object {
+                "__typename": "Query",
+                "urgencyBar": Object {
+                  "info": Object {
+                    "description": "Test description",
+                    "subtitle": "Test subtitle",
+                    "title": "Test title",
+                  },
+                  "percentage": 65,
+                },
+              },
+            },
+            "getFieldValue": [Function],
+            "group": CacheGroup {
+              "caching": true,
+              "d": [Function],
+              "keyMaker": Trie {
+                "makeData": [Function],
+                "weak": WeakMap {},
+                "weakness": true,
+              },
+            },
+            "policies": Policies {
+              "cache": [Circular],
+              "config": Object {
+                "cache": [Circular],
+                "dataIdFromObject": [Function],
+                "possibleTypes": undefined,
+                "typePolicies": Object {},
+              },
+              "fuzzySubtypes": Map {},
+              "rootIdsByTypename": Object {
+                "Mutation": "ROOT_MUTATION",
+                "Query": "ROOT_QUERY",
+                "Subscription": "ROOT_SUBSCRIPTION",
+              },
+              "rootTypenamesById": Object {
+                "ROOT_MUTATION": "Mutation",
+                "ROOT_QUERY": "Query",
+                "ROOT_SUBSCRIPTION": "Subscription",
+              },
+              "supertypeMap": Map {},
+              "toBeAdded": Object {},
+              "typePolicies": Object {
+                "Query": Object {
+                  "fields": Object {},
+                },
+              },
+              "usingPossibleTypes": false,
+            },
+            "refs": Object {},
+            "rootIds": Object {
+              "ROOT_QUERY": 1,
+            },
+            "sharedLayerGroup": CacheGroup {
+              "caching": true,
+              "d": [Function],
+              "keyMaker": Trie {
+                "makeData": [Function],
+                "weakness": true,
+              },
+            },
+            "storageTrie": Trie {
+              "makeData": [Function],
+              "weakness": true,
+            },
+            "toReference": [Function],
+          },
+          "evict": [Function],
+          "getFragmentDoc": [Function],
+          "makeVar": [Function],
+          "maybeBroadcastWatch": [Function],
+          "modify": [Function],
+          "optimisticData": Root {
+            "canRead": [Function],
+            "data": Object {
+              "ROOT_QUERY": Object {
+                "__typename": "Query",
+                "urgencyBar": Object {
+                  "info": Object {
+                    "description": "Test description",
+                    "subtitle": "Test subtitle",
+                    "title": "Test title",
+                  },
+                  "percentage": 65,
+                },
+              },
+            },
+            "getFieldValue": [Function],
+            "group": CacheGroup {
+              "caching": true,
+              "d": [Function],
+              "keyMaker": Trie {
+                "makeData": [Function],
+                "weak": WeakMap {},
+                "weakness": true,
+              },
+            },
+            "policies": Policies {
+              "cache": [Circular],
+              "config": Object {
+                "cache": [Circular],
+                "dataIdFromObject": [Function],
+                "possibleTypes": undefined,
+                "typePolicies": Object {},
+              },
+              "fuzzySubtypes": Map {},
+              "rootIdsByTypename": Object {
+                "Mutation": "ROOT_MUTATION",
+                "Query": "ROOT_QUERY",
+                "Subscription": "ROOT_SUBSCRIPTION",
+              },
+              "rootTypenamesById": Object {
+                "ROOT_MUTATION": "Mutation",
+                "ROOT_QUERY": "Query",
+                "ROOT_SUBSCRIPTION": "Subscription",
+              },
+              "supertypeMap": Map {},
+              "toBeAdded": Object {},
+              "typePolicies": Object {
+                "Query": Object {
+                  "fields": Object {},
+                },
+              },
+              "usingPossibleTypes": false,
+            },
+            "refs": Object {},
+            "rootIds": Object {
+              "ROOT_QUERY": 1,
+            },
+            "sharedLayerGroup": CacheGroup {
+              "caching": true,
+              "d": [Function],
+              "keyMaker": Trie {
+                "makeData": [Function],
+                "weakness": true,
+              },
+            },
+            "storageTrie": Trie {
+              "makeData": [Function],
+              "weakness": true,
+            },
+            "toReference": [Function],
+          },
+          "policies": Policies {
+            "cache": [Circular],
+            "config": Object {
+              "cache": [Circular],
+              "dataIdFromObject": [Function],
+              "possibleTypes": undefined,
+              "typePolicies": Object {},
+            },
+            "fuzzySubtypes": Map {},
+            "rootIdsByTypename": Object {
+              "Mutation": "ROOT_MUTATION",
+              "Query": "ROOT_QUERY",
+              "Subscription": "ROOT_SUBSCRIPTION",
+            },
+            "rootTypenamesById": Object {
+              "ROOT_MUTATION": "Mutation",
+              "ROOT_QUERY": "Query",
+              "ROOT_SUBSCRIPTION": "Subscription",
+            },
+            "supertypeMap": Map {},
+            "toBeAdded": Object {},
+            "typePolicies": Object {
+              "Query": Object {
+                "fields": Object {},
+              },
+            },
+            "usingPossibleTypes": false,
+          },
+          "reset": [Function],
+          "storeReader": StoreReader {
+            "config": Object {
+              "addTypename": false,
+              "cache": [Circular],
+            },
+            "executeSelectionSet": [Function],
+            "executeSubSelectedArray": [Function],
+            "knownResults": WeakMap {},
+          },
+          "storeWriter": StoreWriter {
+            "cache": [Circular],
+            "reader": StoreReader {
+              "config": Object {
+                "addTypename": false,
+                "cache": [Circular],
+              },
+              "executeSelectionSet": [Function],
+              "executeSubSelectedArray": [Function],
+              "knownResults": WeakMap {},
+            },
+          },
+          "txCount": 0,
+          "typenameDocumentCache": Map {},
+          "watchDep": [Function],
+          "watches": Set {
+            Object {
+              "callback": [Function],
+              "optimistic": true,
+              "query": Object {
+                "definitions": Array [
+                  Object {
+                    "directives": Array [],
+                    "kind": "OperationDefinition",
+                    "name": undefined,
+                    "operation": "query",
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "urgencyBar",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "info",
+                                },
+                                "selectionSet": Object {
+                                  "kind": "SelectionSet",
+                                  "selections": Array [
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "title",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "subtitle",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "description",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                  ],
+                                },
+                              },
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "percentage",
+                                },
+                                "selectionSet": undefined,
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                    "variableDefinitions": Array [],
+                  },
+                ],
+                "kind": "Document",
+                "loc": Object {
+                  "end": 127,
+                  "start": 0,
+                },
+              },
+              "variables": Object {},
+            },
+          },
+        },
+        "clearStoreCallbacks": Array [],
+        "defaultOptions": Object {},
+        "disableNetworkFetches": false,
+        "link": MockLink {
+          "addTypename": false,
+          "mockedResponsesByKey": Object {
+            "{\\"query\\":\\"{\\\\n  urgencyBar {\\\\n    info {\\\\n      title\\\\n      subtitle\\\\n      description\\\\n    }\\\\n    percentage\\\\n  }\\\\n}\\\\n\\"}": Array [],
+          },
+          "operation": Object {
+            "extensions": Object {},
+            "operationName": undefined,
+            "query": Object {
+              "definitions": Array [
+                Object {
+                  "directives": Array [],
+                  "kind": "OperationDefinition",
+                  "name": undefined,
+                  "operation": "query",
+                  "selectionSet": Object {
+                    "kind": "SelectionSet",
+                    "selections": Array [
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "urgencyBar",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "info",
+                              },
+                              "selectionSet": Object {
+                                "kind": "SelectionSet",
+                                "selections": Array [
+                                  Object {
+                                    "alias": undefined,
+                                    "arguments": Array [],
+                                    "directives": Array [],
+                                    "kind": "Field",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "title",
+                                    },
+                                    "selectionSet": undefined,
+                                  },
+                                  Object {
+                                    "alias": undefined,
+                                    "arguments": Array [],
+                                    "directives": Array [],
+                                    "kind": "Field",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "subtitle",
+                                    },
+                                    "selectionSet": undefined,
+                                  },
+                                  Object {
+                                    "alias": undefined,
+                                    "arguments": Array [],
+                                    "directives": Array [],
+                                    "kind": "Field",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "description",
+                                    },
+                                    "selectionSet": undefined,
+                                  },
+                                ],
+                              },
+                            },
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "percentage",
+                              },
+                              "selectionSet": undefined,
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
+                  "variableDefinitions": Array [],
+                },
+              ],
+              "kind": "Document",
+              "loc": Object {
+                "end": 127,
+                "start": 0,
+              },
+            },
+            "variables": Object {},
+          },
+        },
+        "localState": LocalState {
+          "cache": InMemoryCache {
+            "addTypename": false,
+            "config": Object {
+              "addTypename": false,
+              "dataIdFromObject": [Function],
+              "resultCaching": true,
+              "typePolicies": Object {},
+            },
+            "data": Root {
+              "canRead": [Function],
+              "data": Object {
+                "ROOT_QUERY": Object {
+                  "__typename": "Query",
+                  "urgencyBar": Object {
+                    "info": Object {
+                      "description": "Test description",
+                      "subtitle": "Test subtitle",
+                      "title": "Test title",
+                    },
+                    "percentage": 65,
+                  },
+                },
+              },
+              "getFieldValue": [Function],
+              "group": CacheGroup {
+                "caching": true,
+                "d": [Function],
+                "keyMaker": Trie {
+                  "makeData": [Function],
+                  "weak": WeakMap {},
+                  "weakness": true,
+                },
+              },
+              "policies": Policies {
+                "cache": [Circular],
+                "config": Object {
+                  "cache": [Circular],
+                  "dataIdFromObject": [Function],
+                  "possibleTypes": undefined,
+                  "typePolicies": Object {},
+                },
+                "fuzzySubtypes": Map {},
+                "rootIdsByTypename": Object {
+                  "Mutation": "ROOT_MUTATION",
+                  "Query": "ROOT_QUERY",
+                  "Subscription": "ROOT_SUBSCRIPTION",
+                },
+                "rootTypenamesById": Object {
+                  "ROOT_MUTATION": "Mutation",
+                  "ROOT_QUERY": "Query",
+                  "ROOT_SUBSCRIPTION": "Subscription",
+                },
+                "supertypeMap": Map {},
+                "toBeAdded": Object {},
+                "typePolicies": Object {
+                  "Query": Object {
+                    "fields": Object {},
+                  },
+                },
+                "usingPossibleTypes": false,
+              },
+              "refs": Object {},
+              "rootIds": Object {
+                "ROOT_QUERY": 1,
+              },
+              "sharedLayerGroup": CacheGroup {
+                "caching": true,
+                "d": [Function],
+                "keyMaker": Trie {
+                  "makeData": [Function],
+                  "weakness": true,
+                },
+              },
+              "storageTrie": Trie {
+                "makeData": [Function],
+                "weakness": true,
+              },
+              "toReference": [Function],
+            },
+            "evict": [Function],
+            "getFragmentDoc": [Function],
+            "makeVar": [Function],
+            "maybeBroadcastWatch": [Function],
+            "modify": [Function],
+            "optimisticData": Root {
+              "canRead": [Function],
+              "data": Object {
+                "ROOT_QUERY": Object {
+                  "__typename": "Query",
+                  "urgencyBar": Object {
+                    "info": Object {
+                      "description": "Test description",
+                      "subtitle": "Test subtitle",
+                      "title": "Test title",
+                    },
+                    "percentage": 65,
+                  },
+                },
+              },
+              "getFieldValue": [Function],
+              "group": CacheGroup {
+                "caching": true,
+                "d": [Function],
+                "keyMaker": Trie {
+                  "makeData": [Function],
+                  "weak": WeakMap {},
+                  "weakness": true,
+                },
+              },
+              "policies": Policies {
+                "cache": [Circular],
+                "config": Object {
+                  "cache": [Circular],
+                  "dataIdFromObject": [Function],
+                  "possibleTypes": undefined,
+                  "typePolicies": Object {},
+                },
+                "fuzzySubtypes": Map {},
+                "rootIdsByTypename": Object {
+                  "Mutation": "ROOT_MUTATION",
+                  "Query": "ROOT_QUERY",
+                  "Subscription": "ROOT_SUBSCRIPTION",
+                },
+                "rootTypenamesById": Object {
+                  "ROOT_MUTATION": "Mutation",
+                  "ROOT_QUERY": "Query",
+                  "ROOT_SUBSCRIPTION": "Subscription",
+                },
+                "supertypeMap": Map {},
+                "toBeAdded": Object {},
+                "typePolicies": Object {
+                  "Query": Object {
+                    "fields": Object {},
+                  },
+                },
+                "usingPossibleTypes": false,
+              },
+              "refs": Object {},
+              "rootIds": Object {
+                "ROOT_QUERY": 1,
+              },
+              "sharedLayerGroup": CacheGroup {
+                "caching": true,
+                "d": [Function],
+                "keyMaker": Trie {
+                  "makeData": [Function],
+                  "weakness": true,
+                },
+              },
+              "storageTrie": Trie {
+                "makeData": [Function],
+                "weakness": true,
+              },
+              "toReference": [Function],
+            },
+            "policies": Policies {
+              "cache": [Circular],
+              "config": Object {
+                "cache": [Circular],
+                "dataIdFromObject": [Function],
+                "possibleTypes": undefined,
+                "typePolicies": Object {},
+              },
+              "fuzzySubtypes": Map {},
+              "rootIdsByTypename": Object {
+                "Mutation": "ROOT_MUTATION",
+                "Query": "ROOT_QUERY",
+                "Subscription": "ROOT_SUBSCRIPTION",
+              },
+              "rootTypenamesById": Object {
+                "ROOT_MUTATION": "Mutation",
+                "ROOT_QUERY": "Query",
+                "ROOT_SUBSCRIPTION": "Subscription",
+              },
+              "supertypeMap": Map {},
+              "toBeAdded": Object {},
+              "typePolicies": Object {
+                "Query": Object {
+                  "fields": Object {},
+                },
+              },
+              "usingPossibleTypes": false,
+            },
+            "reset": [Function],
+            "storeReader": StoreReader {
+              "config": Object {
+                "addTypename": false,
+                "cache": [Circular],
+              },
+              "executeSelectionSet": [Function],
+              "executeSubSelectedArray": [Function],
+              "knownResults": WeakMap {},
+            },
+            "storeWriter": StoreWriter {
+              "cache": [Circular],
+              "reader": StoreReader {
+                "config": Object {
+                  "addTypename": false,
+                  "cache": [Circular],
+                },
+                "executeSelectionSet": [Function],
+                "executeSubSelectedArray": [Function],
+                "knownResults": WeakMap {},
+              },
+            },
+            "txCount": 0,
+            "typenameDocumentCache": Map {},
+            "watchDep": [Function],
+            "watches": Set {
+              Object {
+                "callback": [Function],
+                "optimistic": true,
+                "query": Object {
+                  "definitions": Array [
+                    Object {
+                      "directives": Array [],
+                      "kind": "OperationDefinition",
+                      "name": undefined,
+                      "operation": "query",
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "urgencyBar",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "info",
+                                  },
+                                  "selectionSet": Object {
+                                    "kind": "SelectionSet",
+                                    "selections": Array [
+                                      Object {
+                                        "alias": undefined,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "title",
+                                        },
+                                        "selectionSet": undefined,
+                                      },
+                                      Object {
+                                        "alias": undefined,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "subtitle",
+                                        },
+                                        "selectionSet": undefined,
+                                      },
+                                      Object {
+                                        "alias": undefined,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "description",
+                                        },
+                                        "selectionSet": undefined,
+                                      },
+                                    ],
+                                  },
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "percentage",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "variableDefinitions": Array [],
+                    },
+                  ],
+                  "kind": "Document",
+                  "loc": Object {
+                    "end": 127,
+                    "start": 0,
+                  },
+                },
+                "variables": Object {},
+              },
+            },
+          },
+          "client": [Circular],
+        },
+        "mutate": [Function],
+        "query": [Function],
+        "queryDeduplication": true,
+        "queryManager": QueryManager {
+          "assumeImmutableResults": false,
+          "cache": InMemoryCache {
+            "addTypename": false,
+            "config": Object {
+              "addTypename": false,
+              "dataIdFromObject": [Function],
+              "resultCaching": true,
+              "typePolicies": Object {},
+            },
+            "data": Root {
+              "canRead": [Function],
+              "data": Object {
+                "ROOT_QUERY": Object {
+                  "__typename": "Query",
+                  "urgencyBar": Object {
+                    "info": Object {
+                      "description": "Test description",
+                      "subtitle": "Test subtitle",
+                      "title": "Test title",
+                    },
+                    "percentage": 65,
+                  },
+                },
+              },
+              "getFieldValue": [Function],
+              "group": CacheGroup {
+                "caching": true,
+                "d": [Function],
+                "keyMaker": Trie {
+                  "makeData": [Function],
+                  "weak": WeakMap {},
+                  "weakness": true,
+                },
+              },
+              "policies": Policies {
+                "cache": [Circular],
+                "config": Object {
+                  "cache": [Circular],
+                  "dataIdFromObject": [Function],
+                  "possibleTypes": undefined,
+                  "typePolicies": Object {},
+                },
+                "fuzzySubtypes": Map {},
+                "rootIdsByTypename": Object {
+                  "Mutation": "ROOT_MUTATION",
+                  "Query": "ROOT_QUERY",
+                  "Subscription": "ROOT_SUBSCRIPTION",
+                },
+                "rootTypenamesById": Object {
+                  "ROOT_MUTATION": "Mutation",
+                  "ROOT_QUERY": "Query",
+                  "ROOT_SUBSCRIPTION": "Subscription",
+                },
+                "supertypeMap": Map {},
+                "toBeAdded": Object {},
+                "typePolicies": Object {
+                  "Query": Object {
+                    "fields": Object {},
+                  },
+                },
+                "usingPossibleTypes": false,
+              },
+              "refs": Object {},
+              "rootIds": Object {
+                "ROOT_QUERY": 1,
+              },
+              "sharedLayerGroup": CacheGroup {
+                "caching": true,
+                "d": [Function],
+                "keyMaker": Trie {
+                  "makeData": [Function],
+                  "weakness": true,
+                },
+              },
+              "storageTrie": Trie {
+                "makeData": [Function],
+                "weakness": true,
+              },
+              "toReference": [Function],
+            },
+            "evict": [Function],
+            "getFragmentDoc": [Function],
+            "makeVar": [Function],
+            "maybeBroadcastWatch": [Function],
+            "modify": [Function],
+            "optimisticData": Root {
+              "canRead": [Function],
+              "data": Object {
+                "ROOT_QUERY": Object {
+                  "__typename": "Query",
+                  "urgencyBar": Object {
+                    "info": Object {
+                      "description": "Test description",
+                      "subtitle": "Test subtitle",
+                      "title": "Test title",
+                    },
+                    "percentage": 65,
+                  },
+                },
+              },
+              "getFieldValue": [Function],
+              "group": CacheGroup {
+                "caching": true,
+                "d": [Function],
+                "keyMaker": Trie {
+                  "makeData": [Function],
+                  "weak": WeakMap {},
+                  "weakness": true,
+                },
+              },
+              "policies": Policies {
+                "cache": [Circular],
+                "config": Object {
+                  "cache": [Circular],
+                  "dataIdFromObject": [Function],
+                  "possibleTypes": undefined,
+                  "typePolicies": Object {},
+                },
+                "fuzzySubtypes": Map {},
+                "rootIdsByTypename": Object {
+                  "Mutation": "ROOT_MUTATION",
+                  "Query": "ROOT_QUERY",
+                  "Subscription": "ROOT_SUBSCRIPTION",
+                },
+                "rootTypenamesById": Object {
+                  "ROOT_MUTATION": "Mutation",
+                  "ROOT_QUERY": "Query",
+                  "ROOT_SUBSCRIPTION": "Subscription",
+                },
+                "supertypeMap": Map {},
+                "toBeAdded": Object {},
+                "typePolicies": Object {
+                  "Query": Object {
+                    "fields": Object {},
+                  },
+                },
+                "usingPossibleTypes": false,
+              },
+              "refs": Object {},
+              "rootIds": Object {
+                "ROOT_QUERY": 1,
+              },
+              "sharedLayerGroup": CacheGroup {
+                "caching": true,
+                "d": [Function],
+                "keyMaker": Trie {
+                  "makeData": [Function],
+                  "weakness": true,
+                },
+              },
+              "storageTrie": Trie {
+                "makeData": [Function],
+                "weakness": true,
+              },
+              "toReference": [Function],
+            },
+            "policies": Policies {
+              "cache": [Circular],
+              "config": Object {
+                "cache": [Circular],
+                "dataIdFromObject": [Function],
+                "possibleTypes": undefined,
+                "typePolicies": Object {},
+              },
+              "fuzzySubtypes": Map {},
+              "rootIdsByTypename": Object {
+                "Mutation": "ROOT_MUTATION",
+                "Query": "ROOT_QUERY",
+                "Subscription": "ROOT_SUBSCRIPTION",
+              },
+              "rootTypenamesById": Object {
+                "ROOT_MUTATION": "Mutation",
+                "ROOT_QUERY": "Query",
+                "ROOT_SUBSCRIPTION": "Subscription",
+              },
+              "supertypeMap": Map {},
+              "toBeAdded": Object {},
+              "typePolicies": Object {
+                "Query": Object {
+                  "fields": Object {},
+                },
+              },
+              "usingPossibleTypes": false,
+            },
+            "reset": [Function],
+            "storeReader": StoreReader {
+              "config": Object {
+                "addTypename": false,
+                "cache": [Circular],
+              },
+              "executeSelectionSet": [Function],
+              "executeSubSelectedArray": [Function],
+              "knownResults": WeakMap {},
+            },
+            "storeWriter": StoreWriter {
+              "cache": [Circular],
+              "reader": StoreReader {
+                "config": Object {
+                  "addTypename": false,
+                  "cache": [Circular],
+                },
+                "executeSelectionSet": [Function],
+                "executeSubSelectedArray": [Function],
+                "knownResults": WeakMap {},
+              },
+            },
+            "txCount": 0,
+            "typenameDocumentCache": Map {},
+            "watchDep": [Function],
+            "watches": Set {
+              Object {
+                "callback": [Function],
+                "optimistic": true,
+                "query": Object {
+                  "definitions": Array [
+                    Object {
+                      "directives": Array [],
+                      "kind": "OperationDefinition",
+                      "name": undefined,
+                      "operation": "query",
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "urgencyBar",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "info",
+                                  },
+                                  "selectionSet": Object {
+                                    "kind": "SelectionSet",
+                                    "selections": Array [
+                                      Object {
+                                        "alias": undefined,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "title",
+                                        },
+                                        "selectionSet": undefined,
+                                      },
+                                      Object {
+                                        "alias": undefined,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "subtitle",
+                                        },
+                                        "selectionSet": undefined,
+                                      },
+                                      Object {
+                                        "alias": undefined,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "description",
+                                        },
+                                        "selectionSet": undefined,
+                                      },
+                                    ],
+                                  },
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "percentage",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "variableDefinitions": Array [],
+                    },
+                  ],
+                  "kind": "Document",
+                  "loc": Object {
+                    "end": 127,
+                    "start": 0,
+                  },
+                },
+                "variables": Object {},
+              },
+            },
+          },
+          "clientAwareness": Object {
+            "name": undefined,
+            "version": undefined,
+          },
+          "fetchCancelFns": Map {},
+          "inFlightLinkObservables": Map {},
+          "link": MockLink {
+            "addTypename": false,
+            "mockedResponsesByKey": Object {
+              "{\\"query\\":\\"{\\\\n  urgencyBar {\\\\n    info {\\\\n      title\\\\n      subtitle\\\\n      description\\\\n    }\\\\n    percentage\\\\n  }\\\\n}\\\\n\\"}": Array [],
+            },
+            "operation": Object {
+              "extensions": Object {},
+              "operationName": undefined,
+              "query": Object {
+                "definitions": Array [
+                  Object {
+                    "directives": Array [],
+                    "kind": "OperationDefinition",
+                    "name": undefined,
+                    "operation": "query",
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "urgencyBar",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "info",
+                                },
+                                "selectionSet": Object {
+                                  "kind": "SelectionSet",
+                                  "selections": Array [
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "title",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "subtitle",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "description",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                  ],
+                                },
+                              },
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "percentage",
+                                },
+                                "selectionSet": undefined,
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                    "variableDefinitions": Array [],
+                  },
+                ],
+                "kind": "Document",
+                "loc": Object {
+                  "end": 127,
+                  "start": 0,
+                },
+              },
+              "variables": Object {},
+            },
+          },
+          "localState": LocalState {
+            "cache": InMemoryCache {
+              "addTypename": false,
+              "config": Object {
+                "addTypename": false,
+                "dataIdFromObject": [Function],
+                "resultCaching": true,
+                "typePolicies": Object {},
+              },
+              "data": Root {
+                "canRead": [Function],
+                "data": Object {
+                  "ROOT_QUERY": Object {
+                    "__typename": "Query",
+                    "urgencyBar": Object {
+                      "info": Object {
+                        "description": "Test description",
+                        "subtitle": "Test subtitle",
+                        "title": "Test title",
+                      },
+                      "percentage": 65,
+                    },
+                  },
+                },
+                "getFieldValue": [Function],
+                "group": CacheGroup {
+                  "caching": true,
+                  "d": [Function],
+                  "keyMaker": Trie {
+                    "makeData": [Function],
+                    "weak": WeakMap {},
+                    "weakness": true,
+                  },
+                },
+                "policies": Policies {
+                  "cache": [Circular],
+                  "config": Object {
+                    "cache": [Circular],
+                    "dataIdFromObject": [Function],
+                    "possibleTypes": undefined,
+                    "typePolicies": Object {},
+                  },
+                  "fuzzySubtypes": Map {},
+                  "rootIdsByTypename": Object {
+                    "Mutation": "ROOT_MUTATION",
+                    "Query": "ROOT_QUERY",
+                    "Subscription": "ROOT_SUBSCRIPTION",
+                  },
+                  "rootTypenamesById": Object {
+                    "ROOT_MUTATION": "Mutation",
+                    "ROOT_QUERY": "Query",
+                    "ROOT_SUBSCRIPTION": "Subscription",
+                  },
+                  "supertypeMap": Map {},
+                  "toBeAdded": Object {},
+                  "typePolicies": Object {
+                    "Query": Object {
+                      "fields": Object {},
+                    },
+                  },
+                  "usingPossibleTypes": false,
+                },
+                "refs": Object {},
+                "rootIds": Object {
+                  "ROOT_QUERY": 1,
+                },
+                "sharedLayerGroup": CacheGroup {
+                  "caching": true,
+                  "d": [Function],
+                  "keyMaker": Trie {
+                    "makeData": [Function],
+                    "weakness": true,
+                  },
+                },
+                "storageTrie": Trie {
+                  "makeData": [Function],
+                  "weakness": true,
+                },
+                "toReference": [Function],
+              },
+              "evict": [Function],
+              "getFragmentDoc": [Function],
+              "makeVar": [Function],
+              "maybeBroadcastWatch": [Function],
+              "modify": [Function],
+              "optimisticData": Root {
+                "canRead": [Function],
+                "data": Object {
+                  "ROOT_QUERY": Object {
+                    "__typename": "Query",
+                    "urgencyBar": Object {
+                      "info": Object {
+                        "description": "Test description",
+                        "subtitle": "Test subtitle",
+                        "title": "Test title",
+                      },
+                      "percentage": 65,
+                    },
+                  },
+                },
+                "getFieldValue": [Function],
+                "group": CacheGroup {
+                  "caching": true,
+                  "d": [Function],
+                  "keyMaker": Trie {
+                    "makeData": [Function],
+                    "weak": WeakMap {},
+                    "weakness": true,
+                  },
+                },
+                "policies": Policies {
+                  "cache": [Circular],
+                  "config": Object {
+                    "cache": [Circular],
+                    "dataIdFromObject": [Function],
+                    "possibleTypes": undefined,
+                    "typePolicies": Object {},
+                  },
+                  "fuzzySubtypes": Map {},
+                  "rootIdsByTypename": Object {
+                    "Mutation": "ROOT_MUTATION",
+                    "Query": "ROOT_QUERY",
+                    "Subscription": "ROOT_SUBSCRIPTION",
+                  },
+                  "rootTypenamesById": Object {
+                    "ROOT_MUTATION": "Mutation",
+                    "ROOT_QUERY": "Query",
+                    "ROOT_SUBSCRIPTION": "Subscription",
+                  },
+                  "supertypeMap": Map {},
+                  "toBeAdded": Object {},
+                  "typePolicies": Object {
+                    "Query": Object {
+                      "fields": Object {},
+                    },
+                  },
+                  "usingPossibleTypes": false,
+                },
+                "refs": Object {},
+                "rootIds": Object {
+                  "ROOT_QUERY": 1,
+                },
+                "sharedLayerGroup": CacheGroup {
+                  "caching": true,
+                  "d": [Function],
+                  "keyMaker": Trie {
+                    "makeData": [Function],
+                    "weakness": true,
+                  },
+                },
+                "storageTrie": Trie {
+                  "makeData": [Function],
+                  "weakness": true,
+                },
+                "toReference": [Function],
+              },
+              "policies": Policies {
+                "cache": [Circular],
+                "config": Object {
+                  "cache": [Circular],
+                  "dataIdFromObject": [Function],
+                  "possibleTypes": undefined,
+                  "typePolicies": Object {},
+                },
+                "fuzzySubtypes": Map {},
+                "rootIdsByTypename": Object {
+                  "Mutation": "ROOT_MUTATION",
+                  "Query": "ROOT_QUERY",
+                  "Subscription": "ROOT_SUBSCRIPTION",
+                },
+                "rootTypenamesById": Object {
+                  "ROOT_MUTATION": "Mutation",
+                  "ROOT_QUERY": "Query",
+                  "ROOT_SUBSCRIPTION": "Subscription",
+                },
+                "supertypeMap": Map {},
+                "toBeAdded": Object {},
+                "typePolicies": Object {
+                  "Query": Object {
+                    "fields": Object {},
+                  },
+                },
+                "usingPossibleTypes": false,
+              },
+              "reset": [Function],
+              "storeReader": StoreReader {
+                "config": Object {
+                  "addTypename": false,
+                  "cache": [Circular],
+                },
+                "executeSelectionSet": [Function],
+                "executeSubSelectedArray": [Function],
+                "knownResults": WeakMap {},
+              },
+              "storeWriter": StoreWriter {
+                "cache": [Circular],
+                "reader": StoreReader {
+                  "config": Object {
+                    "addTypename": false,
+                    "cache": [Circular],
+                  },
+                  "executeSelectionSet": [Function],
+                  "executeSubSelectedArray": [Function],
+                  "knownResults": WeakMap {},
+                },
+              },
+              "txCount": 0,
+              "typenameDocumentCache": Map {},
+              "watchDep": [Function],
+              "watches": Set {
+                Object {
+                  "callback": [Function],
+                  "optimistic": true,
+                  "query": Object {
+                    "definitions": Array [
+                      Object {
+                        "directives": Array [],
+                        "kind": "OperationDefinition",
+                        "name": undefined,
+                        "operation": "query",
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "urgencyBar",
+                              },
+                              "selectionSet": Object {
+                                "kind": "SelectionSet",
+                                "selections": Array [
+                                  Object {
+                                    "alias": undefined,
+                                    "arguments": Array [],
+                                    "directives": Array [],
+                                    "kind": "Field",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "info",
+                                    },
+                                    "selectionSet": Object {
+                                      "kind": "SelectionSet",
+                                      "selections": Array [
+                                        Object {
+                                          "alias": undefined,
+                                          "arguments": Array [],
+                                          "directives": Array [],
+                                          "kind": "Field",
+                                          "name": Object {
+                                            "kind": "Name",
+                                            "value": "title",
+                                          },
+                                          "selectionSet": undefined,
+                                        },
+                                        Object {
+                                          "alias": undefined,
+                                          "arguments": Array [],
+                                          "directives": Array [],
+                                          "kind": "Field",
+                                          "name": Object {
+                                            "kind": "Name",
+                                            "value": "subtitle",
+                                          },
+                                          "selectionSet": undefined,
+                                        },
+                                        Object {
+                                          "alias": undefined,
+                                          "arguments": Array [],
+                                          "directives": Array [],
+                                          "kind": "Field",
+                                          "name": Object {
+                                            "kind": "Name",
+                                            "value": "description",
+                                          },
+                                          "selectionSet": undefined,
+                                        },
+                                      ],
+                                    },
+                                  },
+                                  Object {
+                                    "alias": undefined,
+                                    "arguments": Array [],
+                                    "directives": Array [],
+                                    "kind": "Field",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "percentage",
+                                    },
+                                    "selectionSet": undefined,
+                                  },
+                                ],
+                              },
+                            },
+                          ],
+                        },
+                        "variableDefinitions": Array [],
+                      },
+                    ],
+                    "kind": "Document",
+                    "loc": Object {
+                      "end": 127,
+                      "start": 0,
+                    },
+                  },
+                  "variables": Object {},
+                },
+              },
+            },
+            "client": [Circular],
+          },
+          "mutationIdCounter": 1,
+          "mutationStore": Object {},
+          "onBroadcast": [Function],
+          "queries": Map {
+            "1" => QueryInfo {
+              "cache": InMemoryCache {
+                "addTypename": false,
+                "config": Object {
+                  "addTypename": false,
+                  "dataIdFromObject": [Function],
+                  "resultCaching": true,
+                  "typePolicies": Object {},
+                },
+                "data": Root {
+                  "canRead": [Function],
+                  "data": Object {
+                    "ROOT_QUERY": Object {
+                      "__typename": "Query",
+                      "urgencyBar": Object {
+                        "info": Object {
+                          "description": "Test description",
+                          "subtitle": "Test subtitle",
+                          "title": "Test title",
+                        },
+                        "percentage": 65,
+                      },
+                    },
+                  },
+                  "getFieldValue": [Function],
+                  "group": CacheGroup {
+                    "caching": true,
+                    "d": [Function],
+                    "keyMaker": Trie {
+                      "makeData": [Function],
+                      "weak": WeakMap {},
+                      "weakness": true,
+                    },
+                  },
+                  "policies": Policies {
+                    "cache": [Circular],
+                    "config": Object {
+                      "cache": [Circular],
+                      "dataIdFromObject": [Function],
+                      "possibleTypes": undefined,
+                      "typePolicies": Object {},
+                    },
+                    "fuzzySubtypes": Map {},
+                    "rootIdsByTypename": Object {
+                      "Mutation": "ROOT_MUTATION",
+                      "Query": "ROOT_QUERY",
+                      "Subscription": "ROOT_SUBSCRIPTION",
+                    },
+                    "rootTypenamesById": Object {
+                      "ROOT_MUTATION": "Mutation",
+                      "ROOT_QUERY": "Query",
+                      "ROOT_SUBSCRIPTION": "Subscription",
+                    },
+                    "supertypeMap": Map {},
+                    "toBeAdded": Object {},
+                    "typePolicies": Object {
+                      "Query": Object {
+                        "fields": Object {},
+                      },
+                    },
+                    "usingPossibleTypes": false,
+                  },
+                  "refs": Object {},
+                  "rootIds": Object {
+                    "ROOT_QUERY": 1,
+                  },
+                  "sharedLayerGroup": CacheGroup {
+                    "caching": true,
+                    "d": [Function],
+                    "keyMaker": Trie {
+                      "makeData": [Function],
+                      "weakness": true,
+                    },
+                  },
+                  "storageTrie": Trie {
+                    "makeData": [Function],
+                    "weakness": true,
+                  },
+                  "toReference": [Function],
+                },
+                "evict": [Function],
+                "getFragmentDoc": [Function],
+                "makeVar": [Function],
+                "maybeBroadcastWatch": [Function],
+                "modify": [Function],
+                "optimisticData": Root {
+                  "canRead": [Function],
+                  "data": Object {
+                    "ROOT_QUERY": Object {
+                      "__typename": "Query",
+                      "urgencyBar": Object {
+                        "info": Object {
+                          "description": "Test description",
+                          "subtitle": "Test subtitle",
+                          "title": "Test title",
+                        },
+                        "percentage": 65,
+                      },
+                    },
+                  },
+                  "getFieldValue": [Function],
+                  "group": CacheGroup {
+                    "caching": true,
+                    "d": [Function],
+                    "keyMaker": Trie {
+                      "makeData": [Function],
+                      "weak": WeakMap {},
+                      "weakness": true,
+                    },
+                  },
+                  "policies": Policies {
+                    "cache": [Circular],
+                    "config": Object {
+                      "cache": [Circular],
+                      "dataIdFromObject": [Function],
+                      "possibleTypes": undefined,
+                      "typePolicies": Object {},
+                    },
+                    "fuzzySubtypes": Map {},
+                    "rootIdsByTypename": Object {
+                      "Mutation": "ROOT_MUTATION",
+                      "Query": "ROOT_QUERY",
+                      "Subscription": "ROOT_SUBSCRIPTION",
+                    },
+                    "rootTypenamesById": Object {
+                      "ROOT_MUTATION": "Mutation",
+                      "ROOT_QUERY": "Query",
+                      "ROOT_SUBSCRIPTION": "Subscription",
+                    },
+                    "supertypeMap": Map {},
+                    "toBeAdded": Object {},
+                    "typePolicies": Object {
+                      "Query": Object {
+                        "fields": Object {},
+                      },
+                    },
+                    "usingPossibleTypes": false,
+                  },
+                  "refs": Object {},
+                  "rootIds": Object {
+                    "ROOT_QUERY": 1,
+                  },
+                  "sharedLayerGroup": CacheGroup {
+                    "caching": true,
+                    "d": [Function],
+                    "keyMaker": Trie {
+                      "makeData": [Function],
+                      "weakness": true,
+                    },
+                  },
+                  "storageTrie": Trie {
+                    "makeData": [Function],
+                    "weakness": true,
+                  },
+                  "toReference": [Function],
+                },
+                "policies": Policies {
+                  "cache": [Circular],
+                  "config": Object {
+                    "cache": [Circular],
+                    "dataIdFromObject": [Function],
+                    "possibleTypes": undefined,
+                    "typePolicies": Object {},
+                  },
+                  "fuzzySubtypes": Map {},
+                  "rootIdsByTypename": Object {
+                    "Mutation": "ROOT_MUTATION",
+                    "Query": "ROOT_QUERY",
+                    "Subscription": "ROOT_SUBSCRIPTION",
+                  },
+                  "rootTypenamesById": Object {
+                    "ROOT_MUTATION": "Mutation",
+                    "ROOT_QUERY": "Query",
+                    "ROOT_SUBSCRIPTION": "Subscription",
+                  },
+                  "supertypeMap": Map {},
+                  "toBeAdded": Object {},
+                  "typePolicies": Object {
+                    "Query": Object {
+                      "fields": Object {},
+                    },
+                  },
+                  "usingPossibleTypes": false,
+                },
+                "reset": [Function],
+                "storeReader": StoreReader {
+                  "config": Object {
+                    "addTypename": false,
+                    "cache": [Circular],
+                  },
+                  "executeSelectionSet": [Function],
+                  "executeSubSelectedArray": [Function],
+                  "knownResults": WeakMap {},
+                },
+                "storeWriter": StoreWriter {
+                  "cache": [Circular],
+                  "reader": StoreReader {
+                    "config": Object {
+                      "addTypename": false,
+                      "cache": [Circular],
+                    },
+                    "executeSelectionSet": [Function],
+                    "executeSubSelectedArray": [Function],
+                    "knownResults": WeakMap {},
+                  },
+                },
+                "txCount": 0,
+                "typenameDocumentCache": Map {},
+                "watchDep": [Function],
+                "watches": Set {
+                  Object {
+                    "callback": [Function],
+                    "optimistic": true,
+                    "query": Object {
+                      "definitions": Array [
+                        Object {
+                          "directives": Array [],
+                          "kind": "OperationDefinition",
+                          "name": undefined,
+                          "operation": "query",
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "urgencyBar",
+                                },
+                                "selectionSet": Object {
+                                  "kind": "SelectionSet",
+                                  "selections": Array [
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "info",
+                                      },
+                                      "selectionSet": Object {
+                                        "kind": "SelectionSet",
+                                        "selections": Array [
+                                          Object {
+                                            "alias": undefined,
+                                            "arguments": Array [],
+                                            "directives": Array [],
+                                            "kind": "Field",
+                                            "name": Object {
+                                              "kind": "Name",
+                                              "value": "title",
+                                            },
+                                            "selectionSet": undefined,
+                                          },
+                                          Object {
+                                            "alias": undefined,
+                                            "arguments": Array [],
+                                            "directives": Array [],
+                                            "kind": "Field",
+                                            "name": Object {
+                                              "kind": "Name",
+                                              "value": "subtitle",
+                                            },
+                                            "selectionSet": undefined,
+                                          },
+                                          Object {
+                                            "alias": undefined,
+                                            "arguments": Array [],
+                                            "directives": Array [],
+                                            "kind": "Field",
+                                            "name": Object {
+                                              "kind": "Name",
+                                              "value": "description",
+                                            },
+                                            "selectionSet": undefined,
+                                          },
+                                        ],
+                                      },
+                                    },
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "percentage",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                  ],
+                                },
+                              },
+                            ],
+                          },
+                          "variableDefinitions": Array [],
+                        },
+                      ],
+                      "kind": "Document",
+                      "loc": Object {
+                        "end": 127,
+                        "start": 0,
+                      },
+                    },
+                    "variables": Object {},
+                  },
+                },
+              },
+              "cancel": [Function],
+              "diff": Object {
+                "complete": true,
+                "missing": undefined,
+                "result": Object {
+                  "urgencyBar": Object {
+                    "info": Object {
+                      "description": "Test description",
+                      "subtitle": "Test subtitle",
+                      "title": "Test title",
+                    },
+                    "percentage": 65,
+                  },
+                },
+              },
+              "dirty": false,
+              "document": Object {
+                "definitions": Array [
+                  Object {
+                    "directives": Array [],
+                    "kind": "OperationDefinition",
+                    "name": undefined,
+                    "operation": "query",
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "urgencyBar",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "info",
+                                },
+                                "selectionSet": Object {
+                                  "kind": "SelectionSet",
+                                  "selections": Array [
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "title",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "subtitle",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "description",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                  ],
+                                },
+                              },
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "percentage",
+                                },
+                                "selectionSet": undefined,
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                    "variableDefinitions": Array [],
+                  },
+                ],
+                "kind": "Document",
+                "loc": Object {
+                  "end": 127,
+                  "start": 0,
+                },
+              },
+              "graphQLErrors": Array [],
+              "lastRequestId": 1,
+              "lastWatch": Object {
+                "callback": [Function],
+                "optimistic": true,
+                "query": Object {
+                  "definitions": Array [
+                    Object {
+                      "directives": Array [],
+                      "kind": "OperationDefinition",
+                      "name": undefined,
+                      "operation": "query",
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "urgencyBar",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "info",
+                                  },
+                                  "selectionSet": Object {
+                                    "kind": "SelectionSet",
+                                    "selections": Array [
+                                      Object {
+                                        "alias": undefined,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "title",
+                                        },
+                                        "selectionSet": undefined,
+                                      },
+                                      Object {
+                                        "alias": undefined,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "subtitle",
+                                        },
+                                        "selectionSet": undefined,
+                                      },
+                                      Object {
+                                        "alias": undefined,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "description",
+                                        },
+                                        "selectionSet": undefined,
+                                      },
+                                    ],
+                                  },
+                                },
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "percentage",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "variableDefinitions": Array [],
+                    },
+                  ],
+                  "kind": "Document",
+                  "loc": Object {
+                    "end": 127,
+                    "start": 0,
+                  },
+                },
+                "variables": Object {},
+              },
+              "lastWrite": Object {
+                "dmCount": 0,
+                "result": Object {
+                  "data": Object {
+                    "urgencyBar": Object {
+                      "info": Object {
+                        "description": "Test description",
+                        "subtitle": "Test subtitle",
+                        "title": "Test title",
+                      },
+                      "percentage": 65,
+                    },
+                  },
+                },
+                "variables": Object {},
+              },
+              "listeners": Set {
+                [Function],
+              },
+              "networkError": undefined,
+              "networkStatus": 7,
+              "observableQuery": ObservableQuery {
+                "_subscriber": [Function],
+                "isTornDown": false,
+                "lastResult": Object {
+                  "data": Object {
+                    "urgencyBar": Object {
+                      "info": Object {
+                        "description": "Test description",
+                        "subtitle": "Test subtitle",
+                        "title": "Test title",
+                      },
+                      "percentage": 65,
+                    },
+                  },
+                  "loading": false,
+                  "networkStatus": 7,
+                },
+                "lastResultSnapshot": Object {
+                  "data": Object {
+                    "urgencyBar": Object {
+                      "info": Object {
+                        "description": "Test description",
+                        "subtitle": "Test subtitle",
+                        "title": "Test title",
+                      },
+                      "percentage": 65,
+                    },
+                  },
+                  "loading": false,
+                  "networkStatus": 7,
+                },
+                "observer": Object {
+                  "error": [Function],
+                  "next": [Function],
+                },
+                "observers": Set {
+                  SubscriptionObserver {
+                    "_subscription": Subscription {
+                      "_cleanup": [Function],
+                      "_observer": Object {
+                        "error": [Function],
+                        "next": [Function],
+                      },
+                      "_queue": undefined,
+                      "_state": "ready",
+                    },
+                  },
+                },
+                "options": Object {
+                  "context": undefined,
+                  "displayName": "Query",
+                  "notifyOnNetworkStatusChange": false,
+                  "query": Object {
+                    "definitions": Array [
+                      Object {
+                        "directives": Array [],
+                        "kind": "OperationDefinition",
+                        "name": undefined,
+                        "operation": "query",
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "urgencyBar",
+                              },
+                              "selectionSet": Object {
+                                "kind": "SelectionSet",
+                                "selections": Array [
+                                  Object {
+                                    "alias": undefined,
+                                    "arguments": Array [],
+                                    "directives": Array [],
+                                    "kind": "Field",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "info",
+                                    },
+                                    "selectionSet": Object {
+                                      "kind": "SelectionSet",
+                                      "selections": Array [
+                                        Object {
+                                          "alias": undefined,
+                                          "arguments": Array [],
+                                          "directives": Array [],
+                                          "kind": "Field",
+                                          "name": Object {
+                                            "kind": "Name",
+                                            "value": "title",
+                                          },
+                                          "selectionSet": undefined,
+                                        },
+                                        Object {
+                                          "alias": undefined,
+                                          "arguments": Array [],
+                                          "directives": Array [],
+                                          "kind": "Field",
+                                          "name": Object {
+                                            "kind": "Name",
+                                            "value": "subtitle",
+                                          },
+                                          "selectionSet": undefined,
+                                        },
+                                        Object {
+                                          "alias": undefined,
+                                          "arguments": Array [],
+                                          "directives": Array [],
+                                          "kind": "Field",
+                                          "name": Object {
+                                            "kind": "Name",
+                                            "value": "description",
+                                          },
+                                          "selectionSet": undefined,
+                                        },
+                                      ],
+                                    },
+                                  },
+                                  Object {
+                                    "alias": undefined,
+                                    "arguments": Array [],
+                                    "directives": Array [],
+                                    "kind": "Field",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "percentage",
+                                    },
+                                    "selectionSet": undefined,
+                                  },
+                                ],
+                              },
+                            },
+                          ],
+                        },
+                        "variableDefinitions": Array [],
+                      },
+                    ],
+                    "kind": "Document",
+                    "loc": Object {
+                      "end": 127,
+                      "start": 0,
+                    },
+                  },
+                  "variables": Object {},
+                },
+                "queryId": "1",
+                "queryInfo": [Circular],
+                "queryManager": [Circular],
+                "queryName": undefined,
+                "reobserver": Reobserver {
+                  "concast": Concast {
+                    "_subscriber": [Function],
+                    "addCount": 1,
+                    "cancel": [Function],
+                    "handlers": Object {
+                      "complete": [Function],
+                      "error": [Function],
+                      "next": [Function],
+                    },
+                    "latest": Array [
+                      "next",
+                      Object {
+                        "data": Object {
+                          "urgencyBar": Object {
+                            "info": Object {
+                              "description": "Test description",
+                              "subtitle": "Test subtitle",
+                              "title": "Test title",
+                            },
+                            "percentage": 65,
+                          },
+                        },
+                        "loading": false,
+                        "networkStatus": 7,
+                      },
+                    ],
+                    "observers": Set {
+                      Object {
+                        "error": [Function],
+                        "next": [Function],
+                      },
+                    },
+                    "promise": Promise {},
+                    "reject": [Function],
+                    "resolve": [Function],
+                    "sources": Array [],
+                    "sub": null,
+                  },
+                  "fetch": [Function],
+                  "observer": Object {
+                    "error": [Function],
+                    "next": [Function],
+                  },
+                  "options": Object {
+                    "context": undefined,
+                    "displayName": "Query",
+                    "notifyOnNetworkStatusChange": false,
+                    "query": Object {
+                      "definitions": Array [
+                        Object {
+                          "directives": Array [],
+                          "kind": "OperationDefinition",
+                          "name": undefined,
+                          "operation": "query",
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "urgencyBar",
+                                },
+                                "selectionSet": Object {
+                                  "kind": "SelectionSet",
+                                  "selections": Array [
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "info",
+                                      },
+                                      "selectionSet": Object {
+                                        "kind": "SelectionSet",
+                                        "selections": Array [
+                                          Object {
+                                            "alias": undefined,
+                                            "arguments": Array [],
+                                            "directives": Array [],
+                                            "kind": "Field",
+                                            "name": Object {
+                                              "kind": "Name",
+                                              "value": "title",
+                                            },
+                                            "selectionSet": undefined,
+                                          },
+                                          Object {
+                                            "alias": undefined,
+                                            "arguments": Array [],
+                                            "directives": Array [],
+                                            "kind": "Field",
+                                            "name": Object {
+                                              "kind": "Name",
+                                              "value": "subtitle",
+                                            },
+                                            "selectionSet": undefined,
+                                          },
+                                          Object {
+                                            "alias": undefined,
+                                            "arguments": Array [],
+                                            "directives": Array [],
+                                            "kind": "Field",
+                                            "name": Object {
+                                              "kind": "Name",
+                                              "value": "description",
+                                            },
+                                            "selectionSet": undefined,
+                                          },
+                                        ],
+                                      },
+                                    },
+                                    Object {
+                                      "alias": undefined,
+                                      "arguments": Array [],
+                                      "directives": Array [],
+                                      "kind": "Field",
+                                      "name": Object {
+                                        "kind": "Name",
+                                        "value": "percentage",
+                                      },
+                                      "selectionSet": undefined,
+                                    },
+                                  ],
+                                },
+                              },
+                            ],
+                          },
+                          "variableDefinitions": Array [],
+                        },
+                      ],
+                      "kind": "Document",
+                      "loc": Object {
+                        "end": 127,
+                        "start": 0,
+                      },
+                    },
+                    "variables": Object {},
+                  },
+                  "shouldFetch": [Function],
+                },
+                "subscriptions": Set {},
+              },
+              "oqListener": [Function],
+              "stopped": false,
+              "subscriptions": Set {},
+              "variables": Object {},
+            },
+          },
+          "queryDeduplication": true,
+          "queryIdCounter": 2,
+          "requestIdCounter": 2,
+          "ssrMode": false,
+          "transformCache": WeakMap {},
+        },
+        "reFetchObservableQueries": [Function],
+        "resetStore": [Function],
+        "resetStoreCallbacks": Array [],
+        "typeDefs": undefined,
+        "version": "3.3.11",
+        "watchQuery": [Function],
+      }
+    }
+  >
+    <UrgencyBar>
+      <div
+        className="px-3 pt-4 pb-5 text-white bg-secondary md:flex md:gap-8 md:justify-between md:items-center md:py-6 md:pl-8 md:pr-6"
+      >
+        <div
+          className="flex items-center mb-5 font-serif text-2xl md:mb-0"
+        >
+          <span
+            aria-level={2}
+            className="mr-6 font-bold leading-tight md:mr-3"
+            role="heading"
+            style={
+              Object {
+                "maxWidth": "7.5rem",
+              }
+            }
+          >
+            Test title
+          </span>
+          <span
+            aria-level={3}
+            role="heading"
+          >
+            Test subtitle
+          </span>
+        </div>
+        <div
+          className="md:flex-grow"
+          style={
+            Object {
+              "maxWidth": "41.875rem",
+            }
+          }
+        >
+          <ReactMarkdown
+            className="mb-3 text-sm font-normal tracking-wider uppercase md:flex-shrink-0"
+            plugins={
+              Array [
+                [Function],
+              ]
+            }
+            transformLinkUri={[Function]}
+          >
+            <Root
+              className="mb-3 text-sm font-normal tracking-wider uppercase md:flex-shrink-0"
+              key="root-1-1-0"
+              node={
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "position": Object {
+                            "end": Object {
+                              "column": 17,
+                              "line": 1,
+                              "offset": 16,
+                            },
+                            "start": Object {
+                              "column": 1,
+                              "line": 1,
+                              "offset": 0,
+                            },
+                          },
+                          "type": "text",
+                          "value": "Test description",
+                        },
+                      ],
+                      "position": Object {
+                        "end": Object {
+                          "column": 17,
+                          "line": 1,
+                          "offset": 16,
+                        },
+                        "start": Object {
+                          "column": 1,
+                          "line": 1,
+                          "offset": 0,
+                        },
+                      },
+                      "type": "paragraph",
+                    },
+                  ],
+                  "position": Object {
+                    "end": Object {
+                      "column": 17,
+                      "line": 1,
+                      "offset": 16,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 1,
+                      "offset": 0,
+                    },
+                  },
+                  "type": "root",
+                }
+              }
+            >
+              <div
+                className="mb-3 text-sm font-normal tracking-wider uppercase md:flex-shrink-0"
+              >
+                <p
+                  key="paragraph-1-1-0"
+                >
+                  <TextRenderer
+                    key="text-1-1-0"
+                    node={
+                      Object {
+                        "position": Object {
+                          "end": Object {
+                            "column": 17,
+                            "line": 1,
+                            "offset": 16,
+                          },
+                          "start": Object {
+                            "column": 1,
+                            "line": 1,
+                            "offset": 0,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Test description",
+                      }
+                    }
+                    nodeKey="text-1-1-0"
+                    value="Test description"
+                  >
+                    Test description
+                  </TextRenderer>
+                </p>
+              </div>
+            </Root>
+          </ReactMarkdown>
+          <div
+            className="md:flex md:gap-4"
+          >
+            <div
+              aria-valuemax={100}
+              aria-valuemin={0}
+              aria-valuenow={0}
+              className="relative w-full h-4 mb-2 md:mb-0"
+              role="progressbar"
+            >
+              <div
+                className="absolute top-0 left-0 h-4 transition-all duration-1000 ease-out rounded-lg"
+                style={
+                  Object {
+                    "background": "linear-gradient(90deg, #83ac9f 0%, #eaa107 84%, #c14635 160%)",
+                    "width": "0%",
+                  }
+                }
+              />
+              <div
+                className="h-4 bg-white rounded-lg opacity-20"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </UrgencyBar>
+  </ApolloProvider>
+</MockedProvider>
+`;

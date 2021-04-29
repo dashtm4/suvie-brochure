@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeExplorePlansAndHealthSection /> should renders correct <HomeExplorePlansAndHealthSection /> 1`] = `
+<section
+  className="relative pt-10 text-center text-white bg-secondary pb-13 md:text-left md:pt-25"
+>
+  <Wave />
+  <Container>
+    <Row
+      className="items-center mb-25 md:mb-21"
+    >
+      <Col
+        className="w-full md:w-1/2"
+      >
+        <Image
+          height="75"
+          src="/images/smart-meals-icon.svg"
+          width="75"
+        />
+        <SectionTitle
+          alignMd="left"
+          className="mb-8 md:mb-3"
+          theme="dark"
+        >
+          Suvie 
+          <strong
+            className="font-bold"
+          >
+            Smart Meals
+          </strong>
+          <br />
+          save you more time
+        </SectionTitle>
+        <div
+          className="mb-6 md:max-w-md md:mb-4"
+        >
+          With flexible plans and delivered directly to your door, Smart Meals come in special packaging that eliminates prep and cleanup.
+        </div>
+        <ul
+          className="text-lg mb-9 md:mb-4"
+        >
+          <li
+            key="✓ Optional Plans"
+          >
+            ✓ Optional Plans
+          </li>
+          <li
+            key="✓ Easy Cleanup"
+          >
+            ✓ Easy Cleanup
+          </li>
+          <li
+            key="✓ Scan-And-Cook Prep"
+          >
+            ✓ Scan-And-Cook Prep
+          </li>
+        </ul>
+        <ButtonLink
+          className="hidden max-w-full md:inline-block w-51"
+          href="/smart-meals/"
+        >
+          Explore The Plans
+        </ButtonLink>
+      </Col>
+      <div
+        className="w-full md:px-3 md:w-1/2"
+      >
+        <VideoCard
+          className="mb-8"
+          videoSrc="https://embed-ssl.wistia.com/deliveries/5dc7c5a673060cd21db8f5b6c7938476c9cd82a3.m3u8"
+        />
+        <div
+          className="px-3 md:px-0"
+        >
+          <ButtonLink
+            className="block max-w-full mx-auto w-51 md:hidden"
+            href="/smart-meals/"
+          >
+            Explore The Plans
+          </ButtonLink>
+        </div>
+      </div>
+    </Row>
+    <Row
+      className="items-center justify-between"
+    >
+      <div
+        className="w-full mb-4 md:mb-0 md:w-1/2 md:order-1"
+      >
+        <SectionTitle
+          className="mb-4 md:hidden"
+          theme="dark"
+        >
+          Make it easier to live 
+          <br />
+           a healthier lifestyle
+        </SectionTitle>
+        <VideoGalleryCard
+          activeVideoIndex={0}
+          setActiveVideoIndex={[Function]}
+          videos={
+            Array [
+              "https://embed-ssl.wistia.com/deliveries/6f5758ad2a8bb6b12c4c9ad476cedc40e923f817.m3u8",
+              "https://embed-ssl.wistia.com/deliveries/b9176cf2935c6580283f6af4a2598362f4ffea7e.m3u8",
+              "https://embed-ssl.wistia.com/deliveries/d873c8f38acf7df46844c6b828503c31d32313d9.m3u8",
+            ]
+          }
+        />
+      </div>
+      <div
+        className="w-full text-center md:w-5/12 md:px-3 md:order-0 md:text-left"
+      >
+        <SectionTitle
+          alignMd="left"
+          className="hidden md:block md:mb-6"
+          theme="dark"
+        >
+          Make it easier to live 
+          <br />
+           a healthier lifestyle
+        </SectionTitle>
+        <HorizontalTabs
+          className="mb-4 md:mb-6"
+          onSelect={[Function]}
+          selectedIndex={0}
+        >
+          <HorizontalTabsList>
+            <HorizontalTabsListItem
+              key="Ditch Takeout"
+            >
+              Ditch Takeout
+            </HorizontalTabsListItem>
+            <HorizontalTabsListItem
+              key="Lower Calories"
+            >
+              Lower Calories
+            </HorizontalTabsListItem>
+            <HorizontalTabsListItem
+              key="Certified Balanced"
+            >
+              Certified Balanced
+            </HorizontalTabsListItem>
+          </HorizontalTabsList>
+          <HorizontalTabsPanel
+            key="Ditch Takeout"
+          >
+            Suvie lets you cook more food at home by making it fast and easy to cook balanced meals with our ingredients or yours.
+          </HorizontalTabsPanel>
+          <HorizontalTabsPanel
+            key="Lower Calories"
+          >
+            Because Suvie features water-based cooking methods like sous vide and steaming, it makes it easier to eat healthier.
+          </HorizontalTabsPanel>
+          <HorizontalTabsPanel
+            key="Certified Balanced"
+          >
+            Suvie Smart Meals come with dozens of Certified Balanced Meal options, which are certified by our nutritional experts.
+          </HorizontalTabsPanel>
+        </HorizontalTabs>
+        <ButtonLink
+          className="max-w-full mx-auto w-51"
+          href="/health/"
+        >
+          Explore Health
+        </ButtonLink>
+      </div>
+    </Row>
+  </Container>
+  <Wave
+    position="bottom"
+    style={
+      Object {
+        "zIndex": 1,
+      }
+    }
+  />
+</section>
+`;

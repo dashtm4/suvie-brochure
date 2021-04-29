@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FiltersGroupDelimiter /> should renders correct <FiltersGroupDelimiter /> 1`] = `
+<div
+  className="hidden md:block md:border md:border-left md:border-secondary"
+/>
+`;

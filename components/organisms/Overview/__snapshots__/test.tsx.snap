@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Overview /> should renders correct <Overview /> 1`] = `
+<div
+  className="text-center"
+>
+  <Typography
+    className="mb-5"
+    theme="light"
+    variant="subtitle1"
+  >
+    <span
+      className="font-normal"
+    />
+     
+    <span
+      className="font-medium"
+    />
+  </Typography>
+  <Typography
+    className="mb-5 font-normal"
+    theme="light"
+    variant="subtitle2"
+  >
+    TestSubtitle
+    <br
+      className="hidden md:block"
+    />
+     
+  </Typography>
+  <Typography
+    className="font-light"
+    theme="light"
+  />
+</div>
+`;

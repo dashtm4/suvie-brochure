@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SiteHead /> should renders correct <SiteHead /> 1`] = `
+<Head>
+  <title>
+    Suvie | Your Countertop Kitchen Robot
+  </title>
+  <meta
+    content="Your Countertop Kitchen Robot"
+    name="description"
+  />
+  <link
+    href="/images/favicon.png"
+    rel="shortcut icon"
+    type="image/jpg"
+  />
+</Head>
+`;
+
+exports[`<SiteHead /> should renders correct <SiteHead /> with custom description 1`] = `
+<Head>
+  <title>
+    Suvie | Your Countertop Kitchen Robot
+  </title>
+  <meta
+    content="Test description"
+    name="description"
+  />
+  <link
+    href="/images/favicon.png"
+    rel="shortcut icon"
+    type="image/jpg"
+  />
+</Head>
+`;
+
+exports[`<SiteHead /> should renders correct <SiteHead /> with custom title 1`] = `
+<Head>
+  <title>
+    Test test | Suvie
+  </title>
+  <meta
+    content="Your Countertop Kitchen Robot"
+    name="description"
+  />
+  <link
+    href="/images/favicon.png"
+    rel="shortcut icon"
+    type="image/jpg"
+  />
+</Head>
+`;

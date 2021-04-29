@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Col /> should render correct html with default props 1`] = `
+<div
+  className="px-3 w-full"
+>
+  test
+</div>
+`;
+
+exports[`<Col /> should render correct html with not default className prop 1`] = `
+<div
+  className="px-3 mb-10"
+>
+  test
+</div>
+`;
+
+exports[`<Col /> should renders children 1`] = `
+<div
+  className="px-3 w-full"
+>
+  test
+</div>
+`;

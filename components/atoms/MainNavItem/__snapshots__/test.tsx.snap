@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainNavItem /> should has correct className with smallOnMobile prop 1`] = `
+<li
+  className="flex items-center font-serif font-normal text-secondary xl:text-lg hover:text-primary-dark text-lg"
+  key="Test title"
+>
+  <Link
+    href="/"
+  >
+    <a
+      className="block py-2 px-6 w-full xl:px-4"
+    >
+      Test title
+    </a>
+  </Link>
+</li>
+`;
+
+exports[`<MainNavItem /> should has correct className without smallOnMobile prop 1`] = `
+<li
+  className="flex items-center font-serif font-normal text-secondary xl:text-lg hover:text-primary-dark text-4xl"
+  key="Test title"
+>
+  <Link
+    href="/"
+  >
+    <a
+      className="block py-2 px-6 w-full xl:px-4"
+    >
+      Test title
+    </a>
+  </Link>
+</li>
+`;
+
+exports[`<MainNavItem /> should render correct html of external link 1`] = `
+<li
+  className="flex items-center font-serif font-normal text-secondary xl:text-lg hover:text-primary-dark text-4xl"
+  key="Test title"
+>
+  <a
+    aria-label="Test title - opens in new window"
+    className="block py-2 px-6 w-full xl:px-4"
+    href="/"
+    rel="noreferrer"
+    target="_blank"
+  >
+    Test title
+  </a>
+</li>
+`;
+
+exports[`<MainNavItem /> should render correct html of external link with correct rel attribute 1`] = `
+<li
+  className="flex items-center font-serif font-normal text-secondary xl:text-lg hover:text-primary-dark text-4xl"
+  key="Test title"
+>
+  <a
+    aria-label="Test title - opens in new window"
+    className="block py-2 px-6 w-full xl:px-4"
+    href="/"
+    rel="help"
+    target="_blank"
+  >
+    Test title
+  </a>
+</li>
+`;
+
+exports[`<MainNavItem /> should render correct html of external link with correct target attribute 1`] = `
+<li
+  className="flex items-center font-serif font-normal text-secondary xl:text-lg hover:text-primary-dark text-4xl"
+  key="Test title"
+>
+  <a
+    aria-label="Test title"
+    className="block py-2 px-6 w-full xl:px-4"
+    href="/"
+    rel="noreferrer"
+    target="_parent"
+  >
+    Test title
+  </a>
+</li>
+`;
+
+exports[`<MainNavItem /> should render correct html with default props 1`] = `
+<li
+  className="flex items-center font-serif font-normal text-secondary xl:text-lg hover:text-primary-dark text-4xl"
+  key="Test title"
+>
+  <Link
+    href="/"
+  >
+    <a
+      className="block py-2 px-6 w-full xl:px-4"
+    >
+      Test title
+    </a>
+  </Link>
+</li>
+`;

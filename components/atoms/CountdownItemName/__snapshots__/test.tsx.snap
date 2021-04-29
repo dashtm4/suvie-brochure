@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountdownItemName /> should renders correct <CountdownItemName /> 1`] = `
+<div
+  className="font-serif text-sm font-normal tracking-tighter text-white uppercase"
+>
+  Test children
+</div>
+`;

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeHeroSection /> should renders correct <HomeHeroSection /> 1`] = `
+<section
+  className="relative pt-12 pb-20 text-center bg-center bg-no-repeat bg-cover bg-secondary md:text-left md:pt-28 md:pb-27"
+>
+  <figure
+    className="absolute inset-0 z-0"
+    role="none"
+    style={
+      Object {
+        "background": "url(/images/home-page/hero-background.jpg) 78% 50%/cover no-repeat",
+      }
+    }
+  >
+    <VideoPlayer
+      autoplay={false}
+      className="absolute inset-0 object-cover w-full h-full"
+      controls={false}
+      loop={true}
+      muted={true}
+      playerRef={
+        Object {
+          "current": null,
+        }
+      }
+      playsInline={true}
+      url="https://embed-ssl.wistia.com/deliveries/455e9880b0791c23c8cab107a91880f7c2e0beaa.m3u8"
+    />
+  </figure>
+  <div
+    className="absolute inset-0 z-0"
+    style={
+      Object {
+        "background": "linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 58%)",
+      }
+    }
+  />
+  <Container
+    className="relative"
+  >
+    <div
+      className="md:flex md:flex-col md:items-start"
+      role="banner"
+      style={
+        Object {
+          "maxWidth": "36.5rem",
+        }
+      }
+    >
+      <Badge
+        className="mb-3 md:order-0"
+      >
+        New 2nd Generation Suvie
+      </Badge>
+      <PageTitle
+        className="mb-60 md:mb-5 md:order-1"
+        fontSizeClassName="text-5xl md:text-7xl"
+      >
+        Your countertop kitchen robot
+      </PageTitle>
+      <div
+        className="mb-4 text-lg font-normal text-white md:order-3 md:max-w-xs"
+      >
+        Created to help you save time and eat well, the new Suvie makes life easier.
+      </div>
+      <button
+        className="inline-flex items-center justify-center text-sm font-bold tracking-widest text-white uppercase focus:outline-none focus:text-primary-dark md:order-2 hover:text-primary-default md:mb-7"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          aria-label="presentation"
+          className="mr-3"
+        >
+          Watch video
+        </span>
+        <Image
+          alt=""
+          height="50"
+          src="/images/home-page/play-icon.svg"
+          width="50"
+        />
+      </button>
+    </div>
+  </Container>
+</section>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LearnMoreModal /> should renders correct <LearnMoreModal /> 1`] = `
+<VideoModal
+  posterSrc="image.jpg"
+  toggleModal={[MockFunction]}
+  videoSrc="video.jpg"
+>
+  <h3
+    className="mb-4 font-serif font-normal text-center text-secondary md:text-left"
+    style={
+      Object {
+        "fontSize": "2rem",
+      }
+    }
+  >
+    Test title
+  </h3>
+  <div
+    className="mb-4 text-center text-quinary md:text-left"
+  >
+    Test description
+  </div>
+  <Button
+    className="hidden mx-auto max-w-full md:inline-block w-50 md:mx-0"
+    onClick={[MockFunction]}
+    theme="outline"
+  >
+    Close window
+  </Button>
+</VideoModal>
+`;

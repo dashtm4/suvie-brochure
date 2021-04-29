@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RobotTechnicalSpecs /> should renders correct <RobotTechnicalSpecs /> 1`] = `
+<section
+  className="robot-technical-specs"
+>
+  <Layout
+    className="px-4 md:mx-20"
+    mode="container-full"
+  >
+    <h2
+      className="mb-6 font-serif text-4xl font-normal text-center text-primary md:mb-11"
+    >
+      Technical Specs
+    </h2>
+    <div
+      className="grid grid-cols-1 lg:grid-cols-3"
+    >
+      <div
+        className="mx-auto text-center lg:text-left mb-20 md:mb-0 md:px-4 overview"
+      >
+        <div
+          className="mb-11 md:mb-6"
+          role="presentation"
+        >
+          <Image
+            alt=""
+            height={454}
+            src="/images/kitchen-robot/technical-specs.png"
+            width={400}
+          />
+        </div>
+        <Typography
+          className="font-normal text-octonary"
+        >
+          The Suvie System takes up less space than typical microwave and most smart ovens.
+        </Typography>
+      </div>
+      <div>
+        <div
+          className="mx-auto mb-6 text-center lg:text-left md:px-4 spec"
+          key="0"
+        >
+          <Typography
+            className="font-normal"
+            variant="subtitle3"
+          >
+            Dimensions
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="0"
+          >
+            Full Suvie System: 25” W x 19”D x 17”H
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="1"
+          >
+            Suvie Kitchen Robot: 13” W x 19”D x 17”H
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="2"
+          >
+            Suvie Starch Cooker: 11” W x 16.5”D x 16”H
+          </Typography>
+        </div>
+        <div
+          className="mx-auto mb-6 text-center lg:text-left md:px-4 spec"
+          key="1"
+        >
+          <Typography
+            className="font-normal"
+            variant="subtitle3"
+          >
+            Weight
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="0"
+          >
+            Suvie Kitchen Robot: 55lbs
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="1"
+          >
+            Suvie Starch Cooker: 25lbs
+          </Typography>
+        </div>
+        <div
+          className="mx-auto mb-6 text-center lg:text-left md:px-4 spec"
+          key="2"
+        >
+          <Typography
+            className="font-normal"
+            variant="subtitle3"
+          >
+            Electricity
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="0"
+          >
+            Suvie Kitchen Robot: 1400W (110V / 15A)
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="1"
+          >
+            Suvie Starch Cooker: 1100W (110V / 15A)
+          </Typography>
+        </div>
+        <div
+          className="mx-auto mb-6 text-center lg:text-left md:px-4 spec"
+          key="3"
+        >
+          <Typography
+            className="font-normal"
+            variant="subtitle3"
+          >
+            Materials
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="0"
+          >
+            FDA Approved Food Contact Materials
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="1"
+          >
+            Quartz Heating Elements
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="2"
+          >
+            Stainless Steel Pans
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="3"
+          >
+            Premium Stainless Steel Housing
+          </Typography>
+        </div>
+      </div>
+      <div>
+        <div
+          className="mx-auto mb-6 text-center lg:text-left md:px-4 spec"
+          key="0"
+        >
+          <Typography
+            className="font-normal"
+            variant="subtitle3"
+          >
+            Capacity
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="0"
+          >
+            Suvie Oven Pans: 1.75L per Zone (2x Zones)
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="1"
+          >
+            Starch Pot: 3L
+          </Typography>
+        </div>
+        <div
+          className="mx-auto mb-6 text-center lg:text-left md:px-4 spec"
+          key="1"
+        >
+          <Typography
+            className="font-normal"
+            variant="subtitle3"
+          >
+            Display
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="0"
+          >
+            Suvie Kitchen Robot: 3.5" Color LCD Screen, Resolution 480 x 320
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="1"
+          >
+            Suvie Starch Cooker: 2.4” Color LCD Screen, Resolution 320 x 240
+          </Typography>
+        </div>
+        <div
+          className="mx-auto mb-6 text-center lg:text-left md:px-4 spec"
+          key="2"
+        >
+          <Typography
+            className="font-normal"
+            variant="subtitle3"
+          >
+            Mobile App
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="0"
+          >
+            Works with iOS devices running version 10.0 and later, and Android devices running version 5.0 and later.
+          </Typography>
+        </div>
+        <div
+          className="mx-auto mb-6 text-center lg:text-left md:px-4 spec"
+          key="3"
+        >
+          <Typography
+            className="font-normal"
+            variant="subtitle3"
+          >
+            Safety
+          </Typography>
+          <Typography
+            className="font-light text-octonary"
+            key="0"
+          >
+            Product Safety Consulting Inc.
+          </Typography>
+        </div>
+      </div>
+    </div>
+  </Layout>
+</section>
+`;

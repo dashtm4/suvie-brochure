@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeSealsSection /> should renders correct <HomeSealsSection /> 1`] = `
+<section
+  className="relative pt-5 pb-16 bg-white md:pt-4 md:pb-9"
+>
+  <Wave
+    colorName="white"
+  />
+  <Container>
+    <div
+      className="flex flex-wrap justify-center gap-y-4 gap-x-13"
+    >
+      <div
+        className="flex-shrink-0 w-26 md:relative"
+        role="presentation"
+        style={
+          Object {
+            "top": "-35px",
+          }
+        }
+      >
+        <Image
+          alt="Multi-zone cooking"
+          height="130"
+          src="/images/home-page/multi-zone-cooking.svg"
+          width="130"
+        />
+      </div>
+      <div
+        className="flex-shrink-0 w-26 md:relative"
+        role="presentation"
+        style={
+          Object {
+            "top": "-10px",
+          }
+        }
+      >
+        <Image
+          alt="Dinner ready - 25 minutes"
+          height="130"
+          src="/images/dinner-ready-25-minutes.svg"
+          width="130"
+        />
+      </div>
+      <div
+        className="flex-shrink-0 w-26"
+        role="presentation"
+      >
+        <Image
+          alt="Cool to cook technology"
+          height="130"
+          src="/images/cool-to-cook-technology.svg"
+          width="130"
+        />
+      </div>
+      <div
+        className="flex-shrink-0 w-26 md:relative"
+        role="presentation"
+        style={
+          Object {
+            "top": "-10px",
+          }
+        }
+      >
+        <Image
+          alt="Serviced 4+ adults"
+          height="130"
+          src="/images/home-page/services-4-plus-adults.svg"
+          width="130"
+        />
+      </div>
+    </div>
+  </Container>
+</section>
+`;

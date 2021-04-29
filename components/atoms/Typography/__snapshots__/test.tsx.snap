@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography /> should renders correct <Typography /> 1`] = `
+<div
+  className="text-secondary"
+/>
+`;

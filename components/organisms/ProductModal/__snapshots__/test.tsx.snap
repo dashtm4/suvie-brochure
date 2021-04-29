@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductModal /> should renders correct <ProductModal /> 1`] = `
+<GalleryModal
+  gallery={
+    Array [
+      "image-1.jpg",
+      "image-2.jpg",
+    ]
+  }
+  toggleModal={[MockFunction]}
+>
+  <ReviewsTotal
+    className="mb-2"
+    description="744 reviews"
+    starsNumber={5}
+  />
+  <h3
+    className="mb-3 font-serif font-medium tracking-tight font-secondary"
+    style={
+      Object {
+        "fontSize": "2rem",
+      }
+    }
+  >
+    Test title
+  </h3>
+  <div
+    className="mb-5 text-quinary"
+  >
+    Suvie is your time-saving 15-in-1 kitchen robot system.
+  </div>
+  <ProductCardProperties
+    className="mb-3 text-left"
+    properties={
+      Array [
+        Object {
+          "item": "Test include",
+        },
+      ]
+    }
+    title="Includes"
+  />
+  <ProductCardProperties
+    className="mb-6 text-left"
+    properties={
+      Array [
+        Object {
+          "item": "Test accessory",
+        },
+      ]
+    }
+    title="Accessories"
+  />
+  <div
+    className="mb-3 font-serif text-2xl font-normal"
+  >
+    <div
+      className="flex items-baseline font-serif text-2xl font-normal gap-x-2"
+    >
+      <span
+        role="none"
+      >
+        $
+        1000
+      </span>
+    </div>
+    <div
+      className="font-serif text-2xl font-normal"
+    >
+      $
+      50
+      /month*
+    </div>
+  </div>
+  <ButtonLink
+    className="w-full mb-3"
+    href="example.com"
+    isExternal={true}
+  >
+    Buy now
+  </ButtonLink>
+  <div
+    className="text-septenary"
+  >
+    * 
+     Starting at 0% APR with Affirm.
+  </div>
+</GalleryModal>
+`;

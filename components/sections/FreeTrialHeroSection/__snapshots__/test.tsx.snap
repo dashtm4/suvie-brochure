@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FreeTrialHeroSection /> should renders correct <FreeTrialHeroSection /> 1`] = `
+<section
+  className="h-73 md:h-88 free-trial-hero-section"
+>
+  <Layout
+    className="flex items-center justify-center"
+  >
+    <h1
+      className="font-serif text-4xl font-normal text-white md:text-7xl"
+    >
+      <span
+        className="hidden md:block"
+      >
+        100-day risk-free trial
+      </span>
+      <span
+        className="md:hidden"
+      >
+        Cook a meal with a risk-free trial
+      </span>
+    </h1>
+  </Layout>
+</section>
+`;

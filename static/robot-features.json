@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Cool-to-Cook",
+    "description": "The only smart countertop appliance that automatically refrigerates then cooks your food.",
+    "image": "/images/robot-features/cool-to-cook.svg"
+  },
+  {
+    "title": "Frozen-to-Cook",
+    "description": "Go from frozen to fully cooked in 25 minutes with fast cooking speeds and a radiating heat element.",
+    "image": "/images/robot-features/frozen-to-cook.svg"
+  },
+  {
+    "title": "Defrost",
+    "description": "Quickly defrost your food and seamlessly transition to cooking.",
+    "image": "/images/robot-features/defrost.svg"
+  },
+  {
+    "title": "Roast",
+    "description": "High temperature roasting is ideal for crispy vegetables and perfect chicken.",
+    "image": "/images/robot-features/roast.svg"
+  },
+  {
+    "title": "Broil",
+    "description": "Upgraded broil function lets you add a gorgeous finish to your meal.",
+    "image": "/images/robot-features/broil.svg"
+  },
+  {
+    "title": "Bake",
+    "description": "New cook mode allows you to bake up to 450F.",
+    "image": "/images/robot-features/bake.svg"
+  },
+  {
+    "title": "Sous vide",
+    "description": "Water-based cooking for perfect proteins cooked at a low temp for a long duration of time.",
+    "image": "/images/robot-features/sous-vide.svg"
+  },
+  {
+    "title": "Slow Cook",
+    "description": "Low, slow, and hands-off cooking for delicious soups, stews, and short rib.",
+    "image": "/images/robot-features/slow-cook.svg"
+  },
+  {
+    "title": "Steam",
+    "description": "Gently cook fish, prepare vegetables without oil, or steam your favorite dumplings.",
+    "image": "/images/robot-features/steam.svg"
+  },
+  {
+    "title": "Reheat",
+    "description": "The pan heaters can be used to quickly reheat full meals in seconds.",
+    "image": "/images/robot-features/reheat.svg"
+  },
+  {
+    "title": "Egg Cooker",
+    "description": "With the optional egg tray, cook your most creative egg breakfast options.",
+    "image": "/images/robot-features/egg-cooker.svg"
+  }
+]

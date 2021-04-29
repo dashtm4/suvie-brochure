@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Recipes /> should renders correct <Recipes /> 1`] = `
+<div
+  className=""
+>
+  <FiltersGroup
+    className="mb-10 md:mb-11"
+  />
+  <div
+    className="md:grid md:grid-cols-3 md:gap-5 xl:gap-10"
+  />
+</div>
+`;

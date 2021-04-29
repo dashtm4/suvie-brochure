@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeSaveUpTimeSection /> should renders correct <HomeSaveUpTimeSection /> 1`] = `
+<section
+  className="relative pt-10 text-center text-white pb-22 md:pt-21"
+  style={
+    Object {
+      "backgroundImage": "linear-gradient(180deg, #1f2837 -8%, #141921 70%)",
+    }
+  }
+>
+  <Wave />
+  <Container>
+    <div
+      className="md:max-w-xl md:mx-auto"
+    >
+      <SectionTitle
+        className="mb-4 md:mb-5"
+        theme="dark"
+      >
+        Save up to 6 hours per week
+      </SectionTitle>
+      <div
+        className="mb-9 md:text-lg md:mb-13"
+      >
+        Suvie features two revolutionary cooking modes that save you time whether you’re planning hours ahead or need dinner in 25 minutes.
+      </div>
+    </div>
+    <div
+      className="mx-auto mb-14 md:mb-24"
+      style={
+        Object {
+          "maxWidth": "1090px",
+        }
+      }
+    >
+      <Row>
+        <div
+          className="w-full mb-12 -px-3 last:mb-0 md:w-1/2 md:px-3 md:mb-0"
+          key="Scheduled Cool-to-Cook"
+        >
+          <MediaCard
+            description="Cool-to-cook technology keeps your meal safely refrigerated until it's time to start cooking. Enter your mealtime whenever you're ready, and Suvie does the rest."
+            tags={
+              Array [
+                "Plan ahead",
+              ]
+            }
+            title="Scheduled Cool-to-Cook"
+            videoSrc="https://embed-ssl.wistia.com/deliveries/2c9991f4bfe135f2a423fe3d82b606570c77cd78.m3u8"
+          />
+        </div>
+        <div
+          className="w-full mb-12 -px-3 last:mb-0 md:w-1/2 md:px-3 md:mb-0"
+          key="25 Minute Rapid Cook"
+        >
+          <MediaCard
+            description="With Suvie's rapid cook mode, you can go from fully frozen ingredients to dinner on the table in as little as 25 minutes."
+            tags={
+              Array [
+                "Didn’t plan?",
+              ]
+            }
+            title="25 Minute Rapid Cook"
+            videoSrc="https://embed-ssl.wistia.com/deliveries/62db371976b644fb2150cc69f2a7942aa987525b.m3u8"
+          />
+        </div>
+      </Row>
+    </div>
+    <div
+      className="mb-3 md:mb-5"
+      role="presentation"
+    >
+      <Image
+        alt="Suvie"
+        height="211"
+        src="/images/suvie-seal.png"
+        width="211"
+      />
+    </div>
+    <div
+      className="md:flex md:flex-col"
+    >
+      <SectionTitle
+        className="mb-4 md:mb-2 md:order-0"
+        theme="dark"
+      >
+         Try Suvie risk free with a 100-day home trial.
+      </SectionTitle>
+      <ButtonLink
+        className="max-w-full mb-3 w-51 md:mx-auto md:order-2"
+        href="/shop-page/"
+      >
+        Buy now
+      </ButtonLink>
+      <StartingAtWithAffirm
+        className="hidden md:block md:order-3"
+      />
+      <StartingAt
+        className="md:order-1 md:mb-3"
+      />
+    </div>
+  </Container>
+  <Wave
+    colorHex="#141921"
+    position="bottom"
+    style={
+      Object {
+        "zIndex": 1,
+      }
+    }
+  />
+</section>
+`;

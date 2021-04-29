@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Countdown /> should renders correct <Countdown /> 1`] = `
+<div
+  className="flex justify-center gap-3"
+>
+  <CountdownItem>
+    <CountdownItemValue>
+      10
+    </CountdownItemValue>
+    <CountdownItemName>
+      DAY
+    </CountdownItemName>
+  </CountdownItem>
+  <CountdownItem>
+    <CountdownItemValue>
+      12
+    </CountdownItemValue>
+    <CountdownItemName>
+      HR
+    </CountdownItemName>
+  </CountdownItem>
+  <CountdownItem>
+    <CountdownItemValue>
+      30
+    </CountdownItemValue>
+    <CountdownItemName>
+      MIN
+    </CountdownItemName>
+  </CountdownItem>
+  <CountdownItem>
+    <CountdownItemValue>
+      59
+    </CountdownItemValue>
+    <CountdownItemName>
+      SEC
+    </CountdownItemName>
+  </CountdownItem>
+</div>
+`;
+
+exports[`<Countdown /> should renders correct <Countdown /> with zero pad values 1`] = `
+<div
+  className="flex justify-center gap-3"
+>
+  <CountdownItem>
+    <CountdownItemValue>
+      01
+    </CountdownItemValue>
+    <CountdownItemName>
+      DAY
+    </CountdownItemName>
+  </CountdownItem>
+  <CountdownItem>
+    <CountdownItemValue>
+      02
+    </CountdownItemValue>
+    <CountdownItemName>
+      HR
+    </CountdownItemName>
+  </CountdownItem>
+  <CountdownItem>
+    <CountdownItemValue>
+      03
+    </CountdownItemValue>
+    <CountdownItemName>
+      MIN
+    </CountdownItemName>
+  </CountdownItem>
+  <CountdownItem>
+    <CountdownItemValue>
+      04
+    </CountdownItemValue>
+    <CountdownItemName>
+      SEC
+    </CountdownItemName>
+  </CountdownItem>
+</div>
+`;

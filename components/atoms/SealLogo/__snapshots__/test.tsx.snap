@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SealLogo /> should render correct <SealLogo /> 1`] = `
+<Link
+  href="/"
+>
+  <a
+    className="block"
+  >
+    <Image
+      alt="Suvie"
+      height={165}
+      src="/images/suvie-seal.png"
+      width={165}
+    />
+  </a>
+</Link>
+`;

@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KitchenRobotForthSection /> should renders correct <KitchenRobotForthSection /> 1`] = `
+<section
+  className="md:pb-36 bg-gray-150 pb-18 kitchen-robot-forth-section"
+>
+  <div
+    className="relative mb-9 h-80 md:h-160 md:mb-18"
+  >
+    <div
+      className="absolute inset-0"
+    >
+      <Video
+        className="h-full"
+        src={
+          Object {
+            "imageSrc": "/images/kitchen-robot/precision-cooking--intro.jpg",
+            "videoSrc": "",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative h-full intro"
+    >
+      <Layout>
+        <Introduction
+          className="pt-0 md:pt-53"
+          content={
+            Object {
+              "content": "Precise temperature control is essential for cooking proteins using the sous vide method - or proofing bread before baking. Our patented water jacketed technology and strategically placed heaters rapidly, and consistently control the temperature of both cooking chambers. This ensures everything from delicate filets of salmon to melt-in-your-mouth short ribs are perfectly cooked, everytime.",
+              "title": "Precision Cooking. Water Powered.",
+            }
+          }
+          theme="dark"
+        >
+          <div
+            className="hidden md:block"
+            role="presentation"
+          >
+            <Image
+              alt=""
+              height={150}
+              src="/images/kitchen-robot/precision-cooking--seal.svg"
+              width={150}
+            />
+          </div>
+        </Introduction>
+      </Layout>
+    </div>
+  </div>
+  <Layout>
+    <div
+      className="mb-10 text-center md:hidden"
+    >
+      <Typography
+        className="mb-3"
+        variant="title"
+      >
+        Precision Cooking. Water Powered.
+      </Typography>
+      <Typography>
+        Precise temperature control is essential for cooking proteins using the sous vide method - or proofing bread before baking. Our patented water jacketed technology and strategically placed heaters rapidly, and consistently control the temperature of both cooking chambers. This ensures everything from delicate filets of salmon to melt-in-your-mouth short ribs are perfectly cooked, everytime.
+      </Typography>
+    </div>
+  </Layout>
+  <div
+    className="mb-20 md:mb-0"
+  >
+    <ResponsiveSegment
+      segment={
+        Array [
+          <VerticalView
+            className="pr-0 md:pr-12 md:w-1/2 md:mb-24"
+            content={
+              Object {
+                "content": "Circulate precision temperature-controlled water. Ensures perfectly cooked proteins without any risk of overcooking. Proteins are vacuum sealed and placed in a gentle water bath to lock in juices during cooking. Enjoy tender steaks, delicate salmon, and juicy chicken with this culinary technique.",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/sous-vide--icon.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "",
+                  "videoSrc": "https://embed-ssl.wistia.com/deliveries/15393c1764420a1fa5d6cfe84d3f6923fed5a928.m3u8",
+                },
+                "title": "Sous-Vide",
+              }
+            }
+          />,
+          <VerticalView
+            className="pl-0 md:pl-12 md:w-1/2 md:mb-24"
+            content={
+              Object {
+                "content": "Create perfect braises with this low and slow cooking method without spending hours standing over a stove. Gently heat tough cuts of meat for hours melt in your mouth delicious. This method is also great for making soups, stews, or even dried beans. (You can even make cheesecakes with the precision temperature control)",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/slow-cook--icon.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "",
+                  "videoSrc": "https://embed-ssl.wistia.com/deliveries/fe6036404caab3a78ae1da363eb9d5ec32e80568.m3u8",
+                },
+                "title": "Slow Cook",
+              }
+            }
+          />,
+          <HorizontalView
+            className="md:mb-24"
+            content={
+              Object {
+                "content": "Crunchy vegetables cooked to perfection with no oil or gently cooked fish. Go from cool-to-cook to steaming, just set the time and have nutrition packed food cooked to perfection. Steam is perfect for gently cooking green beans, broccoli, or carrots without using any fats or oils. You can also steam your favorite dumplings, gyoza, or steamed buns.",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/steam--icon.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "",
+                  "videoSrc": "https://embed-ssl.wistia.com/deliveries/e89243c20c80d8d60d68ee9e4bb548aa7963b04a.m3u8",
+                },
+                "title": "Steam",
+              }
+            }
+          />,
+        ]
+      }
+    />
+  </div>
+  <Layout>
+    <Typography
+      className="mb-8 text-center md:mb-14"
+      variant="title"
+    >
+      And do more.
+    </Typography>
+  </Layout>
+  <ResponsiveSegment
+    segment={
+      Array [
+        <HorizontalView
+          className="md:mb-21"
+          content={
+            Object {
+              "content": "With the optional silicone egg tray, make Sous Vide egg bites ready to eat for breakfast. Choose the fillings for your own sous vide egg bites with our egg pan accessory. This weighted, food-grade silicone pan can cook 4 sous vide egg bites with as many fillings as you can think of. From bacon and gruyere to spinach and feta the choice is yours. You can also use the egg pan to soft-boil, hard-boil, or poach eggs.",
+              "iconSrc": Object {
+                "height": 48,
+                "src": "/images/kitchen-robot/breakfast-eggs--icon.svg",
+                "width": 48,
+              },
+              "src": Object {
+                "imageSrc": "",
+                "videoSrc": "https://embed-ssl.wistia.com/deliveries/45c320755a5d7864bcb4d0aff48b235b2faf5aa7.m3u8",
+              },
+              "title": "Breakfast & Eggs",
+            }
+          }
+          direction="reverse"
+        >
+          <Memo(Badge)
+            className="hidden mt-8 md:inline-block"
+            theme="light--transparent"
+          >
+            ADD-ON
+          </Memo(Badge)>
+        </HorizontalView>,
+        <HorizontalView
+          content={
+            Object {
+              "content": "Gently reheat food without drying it out and turning it into mush. Use the scheduling feature to keep food cold throughout the day, and then heat your food when you come home for dinner. Add a broil or bake at the end to crisp up any toppings.",
+              "iconSrc": Object {
+                "height": 48,
+                "src": "/images/kitchen-robot/warm-reheat--icon.svg",
+                "width": 48,
+              },
+              "src": Object {
+                "imageSrc": "/images/kitchen-robot/warm-reheat.jpg",
+                "videoSrc": "",
+              },
+              "title": "Warm and Reheat",
+            }
+          }
+        />,
+      ]
+    }
+  />
+</section>
+`;

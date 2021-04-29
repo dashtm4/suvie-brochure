@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HorizontalTabsListItem /> should has correct className with light theme 1`] = `
+<Tab
+  className="text-center md:text-left text-opacity-25 pb-2 md:px-2 cursor-pointer flex-grow text-black"
+  disabledClassName="react-tabs__tab--disabled"
+  focus={false}
+  id={null}
+  panelId={null}
+  selected={false}
+  selectedClassName="react-tabs__tab--selected"
+  tabIndex="0"
+>
+  Test children
+</Tab>
+`;
+
+exports[`<HorizontalTabsListItem /> should renders correct <HorizontalTabsListItem /> 1`] = `
+<Tab
+  className="text-center md:text-left text-opacity-25 pb-2 md:px-2 cursor-pointer flex-grow text-white"
+  disabledClassName="react-tabs__tab--disabled"
+  focus={false}
+  id={null}
+  panelId={null}
+  selected={false}
+  selectedClassName="react-tabs__tab--selected"
+  tabIndex="0"
+>
+  Test children
+</Tab>
+`;

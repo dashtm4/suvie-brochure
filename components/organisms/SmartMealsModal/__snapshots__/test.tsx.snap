@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SmartMealsModal /> should renders correct <SmartMealsModal /> 1`] = `
+<GalleryModal
+  gallery={
+    Array [
+      "image.jpg",
+    ]
+  }
+  toggleModal={[MockFunction]}
+>
+  <h3
+    className="font-serif font-medium font-secondary tracking-tight mb-3"
+    style={
+      Object {
+        "fontSize": "2rem",
+      }
+    }
+  >
+    Test Smart Meals title
+  </h3>
+  <div
+    className="text-quinary mb-3"
+  />
+  <ProductCardProperties
+    className="text-left mb-5"
+    properties={
+      Array [
+        Object {
+          "item": "Test plan 1",
+        },
+        Object {
+          "item": "Test plan 2",
+        },
+      ]
+    }
+    title="Plans"
+  />
+  <div
+    className="font-serif font-normal text-2xl mb-3"
+  >
+    Starting at $
+    10
+    /serving*
+  </div>
+  <ButtonLink
+    className="w-full mb-3"
+    href="/smart-meals/"
+  >
+    Learn More
+  </ButtonLink>
+  <div
+    className="text-septenary"
+  >
+    * 
+    Test note
+  </div>
+</GalleryModal>
+`;

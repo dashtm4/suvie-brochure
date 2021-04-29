@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionTitle /> should has className from className prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl test-class-name text-secondary text-center"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should has className from fontSizeClassName prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal test-font-size-class-name text-secondary text-center"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should has correct className with align center prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl text-secondary text-center"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should has correct className with align left prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl text-secondary text-left"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should has correct className with align right prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl text-secondary text-right"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should has correct className with alignMd center prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl text-secondary text-center md:text-center"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should has correct className with alignMd left prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl text-secondary text-center md:text-left"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should has correct className with alignMd right prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl text-secondary text-center md:text-right"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should has correct className with dark theme prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl text-white text-center"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should has correct className with dark themeMd prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl text-secondary md:text-white text-center"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should has correct className with light theme prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl text-secondary text-center"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should has correct className with light themeMd prop 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl text-secondary md:text-secondary text-center"
+>
+  Test children
+</h2>
+`;
+
+exports[`<SectionTitle /> should renders correct <SectionTitle /> 1`] = `
+<h2
+  className="font-serif font-normal tracking-tighter text-center md:tracking-normal text-2xl md:text-4xl text-secondary text-center"
+>
+  Test children
+</h2>
+`;

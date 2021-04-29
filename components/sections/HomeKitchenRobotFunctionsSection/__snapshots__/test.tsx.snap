@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeKitchenRobotFunctionsSection /> should renders correct <HomeKitchenRobotFunctionsSection /> 1`] = `
+<section
+  className="relative pb-5 text-center"
+  style={
+    Object {
+      "backgroundColor": "#ebebeb",
+    }
+  }
+>
+  <div
+    className="bg-center bg-repeat bg-cover"
+    style={
+      Object {
+        "backgroundImage": "linear-gradient(0deg, #EBEBEB 14%, rgba(235, 235, 235, 0.1) 42%), url(/images/home-page/home-kitchen-robot-functions-section-background.jpg)",
+        "height": "43.75rem",
+      }
+    }
+  />
+  <Container
+    className="-mt-20"
+    style={
+      Object {
+        "maxWidth": "61.25rem",
+      }
+    }
+  >
+    <Image
+      height="75"
+      src="/images/suvie-kitchen-robot-icon.svg"
+      width="75"
+    />
+    <SectionTitle
+      className="mb-5 md:mb-10"
+    >
+      <span
+        className="block mb-2"
+        style={
+          Object {
+            "fontSize": "1.5rem",
+          }
+        }
+      >
+        Suvie 
+        <strong>
+          Kitchen Robot
+        </strong>
+      </span>
+      Less space than your microwave.
+    </SectionTitle>
+  </Container>
+  <Wave
+    colorHex="#ebebeb"
+    position="bottom"
+    style={
+      Object {
+        "zIndex": 1,
+      }
+    }
+  />
+</section>
+`;

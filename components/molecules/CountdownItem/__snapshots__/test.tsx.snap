@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountdownItem /> should renders correct <CountdownItem /> 1`] = `
+<div
+  className="w-8"
+>
+  Test children
+</div>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SiteHeader /> should renders correct <SiteHeader /> 1`] = `
+<div
+  className="sticky top-0 z-40"
+  style={
+    Object {
+      "boxShadow": "0px 0px 25px rgba(0, 0, 0, 0.1)",
+    }
+  }
+>
+  <header
+    className="bg-white p-3 xl:flex xl:justify-between xl:items-center xl:flex-no-wrap xl:py-4 xl:pl-8 xl:pr-6"
+  >
+    <div
+      className="flex items-center justify-between flex-no-wrap xl:block"
+    >
+      <div
+        className="flex w-full items-center"
+      >
+        <MenuToggleButton
+          onButtonClick={[Function]}
+        />
+        <MainLogo />
+        <div
+          className="mr-0 ml-auto xl:hidden"
+        >
+          <ButtonLink
+            className="ml-2"
+            href="/shop-page/"
+          >
+            Buy now
+          </ButtonLink>
+        </div>
+      </div>
+    </div>
+    <MainNav
+      isShown={false}
+      setIsShown={[Function]}
+    />
+  </header>
+</div>
+`;

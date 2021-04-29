@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Pasta Cooker",
+    "description": "Make al dente pasta with automatic boiling and draining.",
+    "image": "/images/starch-cooker-features/pasta-cooker.svg"
+  },
+  {
+    "title": "Rice Cooker",
+    "description": "Easily cook rice in sync with the rest of your meal.",
+    "image": "/images/starch-cooker-features/rice-cooker.svg"
+  },
+  {
+    "title": "Coffee",
+    "description": "It does that, too. Schedule coffee ahead and control the water temperature.",
+    "image": "/images/starch-cooker-features/coffee.svg"
+  },
+  {
+    "title": "Healthy Grains",
+    "description": "Cook quinoa, legumes, and other healthy grains.",
+    "image": "/images/starch-cooker-features/healthy-grains.svg"
+  }
+]

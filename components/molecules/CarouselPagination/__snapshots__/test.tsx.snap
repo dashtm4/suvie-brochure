@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CarouselPagination /> should renders correct <CarouselPagination /> 1`] = `
+<div
+  className="flex h-2 "
+>
+  <button
+    aria-label="Go to 0 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary"
+    key="0"
+    onClick={[Function]}
+  />
+  <button
+    aria-label="Go to 1 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary opacity-25"
+    key="1"
+    onClick={[Function]}
+  />
+  <button
+    aria-label="Go to 2 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary opacity-25"
+    key="2"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`<CarouselPagination /> should renders correct <CarouselPagination /> with correct className prop 1`] = `
+<div
+  className="flex h-2 mb-2"
+>
+  <button
+    aria-label="Go to 0 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary"
+    key="0"
+    onClick={[Function]}
+  />
+  <button
+    aria-label="Go to 1 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary opacity-25"
+    key="1"
+    onClick={[Function]}
+  />
+  <button
+    aria-label="Go to 2 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary opacity-25"
+    key="2"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`<CarouselPagination /> should renders correct <CarouselPagination /> with dark theme 1`] = `
+<div
+  className="flex h-2 "
+>
+  <button
+    aria-label="Go to 0 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-white"
+    key="0"
+    onClick={[Function]}
+  />
+  <button
+    aria-label="Go to 1 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-white opacity-25"
+    key="1"
+    onClick={[Function]}
+  />
+  <button
+    aria-label="Go to 2 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-white opacity-25"
+    key="2"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`<CarouselPagination /> should renders correct <CarouselPagination /> with light theme 1`] = `
+<div
+  className="flex h-2 "
+>
+  <button
+    aria-label="Go to 0 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary"
+    key="0"
+    onClick={[Function]}
+  />
+  <button
+    aria-label="Go to 1 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary opacity-25"
+    key="1"
+    onClick={[Function]}
+  />
+  <button
+    aria-label="Go to 2 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary opacity-25"
+    key="2"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`<CarouselPagination /> should simulates click events 1`] = `
+<div
+  className="flex h-2 "
+>
+  <button
+    aria-label="Go to 0 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary"
+    key="0"
+    onClick={[Function]}
+  />
+  <button
+    aria-label="Go to 1 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary opacity-25"
+    key="1"
+    onClick={[Function]}
+  />
+  <button
+    aria-label="Go to 2 slide"
+    className="block mx-1 w-2 h-2 rounded-full bg-secondary opacity-25"
+    key="2"
+    onClick={[Function]}
+  />
+</div>
+`;

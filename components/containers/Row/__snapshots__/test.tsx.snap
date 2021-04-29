@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Row /> should render correct html with default props 1`] = `
+<div
+  className="flex flex-wrap -mx-3 "
+>
+  test
+</div>
+`;
+
+exports[`<Row /> should render correct html with not default className prop 1`] = `
+<div
+  className="flex flex-wrap -mx-3 mb-10"
+>
+  test
+</div>
+`;
+
+exports[`<Row /> should renders children 1`] = `
+<div
+  className="flex flex-wrap -mx-3 "
+>
+  test
+</div>
+`;

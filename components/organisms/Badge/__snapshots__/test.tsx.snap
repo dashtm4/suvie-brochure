@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge /> should renders correct <Badge /> 1`] = `
+<div
+  className="font-bold tracking-widest text-sm uppercase text-center flex justify-center items-center py-2 px-4 rounded-lg leading-none bg-white text-secondary"
+>
+  Test children
+</div>
+`;
+
+exports[`<Badge /> should renders correct <Badge /> with correct className prop 1`] = `
+<div
+  className="font-bold tracking-widest text-sm uppercase text-center flex justify-center items-center py-2 px-4 rounded-lg leading-none bg-white text-secondary Test classname"
+>
+  Test children
+</div>
+`;
+
+exports[`<Badge /> should renders correct <Badge /> with correct style prop 1`] = `
+<div
+  className="font-bold tracking-widest text-sm uppercase text-center flex justify-center items-center py-2 px-4 rounded-lg leading-none bg-white text-secondary"
+  style={
+    Object {
+      "width": "10rem",
+    }
+  }
+>
+  Test children
+</div>
+`;

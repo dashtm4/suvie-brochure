@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FreeTrialSecondSection /> should renders correct <FreeTrialSecondSection /> 1`] = `
+<section
+  className="pt-8 md:pt-13 pb-8 md:pb-24"
+>
+  <Container>
+    <SectionTitle
+      className="mb-4"
+      fontSizeClassName="text-4xl"
+    >
+      The 100-day Home Trial
+    </SectionTitle>
+    <div
+      className="font-lg text-secondary text-center max-w-lg mx-auto"
+    >
+      We believe you should experience cooking with Suvie to decide for yourself if you like it, so we give you up to 100 days to try it in your own home. If it doesn’t work out, returns are easy.
+    </div>
+  </Container>
+</section>
+`;

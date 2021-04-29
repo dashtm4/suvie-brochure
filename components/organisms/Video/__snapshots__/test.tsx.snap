@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Video /> should renders correct <Video /> 1`] = `
+<figure
+  className="relative overflow-hidden"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <VideoPlayer
+    autoplay={false}
+    className="absolute inset-0 object-cover w-full h-full"
+    controls={false}
+    loop={true}
+    muted={true}
+    playerRef={
+      Object {
+        "current": null,
+      }
+    }
+    playsInline={true}
+    poster="image.jpg"
+    url="video.mp4"
+  />
+  <div
+    className="absolute left-0 justify-center hidden w-full px-4 md:flex bottom-4 md:justify-start"
+  />
+</figure>
+`;

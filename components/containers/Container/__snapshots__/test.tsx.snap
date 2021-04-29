@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container /> should render correct html with default props 1`] = `
+<div
+  className="container px-3 mx-auto max-w-screen-xl"
+>
+  test
+</div>
+`;
+
+exports[`<Container /> should render correct html with not default className prop 1`] = `
+<div
+  className="container px-3 mx-auto mb-10"
+>
+  test
+</div>
+`;
+
+exports[`<Container /> should renders children 1`] = `
+<div
+  className="container px-3 mx-auto max-w-screen-xl"
+>
+  test
+</div>
+`;

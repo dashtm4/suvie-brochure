@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShopThirdSection /> should renders correct <ShopThirdSection /> 1`] = `
+<section
+  className="bg-quaternary pt-18 pb-9 md:pt-30 mb:pb-10"
+>
+  <Container
+    style={
+      Object {
+        "maxWidth": "55rem",
+      }
+    }
+  >
+    <SectionTitle
+      className="mb-6 md:mb-3"
+    >
+      Suvie is your time-saving 15-in-1 
+      <br />
+       kitchen robot system.
+    </SectionTitle>
+    <div
+      className="mb-6 text-center text-octonary md:mb-8"
+    >
+      Click to learn more about each function.
+    </div>
+  </Container>
+</section>
+`;

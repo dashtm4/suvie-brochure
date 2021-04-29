@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KitchenRobotFifthSection /> should renders correct <KitchenRobotFifthSection /> 1`] = `
+<section
+  className="relative bg-yellow pt-15 md:pt-23 pb-18 md:pb-40 kitchen-robot-fifth-section"
+>
+  <Wave
+    colorName="yellow"
+  />
+  <div
+    className="text-center md:pb-5 overview"
+  >
+    <Layout>
+      <div
+        className="inline-block relative"
+        role="presentation"
+      >
+        <Image
+          alt="kitchen-robot-image"
+          height={231}
+          src="/images/kitchen-robot/starch-cooker.png"
+          width={255}
+        />
+      </div>
+    </Layout>
+  </div>
+  <div
+    className="text-center"
+    role="presentation"
+  >
+    <Image
+      alt="overview-tag"
+      height={75}
+      src="/images/kitchen-robot/starch-cooker-colorful--icon.svg"
+      width={75}
+    />
+  </div>
+  <Layout>
+    <Overview
+      className="mb-0"
+      content={
+        Object {
+          "content": Array [
+            "The Suvie Starch Cooker talks to your Suvie 2.0 and schedules your Pasta, Rice or Coffee to be",
+            "ready at the same time as your meal so everything can be served at the same time.",
+          ],
+          "subtitle": Array [
+            "Cook pasta, rice, and more.",
+            "Automated and hands free.",
+          ],
+          "title": Object {
+            "bold": "Starch Cooker",
+            "pre": "Suvie",
+          },
+        }
+      }
+    />
+  </Layout>
+  <div
+    className="mb-8 text-center"
+  >
+    <Badge
+      className="hidden mt-8 md:inline-block"
+      theme="light--transparent"
+    >
+      ADD-ON
+    </Badge>
+  </div>
+  <div
+    className="relative mb-9 h-80 md:h-160 md:mb-0"
+  >
+    <div
+      className="absolute inset-0"
+    >
+      <Video
+        className="h-full"
+        src={
+          Object {
+            "imageSrc": "/images/kitchen-robot/pasta-perfection--intro.jpg",
+            "videoSrc": "https://embed-ssl.wistia.com/deliveries/7e4610ff67cc11ddc9b778659b143627b21eac7b.m3u8",
+          }
+        }
+      />
+      <div
+        className="absolute inset-0 w-full h-full"
+        style={
+          Object {
+            "background": "radial-gradient(225.12% 114.69% at 50% -14.69%, #FFEAC6 27.73%, rgba(255, 234, 198, 0) 68.99%)",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative h-full"
+    >
+      <Layout>
+        <Introduction
+          className="md:pt-50"
+          content={
+            Object {
+              "content": "Want perfect al dente pasta with your meal? Using Suvie’s patent technology, the Starch Cooker will automatically pre-heat, fill, cook and drain your pasta to al dente perfection. If you’re scheduling a meal in advance the Starch Cooker keeps your pasta dry until it’s time to start cooking and automatically adds the correct amount of water to cook.",
+              "title": "Pasta Perfection",
+            }
+          }
+          theme="dark"
+        />
+      </Layout>
+    </div>
+  </div>
+  <Layout>
+    <div
+      className="mb-11 text-center md:hidden"
+    >
+      <Typography
+        className="mb-3"
+        variant="title"
+      >
+        Pasta Perfection
+      </Typography>
+      <Typography>
+        Want perfect al dente pasta with your meal? Using Suvie’s patent technology, the Starch Cooker will automatically pre-heat, fill, cook and drain your pasta to al dente perfection. If you’re scheduling a meal in advance the Starch Cooker keeps your pasta dry until it’s time to start cooking and automatically adds the correct amount of water to cook.
+      </Typography>
+    </div>
+  </Layout>
+  <div
+    className="relative md:pt-17"
+  >
+    <Wave
+      colorName="yellow"
+    />
+    <ResponsiveSegment
+      segment={
+        Array [
+          <HorizontalView
+            className="md:mb-18"
+            content={
+              Object {
+                "content": "Want perfect rice with your dinner? Just pour white rice, brown rice, short or long grain into the included Rice Pot. No more pans of impossible to clean burnt on rice. Suvie Starch Cooker automatically adds water to your rice and gently cooks it to perfection. Whether you’re using brown, wild, jasmine, or sushi rice Suvie can cook them all. The Starch Cooker can coordinate with your Suvie 2.0 to make sure your rice is cooked right on time for your meal.",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/pasta-perfection--intro.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "",
+                  "videoSrc": "https://embed-ssl.wistia.com/deliveries/85e8a2d1529d676a1bfd3e75f58441d7a0442c3d.m3u8",
+                },
+                "title": "Perfect Rice",
+              }
+            }
+            direction="reverse"
+          />,
+          <HorizontalView
+            className="md:mb-18"
+            content={
+              Object {
+                "content": "Easily prepare healthy ancient grains that have longer cooking times. Cook gluten-free grains like quinoa, millet, and buckwheat, or whole grains like farro and barley.",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/healthy-grains--icon.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "",
+                  "videoSrc": "https://embed-ssl.wistia.com/deliveries/54958f5d8bb0ab4f10f9a65b95a4e9e27bc8ea41.m3u8",
+                },
+                "title": "Healthy Grains",
+              }
+            }
+          />,
+          <HorizontalView
+            content={
+              Object {
+                "content": "With the optional Pour Over Coffee Carafe, the Suvie Starch Cooker is transformed into a perfect precision temperature pour over coffee maker. Just set the temperature and amount of water, schedule the time you want your coffee, and the Suvie Starch Cooker will do the rest.",
+                "iconSrc": Object {
+                  "height": 48,
+                  "src": "/images/kitchen-robot/brews-coffee-too--icon.svg",
+                  "width": 48,
+                },
+                "src": Object {
+                  "imageSrc": "/images/kitchen-robot/brews-coffee-too.jpg",
+                  "videoSrc": "/videos/kitchen-robot/",
+                },
+                "title": "Brews Coffee Too",
+              }
+            }
+            direction="reverse"
+          />,
+        ]
+      }
+    />
+  </div>
+  <Wave
+    className="hidden md:block"
+    colorName="white"
+    position="bottom-revert"
+  />
+</section>
+`;

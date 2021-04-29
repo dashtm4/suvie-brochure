@@ -1,0 +1,20 @@
+.robot-technical-specs {
+  .overview {
+    @apply w-full;
+
+    @screen lg {
+      grid-row: 1/9999;
+      width: 344px;
+      min-width: 344px;
+    }
+  }
+
+  .spec {
+    @apply w-full;
+
+    @screen lg {
+      width: 360px;
+      max-width: 360px;
+    }
+  }
+}

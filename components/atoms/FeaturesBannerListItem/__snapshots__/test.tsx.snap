@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeaturesBannerListItem /> should renders correct <FeaturesBannerListItem /> 1`] = `
+<div
+  className="flex items-center justify-center h-8"
+>
+  <Image
+    alt=""
+    height={40}
+    src="image.jpg"
+    width={40}
+  />
+  <div
+    className="inline-flex pl-2 font-serif text-sm font-normal text-black"
+  >
+    Test title
+  </div>
+</div>
+`;

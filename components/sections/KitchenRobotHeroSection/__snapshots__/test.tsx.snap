@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KitchenRobotHeroSection /> should renders correct <KitchenRobotHeroSection /> 1`] = `
+<section
+  className="pt-11 pb-6 md:pt-24 md:pb-33 kitchen-robot-hero-section"
+>
+  <Layout>
+    <Typography
+      className="font-normal text-center mb-54 md:mb-24"
+      level="h1"
+      theme="dark"
+      variant="title"
+    >
+      Meet the
+       
+      <br />
+      Suvie system
+       
+      <br />
+    </Typography>
+    <div
+      className="flex flex-col md:flex-row md:gap-100"
+    >
+      <KitchenRobotHeroSideSection
+        className="order-1 md:text-right"
+        item={
+          Object {
+            "content": "Suvie 2.0 is your dual zone, cool-to-cook countertop appliance for proteins, vegetables, and some starches.",
+            "iconSrc": Object {
+              "height": 75,
+              "src": "/images/kitchen-robot/kitchen-robot--icon.svg",
+              "width": 75,
+            },
+            "title": Object {
+              "bold": "Kitchen Robot",
+              "pre": "Suvie",
+            },
+          }
+        }
+      />
+      <KitchenRobotHeroSideSection
+        className="order-2 md:text-left "
+        item={
+          Object {
+            "content": "The optional smart rice and pasta prepares your grains to an ideal texture and works in sync with Suvie for a perfectly timed meal.",
+            "iconSrc": Object {
+              "height": 75,
+              "src": "/images/kitchen-robot/starch-cooker--icon.svg",
+              "width": 75,
+            },
+            "tag": "Optional Add-on",
+            "title": Object {
+              "bold": "Starch Cooker",
+              "pre": "Suvie",
+            },
+          }
+        }
+      />
+    </div>
+  </Layout>
+</section>
+`;

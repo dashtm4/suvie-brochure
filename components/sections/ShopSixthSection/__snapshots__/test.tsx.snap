@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShopSixthSection /> should renders correct <ShopSixthSection /> 1`] = `
+<section
+  className="bg-quaternary pt-12 pb-24"
+>
+  <Container>
+    <SectionTitle
+      className="mb-16 md:mb-8"
+    >
+      Reviews
+    </SectionTitle>
+    <YotpoReviews />
+  </Container>
+</section>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KitchenRobotHeroSideSection /> should renders correct <KitchenRobotHeroSideSection /> 1`] = `
+<div
+  className="flex-1 text-center md:order-none"
+>
+  <Typography
+    className="mb-2"
+    theme="dark"
+    variant="subtitle2"
+  >
+    <span
+      className="font-normal"
+    />
+    <br
+      className="hidden md:block"
+    />
+     
+    <span
+      className="font-medium"
+    />
+  </Typography>
+  <Typography
+    className="font-normal"
+    theme="dark"
+  />
+</div>
+`;

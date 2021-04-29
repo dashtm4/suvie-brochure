@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Introduction /> should renders correct <Introduction /> 1`] = `
+<div
+  className="grid h-full grid-cols-2 gap-25"
+>
+  <div
+    className="invisible overflow-hidden md:overflow-visible md:visible"
+  >
+    <div
+      className="mx-auto"
+    >
+      <Typography
+        className="mb-5"
+        theme="light"
+        variant="title"
+      >
+        TestTitle
+      </Typography>
+      <Typography
+        theme="light"
+      />
+    </div>
+  </div>
+  <div
+    className="flex items-center justify-center h-full"
+  />
+</div>
+`;

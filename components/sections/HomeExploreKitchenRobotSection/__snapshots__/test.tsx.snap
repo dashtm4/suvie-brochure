@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeExploreKitchenRobotSection /> should renders correct <HomeExploreKitchenRobotSection /> 1`] = `
+<section
+  className="relative pt-10 text-center pb-18 md:pt-16 md:pb-22"
+  style={
+    Object {
+      "backgroundColor": "#fff5e8",
+    }
+  }
+>
+  <Wave
+    colorHex="#fff5e8"
+  />
+  <Container>
+    <ReviewsTotal
+      className="mb-5"
+      description="744 reviews"
+    />
+    <div
+      className="mx-auto"
+      style={
+        Object {
+          "maxWidth": "33.75rem",
+        }
+      }
+    >
+      <SectionTitle
+        className="mb-4 md:mb-3"
+      >
+        Your 15-in-1 time-saving cool-to-cook system.
+      </SectionTitle>
+      <div
+        className="mb-5 text-secondary md:mb-4"
+      >
+        Cook complete meals for you or the entire family. Suvie intelligently refrigerates and cooks your meal using multiple zones, giving you an easy hands-free cooking experience.
+      </div>
+      <ButtonLink
+        className="max-w-full mb-5 w-54 md:mb-6"
+        href="/kitchen-robot/"
+      >
+        See How It Works
+      </ButtonLink>
+    </div>
+    <div
+      className="mb-11 md:mb-9"
+      role="presentation"
+    >
+      <Image
+        alt="Suvie Kitchen Robot"
+        height={364}
+        src="/images/home-page/suvie-cool-to-cook-system_mobile.png"
+        width={326}
+      />
+    </div>
+    <PressList />
+  </Container>
+</section>
+`;

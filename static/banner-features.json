@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Pay as low as $33/ month",
+    "image": {
+      "url": "/images/affirm-logo.svg",
+      "width": 40,
+      "height": 40
+    }
+  },
+  {
+    "title": "100-day home trial, risk-free",
+    "image": {
+      "url": "/images/100-day-home-trial-risk-free.svg",
+      "width": 40,
+      "height": 40
+    },
+    "link": "/free-trial/"
+  },
+  {
+    "title": "1 Year Warranty",
+    "image": {
+      "url": "/images/logo-seal-black.svg",
+      "width": 30,
+      "height": 30
+    }
+  }
+]

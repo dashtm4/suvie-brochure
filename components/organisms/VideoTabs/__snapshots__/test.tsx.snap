@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoTabs /> should renders correct <VideoTabs /> 1`] = `
+<div
+  className="flex items-center mb-12 -mx-8 md:mb-20 md:mx-0"
+>
+  <div
+    className="relative hidden md:block md:w-1/2 md:pr-10 "
+  >
+    <VideoGalleryCard
+      activeVideoIndex={0}
+      className="shadow-md"
+      setActiveVideoIndex={[MockFunction]}
+      showPagination={false}
+    />
+  </div>
+  <div
+    className="w-full md:w-1/2 md:pr-8 md:pl-10"
+  >
+    <Typography
+      className="mb-5 font-normal text-center md:text-left"
+      variant="subtitle2"
+    />
+    <Tabs
+      defaultFocus={false}
+      defaultIndex={null}
+      disableUpDownKeys={false}
+      environment={null}
+      forceRenderTabPanel={false}
+      onSelect={[Function]}
+      selectedIndex={0}
+      selectedTabClassName="border-b-4 border-primary-default"
+      selectedTabPanelClassName="font-light px-8 md:px-0"
+    >
+      <VideoGalleryCard
+        activeVideoIndex={0}
+        className="mb-4 md:hidden"
+        setActiveVideoIndex={[MockFunction]}
+        showPagination={false}
+      />
+      <TabList
+        className="flex justify-around gap-6 px-8 mb-5 text-center border-b md:px-0 md:justify-start"
+      />
+    </Tabs>
+  </div>
+</div>
+`;

@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SiteFooter /> should renders correct <SiteFooter /> 1`] = `
+<footer
+  className="relative bg-secondary mt-auto mb-0 pt-6 pb-5 md:pt-9 md:pb-12"
+>
+  <Wave />
+  <Container>
+    <Row
+      className="mb-8"
+    >
+      <Col
+        className="w-full md:w-4/12 mb-10 md:mb-0 md:order-1"
+      >
+        <KlaviyoSubscriptionForm />
+        <SocialMediaList
+          list={
+            Array [
+              Object {
+                "icon": "/images/facebook-icon.svg",
+                "title": "Facebook",
+                "url": "https://www.facebook.com/SuvieFood/",
+              },
+              Object {
+                "icon": "/images/twitter-icon.svg",
+                "title": "Twitter",
+                "url": "https://twitter.com/suviefood",
+              },
+              Object {
+                "icon": "/images/instagram-icon.svg",
+                "title": "Instagram",
+                "url": "https://www.instagram.com/suviefood/",
+              },
+              Object {
+                "icon": "/images/pinterest-icon.svg",
+                "title": "Pinterest",
+                "url": "https://www.pinterest.com/suviefood/",
+              },
+            ]
+          }
+        />
+      </Col>
+      <Col
+        className="md:w-8/12 md:order-0"
+      >
+        <Row>
+          <Col
+            className="w-full md:w-1/5 mb-10 md:mb-0"
+          >
+            <SealLogo />
+          </Col>
+          <Col
+            className="w-1/2 md:w-1/5 mb-4"
+          >
+            <FooterMenuTitle>
+              Suvie
+            </FooterMenuTitle>
+            <FooterMenu
+              menu={
+                Array [
+                  Object {
+                    "external": true,
+                    "rel": "",
+                    "target": "_self",
+                    "title": "Accessories",
+                    "url": "https://store.suvie.com/",
+                  },
+                  Object {
+                    "external": true,
+                    "title": "Log In",
+                    "url": "https://app.suvie.com/",
+                  },
+                  Object {
+                    "title": "How it Works",
+                    "url": "/kitchen-robot/",
+                  },
+                  Object {
+                    "title": "Recipes",
+                    "url": "/recipes/",
+                  },
+                  Object {
+                    "title": "Meal Plans",
+                    "url": "/smart-meals/",
+                  },
+                  Object {
+                    "title": "Reviews",
+                    "url": "/reviews/",
+                  },
+                  Object {
+                    "title": "Health",
+                    "url": "/health/",
+                  },
+                ]
+              }
+            />
+          </Col>
+          <Col
+            className="w-1/2 md:w-1/5 mb-4"
+          >
+            <FooterMenuTitle>
+              Company
+            </FooterMenuTitle>
+            <FooterMenu
+              menu={
+                Array [
+                  Object {
+                    "title": "About",
+                    "url": "/about-us/",
+                  },
+                  Object {
+                    "title": "Free Trial",
+                    "url": "/free-trial/",
+                  },
+                  Object {
+                    "title": "Privacy",
+                    "url": "/privacy-policy/",
+                  },
+                  Object {
+                    "title": "Terms",
+                    "url": "/terms-and-conditions/",
+                  },
+                ]
+              }
+            />
+          </Col>
+          <Col
+            className="w-1/2 md:w-1/5 mb-4"
+          >
+            <FooterMenuTitle>
+              Support
+            </FooterMenuTitle>
+            <FooterMenu
+              menu={
+                Array [
+                  Object {
+                    "external": true,
+                    "title": "Help Desk",
+                    "url": "https://support.suvie.com/hc/en-us/",
+                  },
+                  Object {
+                    "title": "FAQ",
+                    "url": "/faq/",
+                  },
+                ]
+              }
+            />
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+    <p
+      className="text-xs text-gray-600 "
+    >
+      Meals for purchase may vary based on availability. Time savings are estimates and not a
+guarantee. Some images simulated or sped up and some servings suggested with finishing steps and consumer supplied additional
+ingredients. Meal coupon offers do not apply to the Suvie appliance.  For all coupons unless otherwise specified
+only one coupon is valid per customer for one-time use only. Coupons are valid only during their coupon period.
+Sales tax, shipping & handling do not qualify for any coupons. Coupons are not redeemable for cash or gift cards.
+Coupons are not valid for prior purchases. Coupons may not be combined with any other coupons, discounts, offers, or
+promotions. Void if altered, copied, transferred, auctioned or sold. Offer valid on in-stock items only. No rain checks
+issued. Other restrictions may apply. *Additional shipping and handling charges may apply see terms and conditions
+for details. Features subject to change on final product. Patents Pending. Copyright 2017 -
+  2021, Suvie.
+    </p>
+  </Container>
+</footer>
+`;

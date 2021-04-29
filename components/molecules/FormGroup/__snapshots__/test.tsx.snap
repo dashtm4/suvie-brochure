@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormGroup /> should contain correct FormError with props 1`] = `
+<div
+  className="form__group "
+>
+  <FormField
+    name="test"
+    title="Test"
+    type="text"
+  />
+  <FormError
+    name="test"
+  />
+</div>
+`;
+
+exports[`<FormGroup /> should contain correct FormField with component prop 1`] = `
+<div
+  className="form__group "
+>
+  <FormField
+    component="span"
+    name="test"
+    title="Test"
+    type="text"
+  />
+  <FormError
+    name="test"
+  />
+</div>
+`;
+
+exports[`<FormGroup /> should contain correct FormField with disabled prop 1`] = `
+<div
+  className="form__group "
+>
+  <FormField
+    disabled={true}
+    name="test"
+    title="Test"
+    type="text"
+  />
+  <FormError
+    name="test"
+  />
+</div>
+`;
+
+exports[`<FormGroup /> should contain correct FormField with isError prop 1`] = `
+<div
+  className="form__group "
+>
+  <FormField
+    isError={true}
+    name="test"
+    title="Test"
+    type="text"
+  />
+  <FormError
+    name="test"
+  />
+</div>
+`;
+
+exports[`<FormGroup /> should contain correct FormField with placeholder prop 1`] = `
+<div
+  className="form__group "
+>
+  <FormField
+    name="test"
+    placeholder="Example placeholder"
+    title="Test"
+    type="text"
+  />
+  <FormError
+    name="test"
+  />
+</div>
+`;
+
+exports[`<FormGroup /> should contain correct FormField with props 1`] = `
+<div
+  className="form__group "
+>
+  <FormField
+    name="test"
+    title="Test"
+    type="text"
+  />
+  <FormError
+    name="test"
+  />
+</div>
+`;
+
+exports[`<FormGroup /> should contain correct FormField with readOnly prop 1`] = `
+<div
+  className="form__group "
+>
+  <FormField
+    name="test"
+    readOnly={true}
+    title="Test"
+    type="text"
+  />
+  <FormError
+    name="test"
+  />
+</div>
+`;
+
+exports[`<FormGroup /> should contain correct FormField with title prop 1`] = `
+<div
+  className="form__group "
+>
+  <FormField
+    name="test"
+    title="Example title"
+    type="text"
+  />
+  <FormError
+    name="test"
+  />
+</div>
+`;
+
+exports[`<FormGroup /> should contain correct FormField with type prop 1`] = `
+<div
+  className="form__group "
+>
+  <FormField
+    name="test"
+    title="Test"
+    type="email"
+  />
+  <FormError
+    name="test"
+  />
+</div>
+`;
+
+exports[`<FormGroup /> should contain correct root element className with default props 1`] = `
+<div
+  className="form__group "
+>
+  <FormField
+    name="test"
+    title="Test"
+    type="text"
+  />
+  <FormError
+    name="test"
+  />
+</div>
+`;
+
+exports[`<FormGroup /> should contain correct root element className with not default props 1`] = `
+<div
+  className="form__group mb-2"
+>
+  <FormField
+    name="test"
+    title="Test"
+    type="text"
+  />
+  <FormError
+    name="test"
+  />
+</div>
+`;

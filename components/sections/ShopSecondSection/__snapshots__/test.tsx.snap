@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShopSecondSection /> should renders correct <ShopSecondSection /> 1`] = `
+<section
+  className="relative py-20 text-center bg-secondary"
+>
+  <Wave />
+  <div
+    className="absolute transform -translate-x-1/2 translate-y-1/2 bottom-full left-1/2"
+    role="presentation"
+  >
+    <Image
+      alt=""
+      height="150"
+      src="/images/100-day-home-trial-risk-free-colored.svg"
+      width="150"
+    />
+  </div>
+  <Container>
+    <h2
+      className="font-serif text-2xl font-normal text-white md:text-4xl"
+    >
+      <span>
+        Try Suvie risk free with a 
+      </span>
+      <span
+        className="inline-flex"
+      >
+        100-day home trial.
+        <InfoLink
+          className="ml-1"
+          colorHex="#c0c0c0"
+          height={23}
+          href="/free-trial/"
+          width={23}
+        />
+      </span>
+    </h2>
+  </Container>
+  <Wave
+    position="bottom"
+  />
+</section>
+`;

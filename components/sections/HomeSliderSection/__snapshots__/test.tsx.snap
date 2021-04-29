@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeSliderSection /> should renders correct <HomeSliderSection /> 1`] = `
+<section
+  className="relative"
+>
+  <Carousel
+    afterSlide={[Function]}
+    autoGenerateStyleTag={true}
+    autoplay={false}
+    autoplayInterval={3000}
+    autoplayReverse={false}
+    beforeSlide={[Function]}
+    cellAlign="left"
+    cellSpacing={0}
+    defaultControlsConfig={Object {}}
+    disableAnimation={false}
+    disableEdgeSwiping={false}
+    dragging={true}
+    easing="easeCircleOut"
+    edgeEasing="easeElasticOut"
+    enableKeyboardControls={false}
+    frameOverflow="hidden"
+    framePadding="0px"
+    getControlsContainerStyles={[Function]}
+    height="inherit"
+    heightMode="max"
+    initialSlideHeight={500}
+    keyCodeConfig={Object {}}
+    onDragStart={[Function]}
+    onResize={[Function]}
+    pauseOnHover={true}
+    renderAnnounceSlideMessage={[Function]}
+    renderBottomCenterControls={[Function]}
+    renderCenterLeftControls={[Function]}
+    renderCenterRightControls={[Function]}
+    scrollMode="remainder"
+    slideIndex={0}
+    slideListMargin={10}
+    slideOffset={25}
+    slideWidth={1}
+    slidesToScroll={1}
+    slidesToShow={1}
+    speed={500}
+    style={Object {}}
+    swiping={true}
+    transitionMode="scroll"
+    vertical={false}
+    width="100%"
+    withoutControls={false}
+    wrapAround={false}
+  >
+    <SimpleHero
+      desktopHeight={698}
+      imageSrc="/images/home-page/cook-for-the-whole-family-1.jpg"
+      key="/images/home-page/cook-for-the-whole-family-1.jpg"
+      mobileHeight={500}
+    />
+    <SimpleHero
+      desktopHeight={698}
+      imageSrc="/images/home-page/cook-for-the-whole-family-2.jpg"
+      key="/images/home-page/cook-for-the-whole-family-2.jpg"
+      mobileHeight={500}
+    />
+    <SimpleHero
+      desktopHeight={698}
+      imageSrc="/images/home-page/cook-for-the-whole-family-3.jpg"
+      key="/images/home-page/cook-for-the-whole-family-3.jpg"
+      mobileHeight={500}
+    />
+    <SimpleHero
+      desktopHeight={698}
+      imageSrc="/images/home-page/cook-for-the-whole-family-4.jpg"
+      key="/images/home-page/cook-for-the-whole-family-4.jpg"
+      mobileHeight={500}
+    />
+  </Carousel>
+  <div
+    className="absolute top-1/2 left-1/2 max-w-xs text-center transform -translate-x-1/2 -translate-y-1/2"
+  >
+    <SectionTitle
+      className="mb-4 md:mb-5"
+      theme="dark"
+    >
+      Cook for the Whole Family
+    </SectionTitle>
+    <div
+      className="font-normal text-white"
+    >
+      Suvie prepares large servings of proteins and vegetables for up to four adults.
+    </div>
+  </div>
+</section>
+`;

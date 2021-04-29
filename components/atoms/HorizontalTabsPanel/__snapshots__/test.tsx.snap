@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HorizontalTabsPanel /> should renders correct <HorizontalTabsPanel /> 1`] = `
+<TabPanel
+  className="react-tabs__tab-panel"
+  forceRender={false}
+  selectedClassName="react-tabs__tab-panel--selected"
+>
+  Test children
+</TabPanel>
+`;

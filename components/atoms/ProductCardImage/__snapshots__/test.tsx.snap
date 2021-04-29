@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCardImage /> should renders correct <ProductCardImage /> 1`] = `
+<figure
+  className="relative w-full h-48 mb-3"
+  role="none"
+>
+  <Image
+    alt="Test alt"
+    layout="fill"
+    objectFit="contain"
+    src="image.jpg"
+  />
+</figure>
+`;

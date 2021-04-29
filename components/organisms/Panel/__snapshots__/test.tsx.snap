@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Panel /> should renders correct <Panel /> 1`] = `
+<s
+  className=""
+  classParentString="Collapsible"
+  contentContainerTagName="div"
+  contentHiddenWhenClosed={false}
+  contentInnerClassName=""
+  contentOuterClassName=""
+  easing="linear"
+  lazyRender={false}
+  onClose={[Function]}
+  onClosing={[Function]}
+  onOpen={[Function]}
+  onOpening={[Function]}
+  onTriggerClosing={[Function]}
+  onTriggerOpening={[Function]}
+  open={false}
+  openedClassName=""
+  overflowWhenOpen="hidden"
+  tabIndex={null}
+  transitionCloseTime={null}
+  transitionTime={400}
+  trigger="Start here"
+  triggerClassName=""
+  triggerDisabled={false}
+  triggerOpenedClassName=""
+  triggerSibling={null}
+  triggerStyle={null}
+  triggerTagName="span"
+>
+  <p>
+    This is the collapsible content. It can be any element or React component you like.
+  </p>
+  <p>
+    It can even be another Collapsible component. Check out the next section!
+  </p>
+</s>
+`;

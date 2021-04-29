@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCardTitle /> should renders correct <ProductCardTitle /> 1`] = `
+<h3
+  className="font-serif font-normal tracking-tight font-secondary text-center mb-2"
+  style={
+    Object {
+      "fontSize": "2rem",
+    }
+  }
+>
+  Test children
+</h3>
+`;

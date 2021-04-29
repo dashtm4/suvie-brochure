@@ -1,0 +1,699 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeaturesBannerList /> should renders correct <FeaturesBannerList /> with Carousel when window size is less then 768 1`] = `
+<FeaturesBannerList
+  features={
+    Array [
+      Object {
+        "image": Object {
+          "height": 40,
+          "url": "image.jpg",
+          "width": 40,
+        },
+        "title": "Test title",
+      },
+      Object {
+        "image": Object {
+          "height": 40,
+          "url": "image-2.jpg",
+          "width": 40,
+        },
+        "title": "Test title 2",
+      },
+    ]
+  }
+>
+  <Carousel
+    afterSlide={[Function]}
+    autoGenerateStyleTag={true}
+    autoplay={false}
+    autoplayInterval={3000}
+    autoplayReverse={false}
+    beforeSlide={[Function]}
+    cellAlign="left"
+    cellSpacing={0}
+    defaultControlsConfig={Object {}}
+    disableAnimation={false}
+    disableEdgeSwiping={false}
+    dragging={true}
+    easing="easeCircleOut"
+    edgeEasing="easeElasticOut"
+    enableKeyboardControls={false}
+    frameOverflow="hidden"
+    framePadding="0px"
+    getControlsContainerStyles={[Function]}
+    height="inherit"
+    heightMode="max"
+    keyCodeConfig={Object {}}
+    onDragStart={[Function]}
+    onResize={[Function]}
+    pauseOnHover={true}
+    renderAnnounceSlideMessage={[Function]}
+    renderBottomCenterControls={null}
+    renderCenterLeftControls={null}
+    renderCenterRightControls={null}
+    scrollMode="remainder"
+    slideIndex={0}
+    slideListMargin={10}
+    slideOffset={25}
+    slideWidth={1}
+    slidesToScroll={1}
+    slidesToShow={1}
+    speed={500}
+    style={Object {}}
+    swiping={true}
+    transitionMode="scroll"
+    vertical={false}
+    width="100%"
+    withoutControls={false}
+    wrapAround={false}
+  >
+    <div
+      className="slider"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      style={
+        Object {
+          "MozBoxSizing": "border-box",
+          "boxSizing": "border-box",
+          "display": "block",
+          "height": "inherit",
+          "position": "relative",
+          "width": "100%",
+        }
+      }
+      tabIndex={0}
+    >
+      <AnnounceSlide
+        message="Slide 1 of 2"
+      >
+        <div
+          aria-atomic="true"
+          aria-live="polite"
+          style={
+            Object {
+              "height": "1px",
+              "left": "-10000px",
+              "overflow": "hidden",
+              "position": "absolute",
+              "top": "auto",
+              "width": "1px",
+            }
+          }
+          tabIndex={-1}
+        >
+          Slide 1 of 2
+        </div>
+      </AnnounceSlide>
+      <div
+        className="slider-frame"
+        onClickCapture={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseMove={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        onMouseUp={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "MozBoxSizing": "border-box",
+            "WebkitTransform": "translate3d(0, 0, 0)",
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "100%",
+            "margin": "0px",
+            "msTransform": "translate(0, 0)",
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "relative",
+            "touchAction": "pinch-zoom pan-y",
+            "transform": "translate3d(0, 0, 0)",
+          }
+        }
+      >
+        <Animate
+          interpolation={[Function]}
+          show={true}
+          start={
+            Object {
+              "tx": -0,
+              "ty": 0,
+            }
+          }
+          update={[Function]}
+        >
+          <NodeGroup
+            data={
+              Array [
+                Object {
+                  "tx": -0,
+                  "ty": 0,
+                },
+              ]
+            }
+            enter={[Function]}
+            interpolation={[Function]}
+            keyAccessor={[Function]}
+            leave={[Function]}
+            start={[Function]}
+            update={[Function]}
+          >
+            <ScrollTransition
+              cellAlign="left"
+              cellSpacing={0}
+              currentSlide={0}
+              deltaX={-0}
+              deltaY={0}
+              dragging={true}
+              frameWidth={0}
+              hasInteraction={false}
+              heightMode="max"
+              isWrappingAround={false}
+              left={0}
+              slideCount={2}
+              slideHeight={0}
+              slideListMargin={10}
+              slideOffset={25}
+              slideWidth={0}
+              slidesToScroll={1}
+              slidesToShow={1}
+              top={0}
+              vertical={false}
+              wrapAround={false}
+              zoomScale={0.85}
+            >
+              <ul
+                className="slider-list"
+                style={
+                  Object {
+                    "MozBoxSizing": "border-box",
+                    "WebkitTransform": "translate3d(0px, 0px, 0)",
+                    "boxSizing": "border-box",
+                    "cursor": "pointer",
+                    "display": "block",
+                    "height": 0,
+                    "margin": "0px 0px",
+                    "msTransform": "translate(0px, 0px)",
+                    "padding": 0,
+                    "position": "relative",
+                    "touchAction": "pinch-zoom pan-y",
+                    "transform": "translate3d(0px, 0px, 0)",
+                    "transition": "0s",
+                    "width": "auto",
+                  }
+                }
+              >
+                <li
+                  className="slider-slide slide-visible slide-current"
+                  key="0/.$.$.$Test title"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "MozBoxSizing": "border-box",
+                      "boxSizing": "border-box",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "listStyleType": "none",
+                      "marginBottom": "auto",
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "marginTop": "auto",
+                      "position": "absolute",
+                      "top": 0,
+                      "transform": "scale(1)",
+                      "transition": "transform .4s linear",
+                      "verticalAlign": "top",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <FeaturesBannerListItem
+                    aria-hidden="false"
+                    feature={
+                      Object {
+                        "image": Object {
+                          "height": 40,
+                          "url": "image.jpg",
+                          "width": 40,
+                        },
+                        "title": "Test title",
+                      }
+                    }
+                    key=".$.$Test title"
+                    tabIndex={0}
+                  >
+                    <div
+                      className="flex items-center justify-center h-8"
+                    >
+                      <Image
+                        alt=""
+                        height={40}
+                        src="image.jpg"
+                        width={40}
+                      >
+                        <div
+                          style={
+                            Object {
+                              "boxSizing": "border-box",
+                              "display": "inline-block",
+                              "margin": 0,
+                              "maxWidth": "100%",
+                              "overflow": "hidden",
+                              "position": "relative",
+                            }
+                          }
+                        >
+                          <div
+                            style={
+                              Object {
+                                "boxSizing": "border-box",
+                                "display": "block",
+                                "maxWidth": "100%",
+                              }
+                            }
+                          >
+                            <img
+                              alt=""
+                              aria-hidden={true}
+                              role="presentation"
+                              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                              style={
+                                Object {
+                                  "border": "none",
+                                  "display": "block",
+                                  "margin": 0,
+                                  "maxWidth": "100%",
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                          </div>
+                          <img
+                            alt=""
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style={
+                              Object {
+                                "border": "none",
+                                "bottom": 0,
+                                "boxSizing": "border-box",
+                                "display": "block",
+                                "height": 0,
+                                "left": 0,
+                                "margin": "auto",
+                                "maxHeight": "100%",
+                                "maxWidth": "100%",
+                                "minHeight": "100%",
+                                "minWidth": "100%",
+                                "objectFit": undefined,
+                                "objectPosition": undefined,
+                                "padding": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                                "visibility": "hidden",
+                                "width": 0,
+                              }
+                            }
+                          />
+                        </div>
+                      </Image>
+                      <div
+                        className="inline-flex pl-2 font-serif text-sm font-normal text-black"
+                      >
+                        Test title
+                      </div>
+                    </div>
+                  </FeaturesBannerListItem>
+                </li>
+                <li
+                  className="slider-slide"
+                  inert="true"
+                  key="1/.$.$.$Test title 2"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "MozBoxSizing": "border-box",
+                      "boxSizing": "border-box",
+                      "display": "inline-block",
+                      "height": "auto",
+                      "left": 0,
+                      "listStyleType": "none",
+                      "marginBottom": "auto",
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "marginTop": "auto",
+                      "position": "absolute",
+                      "top": 0,
+                      "transform": "scale(1)",
+                      "transition": "transform .4s linear",
+                      "verticalAlign": "top",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <FeaturesBannerListItem
+                    aria-hidden="true"
+                    feature={
+                      Object {
+                        "image": Object {
+                          "height": 40,
+                          "url": "image-2.jpg",
+                          "width": 40,
+                        },
+                        "title": "Test title 2",
+                      }
+                    }
+                    key=".$.$Test title 2"
+                  >
+                    <div
+                      className="flex items-center justify-center h-8"
+                    >
+                      <Image
+                        alt=""
+                        height={40}
+                        src="image-2.jpg"
+                        width={40}
+                      >
+                        <div
+                          style={
+                            Object {
+                              "boxSizing": "border-box",
+                              "display": "inline-block",
+                              "margin": 0,
+                              "maxWidth": "100%",
+                              "overflow": "hidden",
+                              "position": "relative",
+                            }
+                          }
+                        >
+                          <div
+                            style={
+                              Object {
+                                "boxSizing": "border-box",
+                                "display": "block",
+                                "maxWidth": "100%",
+                              }
+                            }
+                          >
+                            <img
+                              alt=""
+                              aria-hidden={true}
+                              role="presentation"
+                              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                              style={
+                                Object {
+                                  "border": "none",
+                                  "display": "block",
+                                  "margin": 0,
+                                  "maxWidth": "100%",
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                          </div>
+                          <img
+                            alt=""
+                            decoding="async"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            style={
+                              Object {
+                                "border": "none",
+                                "bottom": 0,
+                                "boxSizing": "border-box",
+                                "display": "block",
+                                "height": 0,
+                                "left": 0,
+                                "margin": "auto",
+                                "maxHeight": "100%",
+                                "maxWidth": "100%",
+                                "minHeight": "100%",
+                                "minWidth": "100%",
+                                "objectFit": undefined,
+                                "objectPosition": undefined,
+                                "padding": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                                "visibility": "hidden",
+                                "width": 0,
+                              }
+                            }
+                          />
+                        </div>
+                      </Image>
+                      <div
+                        className="inline-flex pl-2 font-serif text-sm font-normal text-black"
+                      >
+                        Test title 2
+                      </div>
+                    </div>
+                  </FeaturesBannerListItem>
+                </li>
+              </ul>
+            </ScrollTransition>
+          </NodeGroup>
+        </Animate>
+      </div>
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".slider-slide > img { width: 100%; display: block; }
+          .slider-slide > img:focus { margin: auto; }",
+          }
+        }
+        type="text/css"
+      />
+    </div>
+  </Carousel>
+</FeaturesBannerList>
+`;
+
+exports[`<FeaturesBannerList /> should renders correct <FeaturesBannerList /> without Carousel when window size is more or equal 768 1`] = `
+<FeaturesBannerList
+  features={
+    Array [
+      Object {
+        "image": Object {
+          "height": 40,
+          "url": "image.jpg",
+          "width": 40,
+        },
+        "title": "Test title",
+      },
+      Object {
+        "image": Object {
+          "height": 40,
+          "url": "image-2.jpg",
+          "width": 40,
+        },
+        "title": "Test title 2",
+      },
+    ]
+  }
+>
+  <div
+    className="flex items-center justify-between"
+  >
+    <FeaturesBannerListItem
+      feature={
+        Object {
+          "image": Object {
+            "height": 40,
+            "url": "image.jpg",
+            "width": 40,
+          },
+          "title": "Test title",
+        }
+      }
+      key="Test title"
+    >
+      <div
+        className="flex items-center justify-center h-8"
+      >
+        <Image
+          alt=""
+          height={40}
+          src="image.jpg"
+          width={40}
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "margin": 0,
+                "maxWidth": "100%",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "maxWidth": "100%",
+                }
+              }
+            >
+              <img
+                alt=""
+                aria-hidden={true}
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style={
+                  Object {
+                    "border": "none",
+                    "display": "block",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "padding": 0,
+                  }
+                }
+              />
+            </div>
+            <img
+              alt=""
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "visibility": "hidden",
+                  "width": 0,
+                }
+              }
+            />
+          </div>
+        </Image>
+        <div
+          className="inline-flex pl-2 font-serif text-sm font-normal text-black"
+        >
+          Test title
+        </div>
+      </div>
+    </FeaturesBannerListItem>
+    <FeaturesBannerListItem
+      feature={
+        Object {
+          "image": Object {
+            "height": 40,
+            "url": "image-2.jpg",
+            "width": 40,
+          },
+          "title": "Test title 2",
+        }
+      }
+      key="Test title 2"
+    >
+      <div
+        className="flex items-center justify-center h-8"
+      >
+        <Image
+          alt=""
+          height={40}
+          src="image-2.jpg"
+          width={40}
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "margin": 0,
+                "maxWidth": "100%",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "maxWidth": "100%",
+                }
+              }
+            >
+              <img
+                alt=""
+                aria-hidden={true}
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style={
+                  Object {
+                    "border": "none",
+                    "display": "block",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "padding": 0,
+                  }
+                }
+              />
+            </div>
+            <img
+              alt=""
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "visibility": "hidden",
+                  "width": 0,
+                }
+              }
+            />
+          </div>
+        </Image>
+        <div
+          className="inline-flex pl-2 font-serif text-sm font-normal text-black"
+        >
+          Test title 2
+        </div>
+      </div>
+    </FeaturesBannerListItem>
+  </div>
+</FeaturesBannerList>
+`;

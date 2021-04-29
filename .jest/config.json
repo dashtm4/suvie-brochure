@@ -1,0 +1,35 @@
+{
+  "rootDir": "../",
+  "setupFiles": [
+    "<rootDir>/.jest/register-context.js"
+  ],
+  "moduleNameMapper": {
+    "@components/([^\\.]*)$": ["<rootDir>/components/$1"],
+    "@components/atoms": ["<rootDir>/components/atoms/index.ts"],
+    "@components/molecules": ["<rootDir>/components/molecules/index.ts"],
+    "@components/organisms": ["<rootDir>/components/organisms/index.ts"],
+    "@components/templates": ["<rootDir>/components/templates/index.ts"],
+    "@components/containers": ["<rootDir>/components/containers/index.ts"],
+    "@components/sections": ["<rootDir>/components/sections/index.ts"],
+    "@hooks": ["<rootDir>/hooks/index.ts"],
+    "@queries": ["<rootDir>/queries/index.ts"],
+    "@types": ["<rootDir>/types/index.ts"],
+    "@utils": ["<rootDir>/utils/index.ts"],
+    "@temp/(.*)": [
+      "<rootDir>/static/$1",
+      "<rootDir>/$1"
+    ],
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+  },
+  "setupFilesAfterEnv": [
+    "<rootDir>/.jest/setupTests.js"
+  ],
+  "transform": {
+    "^.+\\.(j|t)sx?$": "babel-jest",
+    "^.+\\.svg$": "jest-svg-transformer",
+    ".+\\.(css|styl|less|sass|scss)$": "jest-css-modules-transform"
+  },
+  "transformIgnorePatterns": [
+    "/node_modules/(?!register-service-worker).+\\.js$"
+  ]
+}

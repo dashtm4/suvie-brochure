@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimpleSiteFooter /> should renders correct <SimpleSiteFooter /> 1`] = `
+<footer
+  className="relative text-center bg-secondary mt-auto mb-0 pt-10 pb-12 md:pt-20"
+>
+  <Wave />
+  <Container>
+    <div
+      className="mb-10"
+    >
+      <SealLogo />
+    </div>
+    <p
+      className="text-xs text-gray-600"
+    >
+      Meals for purchase may vary based on availability. Time savings are estimates and not a
+guarantee. Some images simulated or sped up and some servings suggested with finishing steps and consumer supplied additional
+ingredients. Meal coupon offers do not apply to the Suvie appliance.  For all coupons unless otherwise specified
+only one coupon is valid per customer for one-time use only. Coupons are valid only during their coupon period.
+Sales tax, shipping & handling do not qualify for any coupons. Coupons are not redeemable for cash or gift cards.
+Coupons are not valid for prior purchases. Coupons may not be combined with any other coupons, discounts, offers, or
+promotions. Void if altered, copied, transferred, auctioned or sold. Offer valid on in-stock items only. No rain checks
+issued. Other restrictions may apply. *Additional shipping and handling charges may apply see terms and conditions
+for details. Features subject to change on final product. Patents Pending. Copyright 2017 -
+  2021, Suvie.
+    </p>
+  </Container>
+</footer>
+`;

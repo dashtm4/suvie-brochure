@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HorizontalTabsList /> should has correct className with light theme 1`] = `
+<TabList
+  className="flex justify-between gap-2 font-serif font-normal text-center border-b border-opacity-25 mb-5 overflow-hidden md:flex-nowrap md:gap-6 md:justify-start md:text-lg border-black"
+>
+  Test children
+</TabList>
+`;
+
+exports[`<HorizontalTabsList /> should renders correct <HorizontalTabsList /> 1`] = `
+<TabList
+  className="flex justify-between gap-2 font-serif font-normal text-center border-b border-opacity-25 mb-5 overflow-hidden md:flex-nowrap md:gap-6 md:justify-start md:text-lg border-white"
+>
+  Test children
+</TabList>
+`;

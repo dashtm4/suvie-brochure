@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResponsiveSegment /> should renders correct <ResponsiveSegment /> 1`] = `
+<Carousel
+  afterSlide={[Function]}
+  autoGenerateStyleTag={true}
+  autoplay={false}
+  autoplayInterval={3000}
+  autoplayReverse={false}
+  beforeSlide={[Function]}
+  cellAlign="left"
+  cellSpacing={0}
+  className="pb-4"
+  defaultControlsConfig={Object {}}
+  disableAnimation={false}
+  disableEdgeSwiping={false}
+  dragging={true}
+  easing="easeCircleOut"
+  edgeEasing="easeElasticOut"
+  enableKeyboardControls={false}
+  frameOverflow="hidden"
+  framePadding="0px"
+  getControlsContainerStyles={[Function]}
+  height="inherit"
+  heightMode="max"
+  keyCodeConfig={Object {}}
+  onDragStart={[Function]}
+  onResize={[Function]}
+  pauseOnHover={true}
+  renderAnnounceSlideMessage={[Function]}
+  renderBottomCenterControls={[Function]}
+  renderCenterLeftControls={null}
+  renderCenterRightControls={null}
+  scrollMode="remainder"
+  slideIndex={0}
+  slideListMargin={10}
+  slideOffset={25}
+  slideWidth={1}
+  slidesToScroll={1}
+  slidesToShow={1}
+  speed={500}
+  style={Object {}}
+  swiping={true}
+  transitionMode="scroll"
+  vertical={false}
+  width="100%"
+  withoutControls={false}
+  wrapAround={false}
+/>
+`;

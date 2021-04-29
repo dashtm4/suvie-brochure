@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrequalifyNowLink /> should renders correct <PrequalifyNowLink /> 1`] = `
+<a
+  className="affirm-site-modal font-light underline"
+  role="button"
+  tabIndex={0}
+>
+  Prequalify Now
+</a>
+`;

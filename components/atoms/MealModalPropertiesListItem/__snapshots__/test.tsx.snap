@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MealModalPropertiesListItem /> should renders correct <MealModalPropertiesListItem /> 1`] = `
+<li
+  className="flex items-center justify-center mb-2 last:mb-0 md:block"
+>
+  <span
+    className="uppercase font-bold text-sm mr-4"
+  >
+    Test name
+  </span>
+   
+  <span
+    className="font-serif font-normal text-lg"
+  >
+    Test value
+  </span>
+</li>
+`;

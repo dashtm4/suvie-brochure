@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DefaultHero /> should renders correct <DefaultHero /> with background image 1`] = `
+<DefaultHero
+  imageSrc="image.jpg"
+  mobileImageSrc="image--small.jpg"
+  title="Test title"
+>
+  <section
+    className="relative bg-secondary text-white text-center bg-center bg-cover bg-no-repeat  pt-50 pb-44 md:pt-33 md:pb-40"
+    style={
+      Object {
+        "backgroundImage": "url(image.jpg)",
+      }
+    }
+  >
+    <Container
+      className="max-w-5xl"
+      role="banner"
+    >
+      <div
+        className="container px-3 mx-auto max-w-5xl"
+        role="banner"
+      >
+        <PageTitle>
+          <h1
+            className="font-serif font-normal tracking-tighter text-4xl md:text-7xl text-white"
+          >
+            <span
+              className=""
+            >
+              Test title
+            </span>
+          </h1>
+        </PageTitle>
+      </div>
+    </Container>
+    <Wave
+      colorName="white"
+      position="bottom-revert"
+    >
+      <svg
+        className="absolute left-0 w-full top-full transform -translate-y-full fill-white"
+        preserveAspectRatio="xMidYMin slice"
+        style={
+          Object {
+            "fill": "",
+          }
+        }
+        version="1.0"
+        viewBox="0 0 1200 44"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+        />
+      </svg>
+    </Wave>
+  </section>
+</DefaultHero>
+`;
+
+exports[`<DefaultHero /> should renders correct <DefaultHero /> with correct className when bgPosition is bottom 1`] = `
+<section
+  className="relative bg-secondary text-white text-center py-20 bg-bottom"
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+    }
+  }
+>
+  <Container
+    className="max-w-5xl"
+    role="banner"
+  >
+    <PageTitle>
+      <span
+        className=""
+      >
+        Test title
+      </span>
+    </PageTitle>
+  </Container>
+  <Wave
+    colorName="secondary"
+    position="bottom"
+  />
+</section>
+`;
+
+exports[`<DefaultHero /> should renders correct <DefaultHero /> with correct className when bgPosition is center 1`] = `
+<section
+  className="relative bg-secondary text-white text-center py-20 bg-center"
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+    }
+  }
+>
+  <Container
+    className="max-w-5xl"
+    role="banner"
+  >
+    <PageTitle>
+      <span
+        className=""
+      >
+        Test title
+      </span>
+    </PageTitle>
+  </Container>
+  <Wave
+    colorName="secondary"
+    position="bottom"
+  />
+</section>
+`;
+
+exports[`<DefaultHero /> should renders correct <DefaultHero /> with correct className when bgPosition is default 1`] = `
+<section
+  className="relative bg-secondary text-white text-center py-20 bg-center"
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+    }
+  }
+>
+  <Container
+    className="max-w-5xl"
+    role="banner"
+  >
+    <PageTitle>
+      <span
+        className=""
+      >
+        Test title
+      </span>
+    </PageTitle>
+  </Container>
+  <Wave
+    colorName="secondary"
+    position="bottom"
+  />
+</section>
+`;
+
+exports[`<DefaultHero /> should renders correct <DefaultHero /> with correct className when bgPosition is top 1`] = `
+<section
+  className="relative bg-secondary text-white text-center py-20 bg-top"
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+    }
+  }
+>
+  <Container
+    className="max-w-5xl"
+    role="banner"
+  >
+    <PageTitle>
+      <span
+        className=""
+      >
+        Test title
+      </span>
+    </PageTitle>
+  </Container>
+  <Wave
+    colorName="secondary"
+    position="bottom"
+  />
+</section>
+`;
+
+exports[`<DefaultHero /> should renders correct <DefaultHero /> with correct subtitle 1`] = `
+<section
+  className="relative bg-secondary text-white text-center py-20 bg-center"
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+    }
+  }
+>
+  <Container
+    className="max-w-5xl"
+    role="banner"
+  >
+    <PageTitle>
+      <span
+        className=""
+      >
+        Test title
+      </span>
+    </PageTitle>
+    <div
+      className="mt-7"
+    >
+      Test subtitle
+    </div>
+  </Container>
+  <Wave
+    colorName="secondary"
+    position="bottom"
+  />
+</section>
+`;
+
+exports[`<DefaultHero /> should renders correct <DefaultHero /> with correct title 1`] = `
+<section
+  className="relative bg-secondary text-white text-center py-20 bg-center"
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+    }
+  }
+>
+  <Container
+    className="max-w-5xl"
+    role="banner"
+  >
+    <PageTitle>
+      <span
+        className=""
+      >
+        Test title
+      </span>
+    </PageTitle>
+  </Container>
+  <Wave
+    colorName="secondary"
+    position="bottom"
+  />
+</section>
+`;
+
+exports[`<DefaultHero /> should renders correct <DefaultHero /> with correct title and strapline 1`] = `
+<section
+  className="relative bg-secondary text-white text-center py-20 bg-center"
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+    }
+  }
+>
+  <Container
+    className="max-w-5xl"
+    role="banner"
+  >
+    <div
+      className="mb-4 text-sm font-bold tracking-wide uppercase"
+    >
+      Test strapline
+    </div>
+    <PageTitle>
+      <span
+        className=""
+      >
+        Test title
+      </span>
+    </PageTitle>
+  </Container>
+  <Wave
+    colorName="secondary"
+    position="bottom"
+  />
+</section>
+`;
+
+exports[`<DefaultHero /> should renders correct <DefaultHero /> with mobile background image from imageSrc prop 1`] = `
+<DefaultHero
+  imageSrc="image.jpg"
+  title="Test title"
+>
+  <section
+    className="relative bg-secondary text-white text-center bg-center bg-cover bg-no-repeat  pt-50 pb-44 md:pt-33 md:pb-40"
+    style={
+      Object {
+        "backgroundImage": "url(image.jpg)",
+      }
+    }
+  >
+    <Container
+      className="max-w-5xl"
+      role="banner"
+    >
+      <div
+        className="container px-3 mx-auto max-w-5xl"
+        role="banner"
+      >
+        <PageTitle>
+          <h1
+            className="font-serif font-normal tracking-tighter text-4xl md:text-7xl text-white"
+          >
+            <span
+              className=""
+            >
+              Test title
+            </span>
+          </h1>
+        </PageTitle>
+      </div>
+    </Container>
+    <Wave
+      colorName="white"
+      position="bottom-revert"
+    >
+      <svg
+        className="absolute left-0 w-full top-full transform -translate-y-full fill-white"
+        preserveAspectRatio="xMidYMin slice"
+        style={
+          Object {
+            "fill": "",
+          }
+        }
+        version="1.0"
+        viewBox="0 0 1200 44"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M279.243 0C174.167 0 34.974 18.59 0 27.885V44h1200V0C991.25 0 838.634 34.818 678.692 34.818S414.583 0 279.243 0z"
+        />
+      </svg>
+    </Wave>
+  </section>
+</DefaultHero>
+`;

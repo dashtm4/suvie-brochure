@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainNav /> should renders correct hidden <MainNav /> 1`] = `
+<nav
+  className="fixed inset-0 bg-white py-16 animate-slide-in-left xl:animate-none xl:py-0 xl:static xl:flex xl:flex-grow xl:items-center xl:pt-0 hidden"
+>
+  <CloseButton
+    className="absolute top-4 left-6 w-4 h-4 xl:hidden"
+    colorHex="#000"
+    handleClick={[Function]}
+  />
+  <div
+    className="mb-4 xl:mb-0 xl:mr-auto"
+  >
+    <ul
+      className="xl:flex xl:mr-auto"
+    >
+      <MainNavItem
+        key="How it Works"
+        title="How it Works"
+        url="/kitchen-robot/"
+      />
+      <MainNavItem
+        key="Recipes"
+        title="Recipes"
+        url="/recipes/"
+      />
+      <MainNavItem
+        key="Meal Plans"
+        title="Meal Plans"
+        url="/smart-meals/"
+      />
+      <MainNavItem
+        key="Reviews"
+        title="Reviews"
+        url="/reviews/"
+      />
+      <MainNavItem
+        key="Health"
+        title="Health"
+        url="/health/"
+      />
+    </ul>
+  </div>
+  <div
+    className="xl:flex xl:ml-7"
+  >
+    <ul
+      className="mb-4 xl:mb-0 xl:flex xl:items-center"
+    >
+      <MainNavItem
+        external={true}
+        smallOnMobile={true}
+        title="Log In"
+        url="https://app.suvie.com/"
+      />
+    </ul>
+    <ButtonLink
+      className="ml-6 w-25 xl:ml-4"
+      href="/shop-page/"
+    >
+      Buy now
+    </ButtonLink>
+  </div>
+</nav>
+`;
+
+exports[`<MainNav /> should renders correct shown <MainNav /> 1`] = `
+<nav
+  className="fixed inset-0 bg-white py-16 animate-slide-in-left xl:animate-none xl:py-0 xl:static xl:flex xl:flex-grow xl:items-center xl:pt-0"
+>
+  <CloseButton
+    className="absolute top-4 left-6 w-4 h-4 xl:hidden"
+    colorHex="#000"
+    handleClick={[Function]}
+  />
+  <div
+    className="mb-4 xl:mb-0 xl:mr-auto"
+  >
+    <ul
+      className="xl:flex xl:mr-auto"
+    >
+      <MainNavItem
+        key="How it Works"
+        title="How it Works"
+        url="/kitchen-robot/"
+      />
+      <MainNavItem
+        key="Recipes"
+        title="Recipes"
+        url="/recipes/"
+      />
+      <MainNavItem
+        key="Meal Plans"
+        title="Meal Plans"
+        url="/smart-meals/"
+      />
+      <MainNavItem
+        key="Reviews"
+        title="Reviews"
+        url="/reviews/"
+      />
+      <MainNavItem
+        key="Health"
+        title="Health"
+        url="/health/"
+      />
+    </ul>
+  </div>
+  <div
+    className="xl:flex xl:ml-7"
+  >
+    <ul
+      className="mb-4 xl:mb-0 xl:flex xl:items-center"
+    >
+      <MainNavItem
+        external={true}
+        smallOnMobile={true}
+        title="Log In"
+        url="https://app.suvie.com/"
+      />
+    </ul>
+    <ButtonLink
+      className="ml-6 w-25 xl:ml-4"
+      href="/shop-page/"
+    >
+      Buy now
+    </ButtonLink>
+  </div>
+</nav>
+`;

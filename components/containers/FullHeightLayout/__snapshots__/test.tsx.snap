@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FullHeightLayout /> should render correct html 1`] = `
+<div
+  className="min-h-screen flex flex-col"
+>
+  test
+</div>
+`;
+
+exports[`<FullHeightLayout /> should renders children 1`] = `
+<div
+  className="min-h-screen flex flex-col"
+>
+  test
+</div>
+`;

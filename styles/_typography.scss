@@ -1,0 +1,128 @@
+@layer base {
+  @font-face {
+    font-family: 'Domaine Text';
+    src:
+      local('Domaine Text Light'),
+      url('../public/fonts/DomaineTextWeb-Light.woff2') format('woff2'),
+      url('../public/fonts/DomaineTextWeb-Light.woff') format('woff');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Domaine Text';
+    src:
+      local('Domaine Text Light Italic'),
+      url('../public/fonts/DomaineTextWeb-LightItalic.woff2') format('woff2'),
+      url('../public/fonts/DomaineTextWeb-LightItalic.woff') format('woff');
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Domaine Text';
+    src:
+      local('Domaine Text Regular'),
+      url('../public/fonts/DomaineTextWeb-Regular.woff2') format('woff2'),
+      url('../public/fonts/DomaineTextWeb-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Domaine Text';
+    src:
+      local('Domaine Text Regular Italic'),
+      url('../public/fonts/DomaineTextWeb-RegularItalic.woff2') format('woff2'),
+      url('../public/fonts/DomaineTextWeb-RegularItalic.woff') format('woff');
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Domaine Text';
+    src:
+      local('Domaine Text Medium'),
+      url('../public/fonts/DomaineTextWeb-Medium.woff2') format('woff2'),
+      url('../public/fonts/DomaineTextWeb-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Domaine Text';
+    src:
+      local('Domaine Text Medium Italic'),
+      url('../public/fonts/DomaineTextWeb-MediumItalic.woff2') format('woff2'),
+      url('../public/fonts/DomaineTextWeb-MediumItalic.woff') format('woff');
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Lars';
+    src:
+      local('Lars Light'),
+      url('../public/fonts/Lars-Light.woff2') format('woff2'),
+      url('../public/fonts/Lars-Light.woff') format('woff');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Lars';
+    src:
+      local('Lars Regular'),
+      url('../public/fonts/Lars-Regular.woff2') format('woff2'),
+      url('../public/fonts/Lars-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Lars';
+    src:
+      local('Lars Bold'),
+      url('../public/fonts/Lars-Bold.woff2') format('woff2'),
+      url('../public/fonts/Lars-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+  }
+
+  :root {
+    font-size: 16px;
+
+    @apply text-black;
+    @apply font-light;
+
+    line-height: 1.4;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-medium;
+    @apply leading-none;
+  }
+
+  b,
+  strong {
+    @apply font-bold;
+  }
+
+  small {
+    @apply text-sm;
+  }
+}

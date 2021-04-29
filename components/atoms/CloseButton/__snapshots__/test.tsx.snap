@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CloseButton /> should has className from prop 1`] = `
+<button
+  aria-label="Close"
+  className="mb-2"
+  onClick={[MockFunction]}
+>
+  <svg
+    fill="none"
+    height="22"
+    width="22"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M21 21L1 1M21 1L1 21"
+      stroke="#fff"
+      strokeWidth="2"
+    />
+  </svg>
+</button>
+`;
+
+exports[`<CloseButton /> should renders correct <CloseButton /> 1`] = `
+<button
+  aria-label="Close"
+  className="w-4 h-4"
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <svg
+    fill="none"
+    height="22"
+    width="22"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M21 21L1 1M21 1L1 21"
+      stroke="#fff"
+      strokeWidth="2"
+    />
+  </svg>
+</button>
+`;
+
+exports[`<CloseButton /> should svg has correct color 1`] = `
+<button
+  aria-label="Close"
+  className="w-4 h-4"
+  onClick={[MockFunction]}
+>
+  <svg
+    fill="none"
+    height="22"
+    width="22"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M21 21L1 1M21 1L1 21"
+      stroke="#000"
+      strokeWidth="2"
+    />
+  </svg>
+</button>
+`;

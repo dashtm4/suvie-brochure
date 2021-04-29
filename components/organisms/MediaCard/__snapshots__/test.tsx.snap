@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MediaCard /> should renders correct <MediaCard /> 1`] = `
+<div
+  className="text-center md:text-left"
+>
+  <figure
+    className="relative mb-3 md:mb-4"
+    style={
+      Object {
+        "height": "420px",
+      }
+    }
+  >
+    <div
+      className="h-full overflow-hidden relative md:rounded-lg"
+    >
+      <VideoPlayer
+        autoplay={false}
+        className="object-cover absolute inset-0 w-full h-full"
+        controls={false}
+        loop={true}
+        muted={true}
+        playerRef={
+          Object {
+            "current": null,
+          }
+        }
+        playsInline={true}
+        poster="image.jpg"
+      />
+    </div>
+    <button
+      className="absolute inset-0 w-full h-full"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.15) 50%)",
+        }
+      }
+    />
+  </figure>
+  <h3
+    className="px-3 mb-2 font-serif text-2xl font-medium md:px-0"
+  >
+    Test title
+  </h3>
+  <div
+    className="px-3 max-w-sm md:px-0"
+  >
+    Test description
+  </div>
+</div>
+`;
+
+exports[`<MediaCard /> should renders correct <MediaCard /> with correct tags prop 1`] = `
+<div
+  className="text-center md:text-left"
+>
+  <figure
+    className="relative mb-3 md:mb-4"
+    style={
+      Object {
+        "height": "420px",
+      }
+    }
+  >
+    <div
+      className="h-full overflow-hidden relative md:rounded-lg"
+    >
+      <VideoPlayer
+        autoplay={false}
+        className="object-cover absolute inset-0 w-full h-full"
+        controls={false}
+        loop={true}
+        muted={true}
+        playerRef={
+          Object {
+            "current": null,
+          }
+        }
+        playsInline={true}
+        poster="image.jpg"
+      />
+    </div>
+    <button
+      className="absolute inset-0 w-full h-full"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.15) 50%)",
+        }
+      }
+    />
+    <div
+      className="flex absolute left-0 top-2 gap-2 justify-center px-4 w-full md:justify-start md:top-4"
+    >
+      <Badge
+        key="Test tag 1"
+      >
+        Test tag 1
+      </Badge>
+      <Badge
+        key="Test tag 2"
+      >
+        Test tag 2
+      </Badge>
+    </div>
+  </figure>
+  <h3
+    className="px-3 mb-2 font-serif text-2xl font-medium md:px-0"
+  >
+    Test title
+  </h3>
+  <div
+    className="px-3 max-w-sm md:px-0"
+  >
+    Test description
+  </div>
+</div>
+`;
+
+exports[`<MediaCard /> should renders correct <MediaCard /> with correct videoSrc prop 1`] = `
+<div
+  className="text-center md:text-left"
+>
+  <figure
+    className="relative mb-3 md:mb-4"
+    style={
+      Object {
+        "height": "420px",
+      }
+    }
+  >
+    <div
+      className="h-full overflow-hidden relative md:rounded-lg"
+    >
+      <VideoPlayer
+        autoplay={false}
+        className="object-cover absolute inset-0 w-full h-full"
+        controls={false}
+        loop={true}
+        muted={true}
+        playerRef={
+          Object {
+            "current": null,
+          }
+        }
+        playsInline={true}
+        poster="image.jpg"
+        url="video.avi"
+      />
+    </div>
+    <button
+      className="absolute inset-0 w-full h-full"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.15) 50%)",
+        }
+      }
+    />
+  </figure>
+  <h3
+    className="px-3 mb-2 font-serif text-2xl font-medium md:px-0"
+  >
+    Test title
+  </h3>
+  <div
+    className="px-3 max-w-sm md:px-0"
+  >
+    Test description
+  </div>
+</div>
+`;

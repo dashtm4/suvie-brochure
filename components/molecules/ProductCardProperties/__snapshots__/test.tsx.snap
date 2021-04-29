@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCardProperties /> should has className from prop 1`] = `
+<div
+  className="test-class-name"
+>
+  <h3
+    className="font-secondary mb-1"
+  >
+    Test title
+  </h3>
+  <ul
+    className="text-octonary"
+  >
+    <li
+      key="Property 1"
+    >
+      Property 1
+    </li>
+    <li
+      key="Property 2"
+    >
+      Property 2
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<ProductCardProperties /> should renders correct <ProductCardProperties /> 1`] = `
+<div>
+  <h3
+    className="font-secondary mb-1"
+  >
+    Test title
+  </h3>
+  <ul
+    className="text-octonary"
+  >
+    <li
+      key="Property 1"
+    >
+      Property 1
+    </li>
+    <li
+      key="Property 2"
+    >
+      Property 2
+    </li>
+  </ul>
+</div>
+`;

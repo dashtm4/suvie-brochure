@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeaturesBanner /> should renders correct <FeaturesBanner /> 1`] = `
+<div
+  className="bg-white py-2"
+  style={
+    Object {
+      "boxShadow": "0px 0px 25px rgba(0, 0, 0, 0.05)",
+    }
+  }
+>
+  <Container
+    style={
+      Object {
+        "maxWidth": "48.75rem",
+      }
+    }
+  >
+    <FeaturesBannerList
+      features={
+        Array [
+          Object {
+            "height": 40,
+            "imageSrc": "image.jpg",
+            "title": "Test title",
+            "width": 40,
+          },
+          Object {
+            "height": 40,
+            "imageSrc": "image-2.jpg",
+            "title": "Test title 2",
+            "width": 40,
+          },
+        ]
+      }
+    />
+  </Container>
+</div>
+`;

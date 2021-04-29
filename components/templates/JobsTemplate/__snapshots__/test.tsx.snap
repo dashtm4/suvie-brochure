@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<JobsTemplate /> should renders correct <JobsTemplate /> 1`] = `
+<main>
+  <DefaultHero
+    title="Jobs"
+  />
+  <Container
+    className="py-20"
+  />
+</main>
+`;

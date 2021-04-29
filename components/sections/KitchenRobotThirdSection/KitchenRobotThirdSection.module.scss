@@ -1,0 +1,17 @@
+.kitchen-robot-third-section {
+  .overview {
+    background:
+      radial-gradient(
+        550px 142px at 50% 50%,
+        rgba(26, 16, 15, 0.72) 0%,
+        #1a100f 100%
+      ),
+      url(/images/kitchen-robot/kitchen-robot--bg.jpg) center 30% / cover no-repeat;
+  }
+
+  .intro {
+    background:
+      linear-gradient(180deg, #1a100f 0%, rgba(0, 0, 0, 0) 21.81%),
+      linear-gradient(360deg, #1a100f 0%, rgba(0, 0, 0, 0) 54.5%);
+  }
+}

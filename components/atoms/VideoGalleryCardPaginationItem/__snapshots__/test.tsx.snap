@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoGalleryCardPaginationItem /> should has correct className when isActive prop is true 1`] = `
+<button
+  aria-label="presentation"
+  className="flex items-center justify-center border border-white rounded-full text-primary-default transition-all outline-none"
+  onClick={[Function]}
+  style={
+    Object {
+      "height": "3.125rem",
+      "width": "3.125rem",
+    }
+  }
+>
+  <span
+    className="flex items-center justify-center font-serif text-lg font-normal leading-none bg-white rounded-full"
+    style={
+      Object {
+        "height": "2rem",
+        "width": "2rem",
+      }
+    }
+  >
+    1
+  </span>
+</button>
+`;
+
+exports[`<VideoGalleryCardPaginationItem /> should renders correct <VideoGalleryCardPaginationItem /> 1`] = `
+<button
+  aria-label="presentation"
+  className="flex items-center justify-center border border-white rounded-full text-primary-default transition-all outline-none opacity-50"
+  onClick={[Function]}
+  style={
+    Object {
+      "height": "3.125rem",
+      "width": "3.125rem",
+    }
+  }
+>
+  <span
+    className="flex items-center justify-center font-serif text-lg font-normal leading-none bg-white rounded-full"
+    style={
+      Object {
+        "height": "2rem",
+        "width": "2rem",
+      }
+    }
+  >
+    1
+  </span>
+</button>
+`;

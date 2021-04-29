@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductSimpleCard /> should renders correct <ProductSimpleCard /> 1`] = `
+<div
+  className="bg-white rounded-xl relative w-80 max-w-full pt-6 pb-4 px-4 transition-shadow mx-auto hover:shadow-lg"
+>
+  <ProductCardTitle>
+    Test title
+  </ProductCardTitle>
+  <ProductCardImage
+    alt="Test title"
+    imageSrc="image.jpg"
+  />
+  <div
+    className="font-serif text-2xl font-normal text-center text-secondary"
+  >
+    <div
+      className="flex items-baseline justify-center gap-x-2"
+    >
+      <span>
+        $
+        1000
+      </span>
+    </div>
+    <div>
+      or 
+      <span>
+        $
+        50
+        /month*
+      </span>
+    </div>
+  </div>
+</div>
+`;

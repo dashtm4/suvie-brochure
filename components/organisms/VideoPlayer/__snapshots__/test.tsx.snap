@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoPlayer /> should renders correct <VideoPlayer /> 1`] = `
+<video
+  autoPlay={false}
+  controls={false}
+  loop={false}
+  muted={false}
+  playsInline={false}
+  src="video.mp4"
+  style={Object {}}
+/>
+`;

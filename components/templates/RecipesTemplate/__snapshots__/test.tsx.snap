@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecipesTemplate /> should renders correct <RecipesTemplate /> 1`] = `
+<main>
+  <FeaturesBanner
+    features={
+      Array [
+        Object {
+          "image": Object {
+            "height": 40,
+            "url": "/images/affirm-logo.svg",
+            "width": 40,
+          },
+          "title": "Pay as low as $33/ month",
+        },
+        Object {
+          "image": Object {
+            "height": 40,
+            "url": "/images/100-day-home-trial-risk-free.svg",
+            "width": 40,
+          },
+          "link": "/free-trial/",
+          "title": "100-day home trial, risk-free",
+        },
+        Object {
+          "image": Object {
+            "height": 30,
+            "url": "/images/logo-seal-black.svg",
+            "width": 30,
+          },
+          "title": "1 Year Warranty",
+        },
+      ]
+    }
+  />
+  <DefaultHero
+    imageSrc="/images/recipes-page/what-you-cook-hero-background.jpg"
+    title="Recipes"
+  />
+  <RecipesYourChoiceSection />
+  <RecipesSection />
+  <RecipesFaqSection />
+  <RecipesReviewsSection />
+  <FinalCallToActionSection
+    imageSrc="/images/recipes-page/final-call-to-action-section-background.jpg"
+    offsetX="left"
+    offsetXInMobile="center"
+  />
+</main>
+`;

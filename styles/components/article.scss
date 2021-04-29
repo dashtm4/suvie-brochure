@@ -1,0 +1,164 @@
+@layer components {
+  .article {
+    @apply text-gray-700 break-words;
+
+    @for $i from 2 through 6 {
+      h#{$i} {
+        @apply text-black;
+
+        margin-bottom: 1rem;
+      }
+    }
+
+    h2 {
+      @apply text-3xl;
+    }
+
+    h3 {
+      @apply text-2xl;
+    }
+
+    h4 {
+      @apply text-xl;
+    }
+
+    h5 {
+      @apply text-lg;
+    }
+
+    h6 {
+      @apply text-base;
+    }
+
+    address {
+      margin-bottom: 1rem;
+    }
+
+    ol {
+      @apply list-decimal;
+    }
+
+    ul {
+      @apply list-disc;
+    }
+
+    ol,
+    ul {
+      padding-left: 2rem;
+    }
+
+    ol,
+    ul,
+    dl,
+    p {
+      margin-bottom: 1rem;
+    }
+
+    ol ol,
+    ul ul,
+    ol ul,
+    ul ol {
+      @apply mb-0;
+    }
+
+    dt {
+      @apply font-bold;
+    }
+
+    dd {
+      @apply ml-0;
+
+      margin-bottom: 0.5rem;
+    }
+
+    blockquote {
+      margin-bottom: 1rem;
+    }
+
+    mark {
+      padding: 0.2em;
+      background-color: #fcf8e3;
+    }
+
+    sub,
+    sup {
+      @apply relative text-xs align-baseline;
+
+      line-height: 0;
+    }
+
+    sub {
+      bottom: -0.25em;
+    }
+
+    sup {
+      top: -0.5em;
+    }
+
+    a {
+      @apply text-primary-default underline;
+    }
+
+    a:hover {
+      @apply text-primary-dark;
+    }
+
+    pre,
+    code,
+    kbd,
+    samp {
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+      font-size: 1em;
+    }
+
+    pre {
+      @apply block mt-0 overflow-auto text-sm;
+
+      margin-bottom: 1rem;
+    }
+
+    code {
+      @apply text-sm;
+
+      word-wrap: break-word;
+    }
+
+    pre code {
+      @apply break-normal;
+    }
+
+    a > code {
+      color: inherit;
+    }
+
+    figure {
+      margin-bottom: 1rem;
+    }
+
+    img,
+    svg {
+      @apply align-middle;
+    }
+
+    caption {
+      @apply text-left;
+
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    td {
+      padding: 8px;
+    }
+
+    summary {
+      @apply cursor-pointer;
+
+      display: list-item;
+    }
+
+    progress {
+      @apply align-baseline;
+    }
+  }
+}

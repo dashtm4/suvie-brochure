@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Filter /> should has correct active button 1`] = `
+<div
+  className=""
+>
+  <h3
+    className="mb-3 text-xs font-bold leading-none tracking-widest uppercase text-secondary md:mb-2"
+  >
+    Test title
+  </h3>
+  <ul
+    className="flex gap-2 pb-2 overflow-x-auto md:flex-wrap md:pb-0"
+  >
+    <li>
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={false}
+        name="All"
+      />
+    </li>
+    <li
+      key="Test name 1"
+    >
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={false}
+        name="Test name 1"
+      />
+    </li>
+    <li
+      key="Test name 2"
+    >
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={true}
+        name="Test name 2"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Filter /> should has correct className from className prop 1`] = `
+<div
+  className="test-classname"
+>
+  <h3
+    className="mb-3 text-xs font-bold leading-none tracking-widest uppercase text-secondary md:mb-2"
+  >
+    Test title
+  </h3>
+  <ul
+    className="flex gap-2 pb-2 overflow-x-auto md:flex-wrap md:pb-0"
+  >
+    <li>
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={false}
+        name="All"
+      />
+    </li>
+    <li
+      key="Test name 1"
+    >
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={false}
+        name="Test name 1"
+      />
+    </li>
+    <li
+      key="Test name 2"
+    >
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={false}
+        name="Test name 2"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Filter /> should has correct defaultName from prop 1`] = `
+<div
+  className=""
+>
+  <h3
+    className="mb-3 text-xs font-bold leading-none tracking-widest uppercase text-secondary md:mb-2"
+  >
+    Test title
+  </h3>
+  <ul
+    className="flex gap-2 pb-2 overflow-x-auto md:flex-wrap md:pb-0"
+  >
+    <li>
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={false}
+        name="Test default name"
+      />
+    </li>
+    <li
+      key="Test name 1"
+    >
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={false}
+        name="Test name 1"
+      />
+    </li>
+    <li
+      key="Test name 2"
+    >
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={false}
+        name="Test name 2"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Filter /> should renders correct <Filter /> 1`] = `
+<div
+  className=""
+>
+  <h3
+    className="mb-3 text-xs font-bold leading-none tracking-widest uppercase text-secondary md:mb-2"
+  >
+    Test title
+  </h3>
+  <ul
+    className="flex gap-2 pb-2 overflow-x-auto md:flex-wrap md:pb-0"
+  >
+    <li>
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={false}
+        name="All"
+      />
+    </li>
+    <li
+      key="Test name 1"
+    >
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={false}
+        name="Test name 1"
+      />
+    </li>
+    <li
+      key="Test name 2"
+    >
+      <FilterButton
+        handleClick={[MockFunction]}
+        isCurrent={false}
+        name="Test name 2"
+      />
+    </li>
+  </ul>
+</div>
+`;

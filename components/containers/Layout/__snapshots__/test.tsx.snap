@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> should renders correct <Layout /> 1`] = `
+<div
+  className="h-full mx-auto max-w-screen-xl px-8"
+/>
+`;

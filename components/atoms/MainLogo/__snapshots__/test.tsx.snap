@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainLogo /> should render correct <MainLogo /> 1`] = `
+<Link
+  href="/"
+>
+  <a
+    className="flex items-center xl:mr-6"
+  >
+    <Image
+      alt="Suvie"
+      height={30}
+      src="/images/logo.svg"
+      width={107}
+    />
+  </a>
+</Link>
+`;

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GalleryModal /> should has gallery from prop 1`] = `
+<Modal
+  toggleModal={[MockFunction]}
+>
+  <div
+    className="md:flex"
+    style={
+      Object {
+        "minHeight": "37rem",
+      }
+    }
+  >
+    <div
+      className="bg-secondary md:w-1/2 md:order-1"
+      style={
+        Object {
+          "height": "0px",
+        }
+      }
+    >
+      <div
+        className="relative w-full"
+        style={
+          Object {
+            "height": "0px",
+          }
+        }
+      >
+        <Image
+          alt=""
+          layout="fill"
+          objectFit="cover"
+          src="image-1.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="py-8 px-3 md:w-1/2 md:py-12 md:pl-8 md:pr-12 md:order-0 md:flex md:flex-col md:justify-center"
+    >
+      test
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`<GalleryModal /> should renders correct <ProductCardModalContent /> 1`] = `
+<Modal
+  toggleModal={[MockFunction]}
+>
+  <div
+    className="md:flex"
+    style={
+      Object {
+        "minHeight": "37rem",
+      }
+    }
+  >
+    <div
+      className="bg-secondary md:w-1/2 md:order-1"
+      style={
+        Object {
+          "height": "0px",
+        }
+      }
+    >
+      <div
+        className="relative w-full"
+        style={
+          Object {
+            "height": "0px",
+          }
+        }
+      >
+        <Image
+          alt=""
+          layout="fill"
+          objectFit="cover"
+          src=""
+        />
+      </div>
+    </div>
+    <div
+      className="py-8 px-3 md:w-1/2 md:py-12 md:pl-8 md:pr-12 md:order-0 md:flex md:flex-col md:justify-center"
+    >
+      test
+    </div>
+  </div>
+</Modal>
+`;

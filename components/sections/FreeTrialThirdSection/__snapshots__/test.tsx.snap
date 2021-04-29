@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FreeTrialThirdSection /> should renders correct <FreeTrialThirdSection /> 1`] = `
+<section
+  className="relative pb-14 md:pb-27"
+>
+  <Layout>
+    <h2
+      className="mb-5 font-serif text-2xl font-normal text-center md:text-4xl md:mb-24 text-secondary"
+    >
+      Frequently asked questions
+    </h2>
+    <div>
+      <Collapse
+        key="0"
+        title="Frequently asked question about Smart Meals"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+      </Collapse>
+      <Collapse
+        key="1"
+        title="Frequently asked question about Smart Meals"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+      </Collapse>
+      <Collapse
+        key="2"
+        title="Frequently asked question about Smart Meals"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+      </Collapse>
+      <Collapse
+        key="3"
+        title="Frequently asked question about Smart Meals"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+      </Collapse>
+    </div>
+  </Layout>
+  <Wave
+    colorName="white"
+    position="bottom"
+  />
+</section>
+`;

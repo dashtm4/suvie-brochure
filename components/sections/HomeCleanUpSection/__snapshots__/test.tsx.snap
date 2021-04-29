@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeCleanUpSection /> should renders correct <HomeCleanUpSection /> 1`] = `
+<section
+  className="relative pt-8 pb-12 text-center md:text-left"
+  style={
+    Object {
+      "backgroundColor": "#f4f3f2",
+    }
+  }
+>
+  <Container>
+    <Row
+      className="items-center justify-between"
+    >
+      <div
+        className="w-full md:px-3 md:w-1/2"
+      >
+        <VideoCard
+          className="mb-8"
+          videoSrc="https://embed-ssl.wistia.com/deliveries/30e8629fa1dbc94f7dd3bc479271fb6e2641137e.m3u8"
+        />
+      </div>
+      <Col
+        className="w-full md:w-5/12"
+      >
+        <div
+          className="md:max-w-sm"
+        >
+          <SectionTitle
+            alignMd="left"
+            className="mb-4 md:mb-2"
+          >
+            Cleanup takes seconds
+          </SectionTitle>
+          <div
+            className="text-quinary"
+          >
+            Because Suvie is a water-based cooking appliance, it cleans itself as it cooks. And all the Suvie Pans are dishwasher safe.
+          </div>
+        </div>
+      </Col>
+    </Row>
+  </Container>
+  <Wave
+    colorHex="#f4f3f2"
+    position="bottom"
+    style={
+      Object {
+        "zIndex": 1,
+      }
+    }
+  />
+</section>
+`;

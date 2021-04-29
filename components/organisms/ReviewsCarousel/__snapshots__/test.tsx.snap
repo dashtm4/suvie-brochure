@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewsCarousel /> should renders correct <ReviewsCarousel /> 1`] = `
+<Carousel
+  afterSlide={[Function]}
+  autoGenerateStyleTag={true}
+  autoplay={false}
+  autoplayInterval={3000}
+  autoplayReverse={false}
+  beforeSlide={[Function]}
+  cellAlign="left"
+  cellSpacing={60}
+  className=""
+  defaultControlsConfig={Object {}}
+  disableAnimation={false}
+  disableEdgeSwiping={false}
+  dragging={true}
+  easing="easeCircleOut"
+  edgeEasing="easeElasticOut"
+  enableKeyboardControls={false}
+  frameOverflow="hidden"
+  framePadding="0px"
+  getControlsContainerStyles={[Function]}
+  height="inherit"
+  heightMode="max"
+  keyCodeConfig={Object {}}
+  onDragStart={[Function]}
+  onResize={[Function]}
+  opacityScale={1}
+  pauseOnHover={true}
+  renderAnnounceSlideMessage={[Function]}
+  renderBottomCenterControls={[Function]}
+  renderCenterCenterControls={[Function]}
+  renderCenterLeftControls={null}
+  renderCenterRightControls={null}
+  scrollMode="remainder"
+  slideIndex={0}
+  slideListMargin={10}
+  slideOffset={25}
+  slideWidth={1}
+  slidesToScroll={1}
+  slidesToShow={5}
+  speed={500}
+  style={Object {}}
+  swiping={true}
+  transitionMode="scroll3d"
+  vertical={false}
+  width="100%"
+  withoutControls={false}
+  wrapAround={true}
+  zoomScale={1}
+>
+  <div
+    className=" pb-6"
+    key="1"
+  >
+    <ReviewCard
+      className=" mx-auto"
+      isTransparent={false}
+      review={
+        Object {
+          "body": "Test review",
+          "id": "1",
+          "image": Object {
+            "url": "/image.jpg",
+          },
+          "name": "John Doe",
+        }
+      }
+    />
+  </div>
+  <div
+    className=" pb-6"
+    key="2"
+  >
+    <ReviewCard
+      className=" mx-auto"
+      isTransparent={true}
+      review={
+        Object {
+          "body": "Test review 2",
+          "id": "2",
+          "image": Object {
+            "url": "/image.jpg",
+          },
+          "name": "Jain Doe",
+        }
+      }
+    />
+  </div>
+</Carousel>
+`;
+
+exports[`<ReviewsCarousel /> should renders correct <ReviewsCarousel /> with correct ClassName prop 1`] = `
+<Carousel
+  afterSlide={[Function]}
+  autoGenerateStyleTag={true}
+  autoplay={false}
+  autoplayInterval={3000}
+  autoplayReverse={false}
+  beforeSlide={[Function]}
+  cellAlign="left"
+  cellSpacing={60}
+  className="mb-2"
+  defaultControlsConfig={Object {}}
+  disableAnimation={false}
+  disableEdgeSwiping={false}
+  dragging={true}
+  easing="easeCircleOut"
+  edgeEasing="easeElasticOut"
+  enableKeyboardControls={false}
+  frameOverflow="hidden"
+  framePadding="0px"
+  getControlsContainerStyles={[Function]}
+  height="inherit"
+  heightMode="max"
+  keyCodeConfig={Object {}}
+  onDragStart={[Function]}
+  onResize={[Function]}
+  opacityScale={1}
+  pauseOnHover={true}
+  renderAnnounceSlideMessage={[Function]}
+  renderBottomCenterControls={[Function]}
+  renderCenterCenterControls={[Function]}
+  renderCenterLeftControls={null}
+  renderCenterRightControls={null}
+  scrollMode="remainder"
+  slideIndex={0}
+  slideListMargin={10}
+  slideOffset={25}
+  slideWidth={1}
+  slidesToScroll={1}
+  slidesToShow={5}
+  speed={500}
+  style={Object {}}
+  swiping={true}
+  transitionMode="scroll3d"
+  vertical={false}
+  width="100%"
+  withoutControls={false}
+  wrapAround={true}
+  zoomScale={1}
+>
+  <div
+    className=" pb-6"
+    key="1"
+  >
+    <ReviewCard
+      className=" mx-auto"
+      isTransparent={false}
+      review={
+        Object {
+          "body": "Test review",
+          "id": "1",
+          "image": Object {
+            "url": "/image.jpg",
+          },
+          "name": "John Doe",
+        }
+      }
+    />
+  </div>
+  <div
+    className=" pb-6"
+    key="2"
+  >
+    <ReviewCard
+      className=" mx-auto"
+      isTransparent={true}
+      review={
+        Object {
+          "body": "Test review 2",
+          "id": "2",
+          "image": Object {
+            "url": "/image.jpg",
+          },
+          "name": "Jain Doe",
+        }
+      }
+    />
+  </div>
+</Carousel>
+`;

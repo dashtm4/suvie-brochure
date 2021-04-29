@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimpleSiteHeader /> should renders correct <SimpleSiteFooter /> 1`] = `
+<div
+  className="sticky top-0 z-10 shadow-md"
+>
+  <header
+    className="bg-white py-4 px-3 flex justify-center items-center flex-no-wrap xl:py-6 xl:pl-8 xl:pr-6"
+  >
+    <MainLogo />
+  </header>
+</div>
+`;

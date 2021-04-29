@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AboutUsTemplate /> should renders correct <AboutUsTemplate /> 1`] = `
+<Fragment>
+  <AboutUsSection />
+  <FinalCallToActionSection
+    imageSrc="/images/about-us/final-call-to-action-section--bg.jpg"
+    offsetXInMobile="center"
+    offsetYInMobile="center"
+  />
+</Fragment>
+`;
